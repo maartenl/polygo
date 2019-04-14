@@ -7,11 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WordgameComponent } from './wordgame/wordgame.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { WordsComponent } from './words/words.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WordgameComponent
+    WordgameComponent,
+    WordsComponent
   ],
   imports: [
     FormsModule,

@@ -18,6 +18,13 @@ export class WordgameComponent implements OnInit {
 
   word: Word;
 
+  success: boolean;
+
+  /**
+   * Indicates that the foreign word is required as the answer.
+   */
+  needTranslation: boolean;
+
   constructor(private formBuilder: FormBuilder,
               private backendService: BackendService) { }
 
@@ -35,16 +42,26 @@ export class WordgameComponent implements OnInit {
       () => { // on completion
       }
     );
+    this.resetForm();
+  }
+
+  resetForm() {
     this.gameForm = this.formBuilder.group({
       answer: ''
     });
   }
 
   public getTranslation(): string {
+    if (this.needTranslation) {
+      return this.word.foreign;
+    }
     return this.word.translation;
   }
 
   public getWord(): string {
+    if (this.needTranslation) {
+      return this.word.translation;
+    }
     return this.word.foreign;
   }
 
@@ -53,6 +70,7 @@ export class WordgameComponent implements OnInit {
   }
 
   public pickRandomWord() {
+    this.needTranslation = Math.floor( Math.random() * 2) === 1;
     const index: number = Math.floor( Math.random() * this.words.length );
     this.word = this.words[index];
   }
@@ -61,9 +79,12 @@ export class WordgameComponent implements OnInit {
     const formModel = this.gameForm.value;
     if (formModel.answer === this.getTranslation()) {
       this.result = this.getTranslation() + ' was correct!';
+      this.success = true;
     } else {
-      this.result = this.getTranslation() + ' was wrong!';
+      this.result = formModel.answer + ' was wrong! Should have been ' + this.getTranslation() + '.';
+      this.success = false;
     }
+    this.resetForm();
     this.pickRandomWord();
   }
 

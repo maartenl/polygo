@@ -1,15 +1,22 @@
-<p>
-  <span (click)="startGame()">Start</span>
-  Please translate the word and press 'Ok'.
-</p>
-<p>
-  <strong>{{ getTranslation() }}</strong>: {{ getWord() }} 
-</p>
-<form [formGroup]="gameForm" (ngSubmit)="onSubmit()">
-  <label for="answer"><strong>Translation: </strong></label>
-  <input type="text" id="answer" name="answer" formControlName="answer" required/>
-  <button type="submit">Go</button>
-</form>
-<p>
-  <strong>Your answer:</strong> {{ result }}
-</p>
+<div class="container-fluid">
+  <p>
+    <button type="button" class="btn btn-primary" (click)="startGame()">Start</button>
+    Please translate the word and press 'Ok'.
+  </p>
+  <div *ngIf="word !== undefined">
+    <p>
+      <strong>Word</strong>: {{ getWord() }}
+    </p>
+    <form [formGroup]="gameForm" (ngSubmit)="onSubmit()">
+      <label for="answer"><strong>Translation: </strong></label>
+      <input type="text" id="answer" name="answer" formControlName="answer" required />
+      <button type="submit">Go</button>
+    </form>
+    <div class="alert alert-success" role="alert" *ngIf="success && result !== undefined">
+      {{ result }}
+    </div>
+    <div class="alert alert-danger" role="alert" *ngIf="!success && result !== undefined">
+      {{ result }}
+    </div>
+  </div>
+</div>

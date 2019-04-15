@@ -29,6 +29,27 @@ export class BackendService {
     );
   }
 
+  public updateWord(word: Word): any {
+    if (word.id !== undefined) {
+      // update
+      return this.http.put<Word[]>(this.url + '/' + word.id, word)
+      .pipe(
+        catchError(err => {
+          this.handleError(err);
+          return [];
+        })
+      );
+    }
+    // new
+    return this.http.post(this.url, word)
+    .pipe(
+      catchError(err => {
+        this.handleError(err);
+        return [];
+      })
+    );
+  }
+
   private handleError(error: HttpErrorResponse) {
     if (error.error instanceof ErrorEvent) {
       // A client-side or network error occurred. Handle it accordingly.

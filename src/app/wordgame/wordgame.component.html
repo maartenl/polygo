@@ -1,10 +1,12 @@
 <div class="container-fluid">
   <p>
     <button type="button" class="btn btn-primary" (click)="startGame()">Start</button>
-    Please translate the word and press 'Ok'.
   </p>
   <div *ngIf="word !== undefined">
     <p>
+      Please translate the word and press 'Ok'.
+    </p>
+      <p>
       <strong>Word</strong>: {{ getWord() }}
     </p>
     <form [formGroup]="gameForm" (ngSubmit)="onSubmit()">

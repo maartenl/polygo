@@ -1,18 +1,24 @@
 <div class="container-fluid">
   <p>
-    <button type="button" class="btn btn-primary" (click)="startGame()">Start</button>
+    <button type="button" class="btn btn-primary btn-sm" (click)="startGame()">Start</button>
   </p>
   <div *ngIf="word !== undefined">
     <p>
       Please translate the word and press 'Ok'.
     </p>
       <p>
-      <strong>Word</strong>: {{ getWord() }}
+      <strong>
+        <span *ngIf="needTranslation">Word</span>
+        <span *ngIf="!needTranslation">Translation</span>
+      </strong>: {{ getWord() }}
     </p>
     <form [formGroup]="gameForm" (ngSubmit)="onSubmit()">
-      <label for="answer"><strong>Translation: </strong></label>
+      <label for="answer"><strong>
+          <span *ngIf="needTranslation">Translation</span>
+          <span *ngIf="!needTranslation">Word</span>
+      </strong></label>
       <input type="text" id="answer" name="answer" formControlName="answer" required />
-      <button type="submit">Go</button>
+      <button type="submit" class="btn btn-primary btn-sm">Go</button>
     </form>
     <div class="alert alert-success" role="alert" *ngIf="success && result !== undefined">
       {{ result }}

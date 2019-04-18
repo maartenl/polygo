@@ -4,15 +4,18 @@
     <input type="text" id="foreign" name="foreign" formControlName="foreign" required />
     <label for="translation"><strong>Translation: </strong></label>
     <input type="text" id="translation" name="translation" formControlName="translation" required />
-    <button type="submit" [disabled]="wordForm.pristine" class="btn btn-primary">Save</button>
-    <button type="reset" class="btn btn-primary" (click)="cancel()">Cancel</button>
+    <label for="lesson"><strong>Lesson: </strong></label>
+    <input type="text" id="lesson" name="lesson" formControlName="lesson"/>
+    <button type="submit" [disabled]="wordForm.pristine" class="btn btn-primary btn-sm">Save</button>
+    <button type="reset" class="btn btn-primary btn-sm" (click)="cancel()">Cancel</button>
   </form>
 </div>
 <div class="container-fluid">
   <table>
-    <tr><th>Id</th><th>Foreign</th><th>Translation</th></tr>
+    <tr><th>Id</th><th>Foreign</th><th>Translation</th><th>Lesson</th></tr>
   </table>
   <tr *ngFor="let word of words">
     <td (click)="setWord(word)">{{ word.id }}</td><td (click)="setWord(word)">{{ word.foreign }}</td><td (click)="setWord(word)">{{ word.translation }}</td>
+    <td (click)="setWord(word)">{{ word.lesson }}</td>
   </tr>
 </div>

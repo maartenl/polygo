@@ -4,4 +4,5 @@ export class Word {
   modification: Date;
   translation: string;
   foreign: string;
+  lesson: number;
 }

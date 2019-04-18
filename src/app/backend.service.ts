@@ -7,20 +7,34 @@ import { catchError, map, tap } from 'rxjs/operators';
 import { ErrorsService } from './errors.service';
 import { Word } from './model/word';
 import { ErrorMessage } from './model/error-message';
+import { Lesson } from './model/lesson';
 
 @Injectable({
   providedIn: 'root'
 })
 export class BackendService {
 
-  url: string;
+  wordsUrl: string;
+
+  lessonsUrl: string;
 
   constructor(private http: HttpClient, private errorsService: ErrorsService) {
-    this.url = 'api/words';
+    this.wordsUrl = 'api/words';
+    this.lessonsUrl = 'api/lessons';
   }
 
   public getWords(): Observable<any> {
-    return this.http.get<Word[]>(this.url)
+    return this.http.get<Word[]>(this.wordsUrl)
+    .pipe(
+      catchError(err => {
+        this.handleError(err);
+        return [];
+      })
+    );
+  }
+
+  public getLessons(): Observable<any> {
+    return this.http.get<Lesson[]>(this.lessonsUrl)
     .pipe(
       catchError(err => {
         this.handleError(err);
@@ -32,7 +46,7 @@ export class BackendService {
   public updateWord(word: Word): any {
     if (word.id !== undefined) {
       // update
-      return this.http.put<Word[]>(this.url + '/' + word.id, word)
+      return this.http.put<Word[]>(this.wordsUrl + '/' + word.id, word)
       .pipe(
         catchError(err => {
           this.handleError(err);
@@ -41,7 +55,28 @@ export class BackendService {
       );
     }
     // new
-    return this.http.post(this.url, word)
+    return this.http.post(this.wordsUrl, word)
+    .pipe(
+      catchError(err => {
+        this.handleError(err);
+        return [];
+      })
+    );
+  }
+
+  public updateLesson(lesson: Lesson): any {
+    if (lesson.id !== undefined) {
+      // update
+      return this.http.put<Lesson[]>(this.lessonsUrl + '/' + lesson.id, lesson)
+      .pipe(
+        catchError(err => {
+          this.handleError(err);
+          return [];
+        })
+      );
+    }
+    // new
+    return this.http.post(this.lessonsUrl, lesson)
     .pipe(
       catchError(err => {
         this.handleError(err);

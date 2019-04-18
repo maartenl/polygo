@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 import { WordgameComponent } from './wordgame/wordgame.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { WordsComponent } from './words/words.component';
+import { LessonsComponent } from './lessons/lessons.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WordgameComponent,
-    WordsComponent
+    WordsComponent,
+    LessonsComponent
   ],
   imports: [
     FormsModule,

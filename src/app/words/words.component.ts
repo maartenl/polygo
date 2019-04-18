@@ -39,7 +39,8 @@ export class WordsComponent implements OnInit {
   resetForm() {
     this.wordForm = this.formBuilder.group({
       foreign: '',
-      translation: ''
+      translation: '',
+      lesson: ''
     });
   }
 
@@ -47,7 +48,8 @@ export class WordsComponent implements OnInit {
     this.word = word;
     this.wordForm = this.formBuilder.group({
       foreign: word.foreign,
-      translation: word.translation
+      translation: word.translation,
+      lesson: word.lesson
     });
   }
 
@@ -55,6 +57,7 @@ export class WordsComponent implements OnInit {
     const formModel = this.wordForm.value;
     this.word.foreign = formModel.foreign;
     this.word.translation = formModel.translation;
+    this.word.lesson = formModel.lesson;
     this.backendService.updateWord(this.word).subscribe(
       (result: any) => { // on success
         this.loadWords();
@@ -69,10 +72,12 @@ export class WordsComponent implements OnInit {
   }
 
   public cancel() {
+    const lessonId = this.word.lesson;
     this.word = new Word();
     this.wordForm = this.formBuilder.group({
       foreign: '',
-      translation: ''
+      translation: '',
+      lesson: lessonId
     });
   }
 }

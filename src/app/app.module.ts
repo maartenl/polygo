@@ -9,13 +9,15 @@ import { WordgameComponent } from './wordgame/wordgame.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { WordsComponent } from './words/words.component';
 import { LessonsComponent } from './lessons/lessons.component';
+import { WordgameTimedComponent } from './wordgame-timed/wordgame-timed.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WordgameComponent,
     WordsComponent,
-    LessonsComponent
+    LessonsComponent,
+    WordgameTimedComponent
   ],
   imports: [
     FormsModule,

@@ -1,16 +1,18 @@
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
+<div class="container-fluid">
+  <span>Welcome to {{ title }}!</span>
+  <hr>
 </div>
 <div class="container-fluid">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="navbar-expand" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link" href="#" routerLink="/wordgame">Wordgame <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#" routerLink="/wordgame">Wordgame</a>
         </li>
         <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" href="#" routerLink="/wordgame-timed">Wordgame (Timed)</a>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
           <a class="nav-link" href="#" routerLink="/lessons">Lessons</a>
         </li>
         <li class="nav-item" routerLinkActive="active">

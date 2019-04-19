@@ -29,7 +29,6 @@ export class LessonsComponent implements OnInit {
     this.backendService.getLessons().subscribe((result: Lesson[]) => {
       if (result !== undefined && result.length !== 0) {
         this.lessons = result;
-        console.log(this.lessons);
       }
     }, (err: any) => {
       // console.log('error', err);

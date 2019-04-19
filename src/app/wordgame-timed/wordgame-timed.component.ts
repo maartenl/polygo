@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormBuilder } from '@angular/forms';
+import { Word } from '../model/word';
+import { BackendService } from '../backend.service';
 
 @Component({
   selector: 'app-wordgame-timed',
@@ -7,9 +10,122 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WordgameTimedComponent implements OnInit {
 
-  constructor() { }
+  result: string;
+
+  words: Word[];
+
+  word: Word;
+
+  firstWord: Word;
+  secondWord: Word;
+  thirdWord: Word;
+  fourthWord: Word;
+
+  success: boolean;
+
+  /**
+   * Indicates that the foreign word is required as the answer.
+   */
+  needTranslation: boolean;
+
+  constructor(private backendService: BackendService) { }
 
   ngOnInit() {
+    this.backendService.getWords().subscribe(
+      (result: Word[]) => { // on success
+        if (result !== undefined && result.length !== 0) {
+          this.words = result;
+        }
+      },
+      (err: any) => { // error
+        // console.log('error', err);
+      },
+      () => { // on completion
+      }
+    );
+  }
+
+  public getTranslation(): string {
+    if (this.needTranslation) {
+      return this.word.foreign;
+    }
+    return this.word.translation;
+  }
+
+  public getWord(): string {
+    if (this.needTranslation) {
+      return this.word.translation;
+    }
+    return this.word.foreign;
+  }
+
+  public startGame() {
+    this.pickRandomWord();
+  }
+
+  public pickRandomWord() {
+    this.needTranslation = Math.floor(Math.random() * 2) === 1;
+    const words = [this.words[Math.floor(Math.random() * this.words.length)],
+    this.words[Math.floor(Math.random() * this.words.length)],
+    this.words[Math.floor(Math.random() * this.words.length)],
+    this.words[Math.floor(Math.random() * this.words.length)]];
+    this.firstWord = words[0];
+    this.secondWord = words[1];
+    this.thirdWord = words[2];
+    this.fourthWord = words[3];
+    const index: number = Math.floor(Math.random() * 4);
+    this.word = words[index];
+  }
+
+  public clicked(buttonId: number) {
+    let answer: string;
+    if (buttonId === 1) {
+      answer = this.getFirst();
+    }
+    if (buttonId === 2) {
+      answer = this.getSecond();
+    }
+    if (buttonId === 3) {
+      answer = this.getThird();
+    }
+    if (buttonId === 4) {
+      answer = this.getFourth();
+    }
+    if (answer === this.getTranslation()) {
+      this.result = this.getTranslation() + ' was correct!';
+      this.success = true;
+    } else {
+      this.result = answer + ' was wrong! Should have been ' + this.getTranslation() + '.';
+      this.success = false;
+    }
+    this.pickRandomWord();
+  }
+
+  private getPrivateWord(word: Word): string {
+    if (word === undefined) {
+      return '';
+    }
+    if (this.needTranslation) {
+      return word.foreign;
+    } else {
+      return word.translation;
+    }
+  }
+
+  public getFirst(): string {
+    return this.getPrivateWord(this.firstWord);
+  }
+
+  public getSecond(): string {
+    return this.getPrivateWord(this.secondWord);
+  }
+
+  public getThird(): string {
+    return this.getPrivateWord(this.thirdWord);
+  }
+
+  public getFourth(): string {
+    return this.getPrivateWord(this.fourthWord);
   }
 
 }

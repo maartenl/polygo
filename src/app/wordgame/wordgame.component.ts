@@ -29,7 +29,6 @@ export class WordgameComponent implements OnInit {
               private backendService: BackendService) { }
 
   ngOnInit() {
-    // retrieve the next page of mails starting from the last mail in the array
     this.backendService.getWords().subscribe(
       (result: Word[]) => { // on success
         if (result !== undefined && result.length !== 0) {

@@ -9,12 +9,12 @@
         <span *ngIf="!needTranslation">Word</span>
       </strong>: {{ getWord() }}
     </p>
-    <form [formGroup]="gameForm" (ngSubmit)="onSubmit()">
+    <form [formGroup]="gameForm" autocomplete="off" (ngSubmit)="onSubmit()">
       <label for="answer"><strong>
           <span *ngIf="needTranslation">Word</span>
           <span *ngIf="!needTranslation">Translation</span>
         </strong></label>
-      <input type="text" id="answer" name="answer" formControlName="answer" required />
+      <input type="text" id="answer" autocapitalization="none" autocomplete="off" name="answer" formControlName="answer" required />
       <button type="submit" class="btn btn-primary btn-sm">Go</button>
       <p>
         Please translate the word and press 'Ok'.

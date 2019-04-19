@@ -1,3 +1,23 @@
-<p>
-  wordgame-timed works!
-</p>
+<div class="container-fluid">
+    <p>
+      <button type="button" class="btn btn-primary btn-sm" (click)="startGame()">Start</button>
+    </p>
+    <div *ngIf="word !== undefined">
+      <p>
+        <strong>
+          <span *ngIf="needTranslation">Translation</span>
+          <span *ngIf="!needTranslation">Word</span>
+        </strong>: {{ getWord() }}
+      </p>
+      <p><button type="button" class="btn btn-outline-primary" (click)="clicked(1)">{{ getFirst() }}</button></p>
+      <p><button type="button" class="btn btn-outline-primary" (click)="clicked(2)">{{ getSecond() }}</button></p>
+      <p><button type="button" class="btn btn-outline-primary" (click)="clicked(3)">{{ getThird() }}</button></p>
+      <p><button type="button" class="btn btn-outline-primary" (click)="clicked(4)">{{ getFourth() }}</button></p>
+        <div class="alert alert-success" role="alert" *ngIf="success && result !== undefined">
+        {{ result }}
+      </div>
+      <div class="alert alert-danger" role="alert" *ngIf="!success && result !== undefined">
+        {{ result }}
+      </div>
+    </div>
+  </div>

@@ -55,6 +55,8 @@ export class BackendService {
       );
     }
     // new
+    word.foreign = word.foreign.toLocaleLowerCase();
+    word.translation = word.translation.toLocaleLowerCase();
     return this.http.post(this.wordsUrl, word)
     .pipe(
       catchError(err => {
@@ -75,6 +77,7 @@ export class BackendService {
         })
       );
     }
+    lesson.lesson = lesson.lesson.toLocaleLowerCase();
     // new
     return this.http.post(this.lessonsUrl, lesson)
     .pipe(

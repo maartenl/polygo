@@ -21,7 +21,7 @@ export class WordsComponent implements OnInit {
   word: Word;
 
   constructor(private formBuilder: FormBuilder,
-    private backendService: BackendService) { }
+              private backendService: BackendService) { }
 
   ngOnInit() {
     this.word = new Word();

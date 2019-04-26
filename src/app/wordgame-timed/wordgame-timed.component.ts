@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder } from '@angular/forms';
+import { FormGroup, FormBuilder, FormControl } from '@angular/forms';
 import { Word } from '../model/word';
 import { BackendService } from '../backend.service';
+import { Lesson } from '../model/lesson';
 
 @Component({
   selector: 'app-wordgame-timed',
@@ -9,6 +10,7 @@ import { BackendService } from '../backend.service';
   styleUrls: ['./wordgame-timed.component.css']
 })
 export class WordgameTimedComponent implements OnInit {
+  lessonId = new FormControl(0);
 
   result: string;
 
@@ -20,6 +22,8 @@ export class WordgameTimedComponent implements OnInit {
   secondWord: Word;
   thirdWord: Word;
   fourthWord: Word;
+
+  lessons: Lesson[];
 
   success: boolean;
 
@@ -43,6 +47,18 @@ export class WordgameTimedComponent implements OnInit {
       () => { // on completion
       }
     );
+    this.loadLessons();
+  }
+
+  public getWords(): Word[] {
+    if (this.words === undefined) {
+      return [];
+    }
+    if (this.lessonId.value === '0') {
+      return this.words;
+    }
+    const result = this.words.filter(word => word.lesson === this.lessonId.value);
+    return result;
   }
 
   public getTranslation(): string {
@@ -64,11 +80,12 @@ export class WordgameTimedComponent implements OnInit {
   }
 
   public pickRandomWord() {
+    const filteredWords = this.getWords();
     this.needTranslation = Math.floor(Math.random() * 2) === 1;
-    const words = [this.words[Math.floor(Math.random() * this.words.length)],
-    this.words[Math.floor(Math.random() * this.words.length)],
-    this.words[Math.floor(Math.random() * this.words.length)],
-    this.words[Math.floor(Math.random() * this.words.length)]];
+    const words = [filteredWords[Math.floor(Math.random() * filteredWords.length)],
+    filteredWords[Math.floor(Math.random() * filteredWords.length)],
+    filteredWords[Math.floor(Math.random() * filteredWords.length)],
+    filteredWords[Math.floor(Math.random() * filteredWords.length)]];
     this.firstWord = words[0];
     this.secondWord = words[1];
     this.thirdWord = words[2];
@@ -126,6 +143,18 @@ export class WordgameTimedComponent implements OnInit {
 
   public getFourth(): string {
     return this.getPrivateWord(this.fourthWord);
+  }
+
+
+  private loadLessons() {
+    this.backendService.getLessons().subscribe((result: Lesson[]) => {
+      if (result !== undefined && result.length !== 0) {
+        this.lessons = result;
+      }
+    }, (err: any) => {
+      // console.log('error', err);
+    }, () => {
+    });
   }
 
 }

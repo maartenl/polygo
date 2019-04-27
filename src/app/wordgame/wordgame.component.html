@@ -1,7 +1,12 @@
 <div class="container-fluid">
-  <p>
-    <button type="button" class="btn btn-primary btn-sm" (click)="startGame()">Start</button>
-  </p>
+  <div *ngIf="word === undefined">
+    <p>
+      <button type="button" class="btn btn-primary btn-sm" (click)="startGame()">Start</button>
+    </p>
+    <label for="lesson"><strong>Lesson: </strong></label>
+    <input type="text" id="lesson" autocapitalization="none" autocomplete="off" name="lesson"
+      [formControl]="lessonId" />
+  </div>
   <div *ngIf="word !== undefined">
     <p>
       <strong>
@@ -14,7 +19,8 @@
           <span *ngIf="needTranslation">Word</span>
           <span *ngIf="!needTranslation">Translation</span>
         </strong></label>
-      <input type="text" id="answer" autocapitalization="none" autocomplete="off" name="answer" formControlName="answer" required />
+      <input type="text" id="answer" autocapitalization="none" autocomplete="off" name="answer" formControlName="answer"
+        required />
       <button type="submit" class="btn btn-primary btn-sm">Go</button>
       <p>
         Please translate the word and press 'Ok'.

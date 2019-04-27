@@ -9,6 +9,7 @@ import { Word } from '../model/word';
   styleUrls: ['./wordgame.component.css']
 })
 export class WordgameComponent implements OnInit {
+  lessonId = new FormControl('');
 
   result: string;
 
@@ -68,10 +69,23 @@ export class WordgameComponent implements OnInit {
     this.pickRandomWord();
   }
 
+  public getWords(): Word[] {
+    if (this.words === undefined) {
+      return [];
+    }
+    if (String(this.lessonId.value).trim() === '') {
+      return this.words;
+    }
+    const lessons = String(this.lessonId.value).split(',').map(x => Number(x));
+    const result = this.words.filter(word => lessons.some(x => Number(word.lesson) === x));
+    return result;
+  }
+
   public pickRandomWord() {
+    const filteredWords = this.getWords();
     this.needTranslation = Math.floor( Math.random() * 2) === 1;
-    const index: number = Math.floor( Math.random() * this.words.length );
-    this.word = this.words[index];
+    const index: number = Math.floor( Math.random() * filteredWords.length );
+    this.word = filteredWords[index];
   }
 
   onSubmit() {

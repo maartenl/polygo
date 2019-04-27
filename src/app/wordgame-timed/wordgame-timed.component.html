@@ -4,10 +4,7 @@
       <button type="button" class="btn btn-primary btn-sm" (click)="startGame()">Start</button>
     </p>
     <label for="lesson"><strong>Lesson: </strong></label>
-    <select class="form-control" id="lesson" [formControl]="lessonId">
-      <option value="0" selected="selected">All</option>
-      <option *ngFor="let lesson of lessons" [value]="lesson.id">{{lesson.lesson}}</option>
-    </select>
+    <input type="text" id="lesson" autocapitalization="none" autocomplete="off" name="lesson" [formControl]="lessonId" />
   </div>
   <div *ngIf="word !== undefined">
     <p>

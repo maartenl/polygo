@@ -10,7 +10,7 @@ import { Lesson } from '../model/lesson';
   styleUrls: ['./wordgame-timed.component.css']
 })
 export class WordgameTimedComponent implements OnInit {
-  lessonId = new FormControl(0);
+  lessonId = new FormControl('');
 
   result: string;
 
@@ -22,8 +22,6 @@ export class WordgameTimedComponent implements OnInit {
   secondWord: Word;
   thirdWord: Word;
   fourthWord: Word;
-
-  lessons: Lesson[];
 
   success: boolean;
 
@@ -47,17 +45,17 @@ export class WordgameTimedComponent implements OnInit {
       () => { // on completion
       }
     );
-    this.loadLessons();
   }
 
   public getWords(): Word[] {
     if (this.words === undefined) {
       return [];
     }
-    if (this.lessonId.value === '0') {
+    if (String(this.lessonId.value).trim() === '') {
       return this.words;
     }
-    const result = this.words.filter(word => word.lesson === this.lessonId.value);
+    const lessons = String(this.lessonId.value).split(',').map(x => Number(x));
+    const result = this.words.filter(word => lessons.some(x => Number(word.lesson) === x));
     return result;
   }
 
@@ -143,18 +141,6 @@ export class WordgameTimedComponent implements OnInit {
 
   public getFourth(): string {
     return this.getPrivateWord(this.fourthWord);
-  }
-
-
-  private loadLessons() {
-    this.backendService.getLessons().subscribe((result: Lesson[]) => {
-      if (result !== undefined && result.length !== 0) {
-        this.lessons = result;
-      }
-    }, (err: any) => {
-      // console.log('error', err);
-    }, () => {
-    });
   }
 
 }

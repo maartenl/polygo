@@ -26,6 +26,9 @@ export class WordgameTimedComponent implements OnInit {
 
   success: boolean = true;
 
+  correct = 0;
+  wrong = 0;
+
   /**
    * Indicates that the foreign word is required as the answer.
    */
@@ -113,9 +116,11 @@ export class WordgameTimedComponent implements OnInit {
     if (answer === this.getTranslation()) {
       this.result = this.getTranslation() + ' was correct!';
       this.success = true;
+      this.correct++;
     } else {
       this.result = answer + ' was wrong! Should have been ' + this.getTranslation() + '.';
       this.success = false;
+      this.wrong++;
     }
     this.pickRandomWord();
   }

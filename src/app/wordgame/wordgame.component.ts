@@ -21,6 +21,9 @@ export class WordgameComponent implements OnInit {
   
   result: string | undefined = undefined;
 
+  correct = 0;
+  wrong = 0;
+
   /**
    * Indicates that the foreign word is required as the answer.
    */
@@ -103,9 +106,11 @@ export class WordgameComponent implements OnInit {
     if (formModel.answer.toLocaleLowerCase() === this.getTranslation().toLocaleLowerCase()) {
       this.result = this.getTranslation() + ' was correct!';
       this.success = true;
+      this.correct++;
     } else {
       this.result = formModel.answer + ' was wrong! Should have been ' + this.getTranslation() + '.';
       this.success = false;
+      this.wrong++;
     }
     this.resetForm();
     this.pickRandomWord();

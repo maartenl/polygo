@@ -2,7 +2,11 @@
   <span>Welcome to {{ title }}!</span>
   <hr>
 </div>
-
+<div class="container-fluid">
+  <ngb-alert type="info">
+    The Croatian letters: č, ć, dž, đ, š, ž, lj and nj
+  </ngb-alert>
+</div>
 <!-- your navs bound to current route fragments -->
 <ul ngbNav [activeId]="route.fragment | async" class="nav-tabs">
   <li [ngbNavItem]="link.fragment" *ngFor="let link of links">

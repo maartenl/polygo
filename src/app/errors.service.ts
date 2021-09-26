@@ -1,12 +1,26 @@
 import { Injectable } from '@angular/core';
 
+import { ErrorMessage } from './model/error-message';
+
 @Injectable({
   providedIn: 'root'
 })
 export class ErrorsService {
-  addError(errormessage: import("./model/error-message").ErrorMessage): any {
-    throw new Error("Method not implemented.");
-  }
+
+  errors: ErrorMessage[] = [];
 
   constructor() { }
+
+  addError(errormessage: ErrorMessage): any {
+    this.errors.push(errormessage); 
+  }
+
+  getErrors(): ErrorMessage[] {
+    return this.errors;
+  }
+  
+  clearErrors() {
+    this.errors = [];
+  }
+
 }

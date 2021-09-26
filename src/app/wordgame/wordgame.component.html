@@ -26,11 +26,11 @@
         Please translate the word and press 'Ok'.
       </p>
     </form>
-    <div class="alert alert-success" role="alert" *ngIf="success && result !== undefined">
+    <ngb-alert type="success" *ngIf="success && result !== undefined">
       {{ result }}
-    </div>
-    <div class="alert alert-danger" role="alert" *ngIf="!success && result !== undefined">
+    </ngb-alert>
+    <ngb-alert type="danger" *ngIf="!success && result !== undefined">
       {{ result }}
-    </div>
+    </ngb-alert>
   </div>
 </div>

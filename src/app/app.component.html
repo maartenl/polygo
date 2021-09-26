@@ -2,24 +2,12 @@
   <span>Welcome to {{ title }}!</span>
   <hr>
 </div>
-<div class="container-fluid">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="navbar-expand" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link" href="#" routerLink="/wordgame">Wordgame</a>
-        </li>
-        <li class="nav-item" routerLinkActive="active">
-            <a class="nav-link" href="#" routerLink="/wordgame-timed">Wordgame (Timed)</a>
-          </li>
-          <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link" href="#" routerLink="/lessons">Lessons</a>
-        </li>
-        <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link" href="#" routerLink="/words">Words</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</div>
+
+<!-- your navs bound to current route fragments -->
+<ul ngbNav [activeId]="route.fragment | async" class="nav-tabs">
+  <li [ngbNavItem]="link.fragment" *ngFor="let link of links">
+    <a ngbNavLink [routerLink]="link.fragment">{{ link.title }}</a>
+  </li>
+</ul>
 <router-outlet></router-outlet>
+<app-errors></app-errors>

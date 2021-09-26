@@ -1,0 +1,8 @@
+<div class="container-fluid">
+  <p *ngFor="let error of getErrors()">
+    <ngb-alert type="danger"><strong>{{error.type}}</strong> {{ error.message }}</ngb-alert>
+  </p>
+  <p>
+    <button *ngIf="hasErrors()" type="button" class="btn btn-primary" (click)="clear()">Clear</button>
+  </p>
+</div>

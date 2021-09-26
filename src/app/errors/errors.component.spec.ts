@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WordgameTimedComponent } from './wordgame-timed.component';
+import { ErrorsComponent } from './errors.component';
 
-describe('WordgameTimedComponent', () => {
-  let component: WordgameTimedComponent;
-  let fixture: ComponentFixture<WordgameTimedComponent>;
+describe('ErrorsComponent', () => {
+  let component: ErrorsComponent;
+  let fixture: ComponentFixture<ErrorsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ WordgameTimedComponent ]
+      declarations: [ ErrorsComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(WordgameTimedComponent);
+    fixture = TestBed.createComponent(ErrorsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

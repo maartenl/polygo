@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, FormControl } from '@angular/forms';
+
 import { Word } from '../model/word';
 import { BackendService } from '../backend.service';
 import { Lesson } from '../model/lesson';
@@ -12,28 +13,28 @@ import { Lesson } from '../model/lesson';
 export class WordgameTimedComponent implements OnInit {
   lessonId = new FormControl('');
 
-  result: string;
+  result: string | undefined = undefined;
+  
+  words: Word[] = [];
 
-  words: Word[];
+  word: Word | undefined = undefined;
 
-  word: Word;
+  firstWord: Word = new Word(0, new Date(), new Date(), "", "", 0);
+  secondWord: Word = new Word(0, new Date(), new Date(), "", "", 0);
+  thirdWord: Word = new Word(0, new Date(), new Date(), "", "", 0);
+  fourthWord: Word = new Word(0, new Date(), new Date(), "", "", 0);
 
-  firstWord: Word;
-  secondWord: Word;
-  thirdWord: Word;
-  fourthWord: Word;
-
-  success: boolean;
+  success: boolean = true;
 
   /**
    * Indicates that the foreign word is required as the answer.
    */
-  needTranslation: boolean;
+  needTranslation: boolean = true;
 
   constructor(private backendService: BackendService) { }
 
-  ngOnInit() {
-    this.backendService.getWords().subscribe(
+  ngOnInit(): void {
+   this.backendService.getWords().subscribe(
       (result: Word[]) => { // on success
         if (result !== undefined && result.length !== 0) {
           this.words = result;
@@ -48,9 +49,6 @@ export class WordgameTimedComponent implements OnInit {
   }
 
   public getWords(): Word[] {
-    if (this.words === undefined) {
-      return [];
-    }
     if (String(this.lessonId.value).trim() === '') {
       return this.words;
     }
@@ -60,6 +58,9 @@ export class WordgameTimedComponent implements OnInit {
   }
 
   public getTranslation(): string {
+    if (this.word === undefined) {
+      return "";
+    }
     if (this.needTranslation) {
       return this.word.foreign;
     }
@@ -67,6 +68,9 @@ export class WordgameTimedComponent implements OnInit {
   }
 
   public getWord(): string {
+    if (this.word === undefined) {
+      return "";
+    }
     if (this.needTranslation) {
       return this.word.translation;
     }
@@ -93,7 +97,7 @@ export class WordgameTimedComponent implements OnInit {
   }
 
   public clicked(buttonId: number) {
-    let answer: string;
+    let answer: string = "";
     if (buttonId === 1) {
       answer = this.getFirst();
     }

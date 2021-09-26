@@ -3,6 +3,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { HttpErrorResponse } from '@angular/common/http';
 
+import { environment } from '../environments/environment';
+
 import { catchError, map, tap } from 'rxjs/operators';
 import { ErrorsService } from './errors.service';
 import { Word } from './model/word';
@@ -19,8 +21,13 @@ export class BackendService {
   lessonsUrl: string;
 
   constructor(private http: HttpClient, private errorsService: ErrorsService) {
-    this.wordsUrl = 'api/words';
-    this.lessonsUrl = 'api/lessons';
+    if (environment.production) {
+      this.wordsUrl = 'api/words';
+      this.lessonsUrl = 'api/lessons';
+    } else {
+      this.wordsUrl = '/assets/api/words';
+      this.lessonsUrl = '/assets/api/lessons';
+    }
   }
 
   public getWords(): Observable<any> {
@@ -92,19 +99,12 @@ export class BackendService {
     if (error.error instanceof ErrorEvent) {
       // A client-side or network error occurred. Handle it accordingly.
       console.error('An error occurred:', error.error.message);
-      const errormessage = new ErrorMessage();
-      errormessage.message = error.error.message;
-      errormessage.type = 'Network Error';
+      const errormessage = new ErrorMessage(error.error.message, "Network Error");
       this.errorsService.addError(errormessage);
   } else {
       // The backend returned an unsuccessful response code.
       // The response body may contain clues as to what went wrong,
-      const errormessage = new ErrorMessage();
-      errormessage.message = error.error.errormessage;
-      if (error.error.errormessage === undefined) {
-        errormessage.message = error.statusText;
-      }
-      errormessage.type = error.status.toString();
+      const errormessage = new ErrorMessage(error.error.errormessage ?? error.statusText, error.status.toString());
       this.errorsService.addError(errormessage);
     }
   }

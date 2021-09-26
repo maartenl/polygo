@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { WordgameComponent } from './wordgame/wordgame.component';
 import { WordsComponent } from './words/words.component';
 import { LessonsComponent } from './lessons/lessons.component';

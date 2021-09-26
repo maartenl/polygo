@@ -11,25 +11,29 @@ import { Word } from '../model/word';
 export class WordgameComponent implements OnInit {
   lessonId = new FormControl('');
 
-  result: string;
-
   gameForm: FormGroup;
 
-  words: Word[];
+  words: Word[] = [];
 
-  word: Word;
+  word: Word | undefined = undefined;
 
-  success: boolean;
+  success: boolean = true;
+  
+  result: string | undefined = undefined;
 
   /**
    * Indicates that the foreign word is required as the answer.
    */
-  needTranslation: boolean;
+  needTranslation: boolean = true;
 
   constructor(private formBuilder: FormBuilder,
-              private backendService: BackendService) { }
+              private backendService: BackendService) { 
+    this.gameForm = this.formBuilder.group({
+      answer: ''
+    });
+  }
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.backendService.getWords().subscribe(
       (result: Word[]) => { // on success
         if (result !== undefined && result.length !== 0) {
@@ -50,8 +54,11 @@ export class WordgameComponent implements OnInit {
       answer: ''
     });
   }
-
+ 
   public getTranslation(): string {
+    if (this.word === undefined) {
+      return "";
+    }
     if (this.needTranslation) {
       return this.word.foreign;
     }
@@ -59,6 +66,9 @@ export class WordgameComponent implements OnInit {
   }
 
   public getWord(): string {
+    if (this.word === undefined) {
+      return "";
+    }
     if (this.needTranslation) {
       return this.word.translation;
     }
@@ -68,7 +78,7 @@ export class WordgameComponent implements OnInit {
   public startGame() {
     this.pickRandomWord();
   }
-
+  
   public getWords(): Word[] {
     if (this.words === undefined) {
       return [];

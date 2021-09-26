@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, FormControl } from '@angular/forms';
 import { Word } from '../model/word';
 import { BackendService } from '../backend.service';
-import { FormBuilder, FormGroup, FormControl } from '@angular/forms';
 import { Lesson } from '../model/lesson';
 
 @Component({
@@ -12,22 +12,15 @@ import { Lesson } from '../model/lesson';
 export class WordsComponent implements OnInit {
   lessonId = new FormControl(0);
 
-  wordForm: FormGroup;
+  words: Word[] = [];
 
-  words: Word[];
+  lessons: Lesson[] = [];
 
-  lessons: Lesson[];
+  constructor(private backendService: BackendService) { }
 
-  word: Word;
-
-  constructor(private formBuilder: FormBuilder,
-              private backendService: BackendService) { }
-
-  ngOnInit() {
-    this.word = new Word();
-    this.loadWords();
+  ngOnInit(): void {
     this.loadLessons();
-    this.resetForm();
+    this.loadWords();
   }
 
   private loadWords() {
@@ -36,7 +29,7 @@ export class WordsComponent implements OnInit {
         this.words = result;
       }
     }, (err: any) => {
-      // console.log('error', err);
+       console.log('error', err);
     }, () => {
     });
   }
@@ -47,50 +40,12 @@ export class WordsComponent implements OnInit {
         this.lessons = result;
       }
     }, (err: any) => {
-      // console.log('error', err);
+       console.log('error', err);
     }, () => {
     });
   }
 
-  resetForm() {
-    this.wordForm = this.formBuilder.group({
-      foreign: '',
-      translation: '',
-      lesson: ''
-    });
-  }
-
-  public setWord(word: Word) {
-    this.word = word;
-    this.wordForm = this.formBuilder.group({
-      foreign: word.foreign,
-      translation: word.translation,
-      lesson: word.lesson
-    });
-  }
-
-  public onSubmit() {
-    const formModel = this.wordForm.value;
-    this.word.foreign = formModel.foreign;
-    this.word.translation = formModel.translation;
-    this.word.lesson = formModel.lesson;
-    this.backendService.updateWord(this.word).subscribe(
-      (result: any) => { // on success
-        this.loadWords();
-      },
-      (err: any) => { // error
-        // console.log('error', err);
-      },
-      () => { // on completion
-      }
-    );
-
-  }
-
   public getWords(): Word[] {
-    if (this.words === undefined) {
-      return [];
-    }
     if (this.lessonId.value === '0') {
       return this.words;
     }
@@ -98,13 +53,4 @@ export class WordsComponent implements OnInit {
     return result;
   }
 
-  public cancel() {
-    const lessonId = this.word.lesson;
-    this.word = new Word();
-    this.wordForm = this.formBuilder.group({
-      foreign: '',
-      translation: '',
-      lesson: lessonId
-    });
-  }
 }

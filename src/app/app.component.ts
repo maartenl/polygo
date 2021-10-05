@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'polygo';
   links = [
   { title: 'Wordgame', fragment: '/wordgame' },
-  { title: 'Wordgame (Timed)', fragment: '/wordgame-timed' },
+  { title: 'Wordgame (MC)', fragment: '/wordgame-timed' },
   { title: 'Lessons', fragment: '/lessons' },
   { title: 'Words', fragment: '/words' },
   ];

@@ -19,8 +19,8 @@ export class BackendService {
   lessonsUrl: string;
 
   constructor(private http: HttpClient, private errorsService: ErrorsService) {
-    this.wordsUrl = '/assets/api/words';
-    this.lessonsUrl = '/assets/api/lessons';
+    this.wordsUrl = 'assets/api/words';
+    this.lessonsUrl = 'assets/api/lessons';
   }
 
   public getWords(): Observable<any> {

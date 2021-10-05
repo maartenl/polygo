@@ -3,8 +3,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { HttpErrorResponse } from '@angular/common/http';
 
-import { environment } from '../environments/environment';
-
 import { catchError, map, tap } from 'rxjs/operators';
 import { ErrorsService } from './errors.service';
 import { Word } from './model/word';
@@ -21,13 +19,8 @@ export class BackendService {
   lessonsUrl: string;
 
   constructor(private http: HttpClient, private errorsService: ErrorsService) {
-    if (environment.production) {
-      this.wordsUrl = 'api/words';
-      this.lessonsUrl = 'api/lessons';
-    } else {
-      this.wordsUrl = '/assets/api/words';
-      this.lessonsUrl = '/assets/api/lessons';
-    }
+    this.wordsUrl = '/assets/api/words';
+    this.lessonsUrl = '/assets/api/lessons';
   }
 
   public getWords(): Observable<any> {

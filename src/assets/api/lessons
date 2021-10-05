@@ -4,23 +4,23 @@
       "id": 1
     },
     {
-      "lesson": "Kleuren",
+      "lesson": "les 2",
       "id": 2
     },
     {
-      "lesson": "Dieren",
+      "lesson": "les 3",
       "id": 3
     },
     {
-      "lesson": "Lopen",
+      "lesson": "les 4",
       "id": 4
     },
     {
-      "lesson": "Natuurfenomenen",
+      "lesson": "les 5",
       "id": 5
     },
     {
-      "lesson": "Allerhande",
+      "lesson": "les 6",
       "id": 6
     },
     {
@@ -44,7 +44,7 @@
       "id": 11
     },
     {
-      "lesson": "les 2",
+      "lesson": "Kleuren",
       "id": 12
     },
     {
@@ -72,19 +72,19 @@
       "id": 18
     },
     {
-      "lesson": "les 3",
+      "lesson": "Dieren",
       "id": 19
     },
     {
-      "lesson": "les 4",
+      "lesson": "Lopen",
       "id": 20
     },
     {
-      "lesson": "les 5",
+      "lesson": "Natuurfenomenen",
       "id": 21
     },
     {
-      "lesson": "les 6",
+      "lesson": "Allerhande",
       "id": 22
     },
     {

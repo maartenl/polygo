@@ -1,5 +1,7 @@
 # Polygo
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/223d7714-033c-4da8-b5cd-695cf58bb9d6/deploy-status)](https://app.netlify.com/sites/polygo/deploys)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
 
 ## Development server

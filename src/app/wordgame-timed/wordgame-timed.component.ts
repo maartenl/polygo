@@ -85,18 +85,36 @@ export class WordgameTimedComponent implements OnInit {
   }
 
   public pickRandomWord() {
-    const filteredWords = this.getWords();
+    const filteredWords = [...this.getWords()];
     this.needTranslation = Math.floor(Math.random() * 2) === 1;
-    const words = [filteredWords[Math.floor(Math.random() * filteredWords.length)],
-    filteredWords[Math.floor(Math.random() * filteredWords.length)],
-    filteredWords[Math.floor(Math.random() * filteredWords.length)],
-    filteredWords[Math.floor(Math.random() * filteredWords.length)]];
-    this.firstWord = words[0];
-    this.secondWord = words[1];
-    this.thirdWord = words[2];
-    this.fourthWord = words[3];
+    let position: number = Math.floor(Math.random() * filteredWords.length);
+    this.firstWord = filteredWords[position];
+    filteredWords.splice(position, 1)
+
+    position = Math.floor(Math.random() * filteredWords.length);
+    this.secondWord = filteredWords[position];
+    filteredWords.splice(position, 1)
+
+    position = Math.floor(Math.random() * filteredWords.length);
+    this.thirdWord = filteredWords[position];
+    filteredWords.splice(position, 1)
+
+    position = Math.floor(Math.random() * filteredWords.length);
+    this.fourthWord = filteredWords[position];
+    filteredWords.splice(position, 1)
     const index: number = Math.floor(Math.random() * 4);
-    this.word = words[index];
+    if (index === 0) {
+      this.word = this.firstWord;
+    }
+    if (index === 1) {
+      this.word = this.secondWord;
+    }
+    if (index === 2) {
+      this.word = this.thirdWord;
+    }
+    if (index === 3) {
+      this.word = this.fourthWord;
+    }
   }
 
   public clicked(buttonId: number) {

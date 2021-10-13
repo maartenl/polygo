@@ -103,7 +103,7 @@ export class WordgameComponent implements OnInit {
 
   onSubmit() {
     const formModel = this.gameForm.value;
-    if (formModel.answer.toLocaleLowerCase() === this.getTranslation().toLocaleLowerCase()) {
+    if (formModel.answer.trim().toLocaleLowerCase() === this.getTranslation().trim().toLocaleLowerCase()) {
       this.result = this.getTranslation() + ' was correct!';
       this.success = true;
       this.correct++;

@@ -132,11 +132,11 @@ export class WordgameTimedComponent implements OnInit {
       answer = this.getFourth();
     }
     if (answer === this.getTranslation()) {
-      this.result = this.getTranslation() + ' was correct!';
+      this.result = this.getTranslation() + ' is indeed the translation of ' + this.getWord() + '!';
       this.success = true;
       this.correct++;
     } else {
-      this.result = answer + ' was wrong! Should have been ' + this.getTranslation() + '.';
+      this.result = answer + ' was wrong! Translation of ' + this.getWord() + ' is ' + this.getTranslation() + '.';
       this.success = false;
       this.wrong++;
     }

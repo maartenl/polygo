@@ -14,15 +14,16 @@ export class WordgameTimedComponent implements OnInit {
   lessonId = new FormControl('');
 
   result: string | undefined = undefined;
-  
+  comments: string | undefined = undefined;
+
   words: Word[] = [];
 
   word: Word | undefined = undefined;
 
-  firstWord: Word = new Word(0, new Date(), new Date(), "", "", 0);
-  secondWord: Word = new Word(0, new Date(), new Date(), "", "", 0);
-  thirdWord: Word = new Word(0, new Date(), new Date(), "", "", 0);
-  fourthWord: Word = new Word(0, new Date(), new Date(), "", "", 0);
+  firstWord: Word = new Word(0, new Date(), new Date(), "", "", 0, "");
+  secondWord: Word = new Word(0, new Date(), new Date(), "", "", 0, "");
+  thirdWord: Word = new Word(0, new Date(), new Date(), "", "", 0, "");
+  fourthWord: Word = new Word(0, new Date(), new Date(), "", "", 0, "");
 
   success: boolean = true;
 
@@ -131,6 +132,7 @@ export class WordgameTimedComponent implements OnInit {
     if (buttonId === 4) {
       answer = this.getFourth();
     }
+    this.comments = this.word?.comments;
     if (answer === this.getTranslation()) {
       this.result = this.getTranslation() + ' is indeed the translation of ' + this.getWord() + '!';
       this.success = true;

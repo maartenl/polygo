@@ -867,43 +867,50 @@
       "foreign": "Nizozemac",
       "translation": "Nederlander",
       "lesson": "1",
-      "id": 145
+      "id": 145,
+      "comments": "Nizozemac, m; Nizozemka, v"
     },
     {
       "foreign": "Nizozemka",
       "translation": "Nederlandse",
       "lesson": "1",
-      "id": 146
+      "id": 146,
+      "comments": "Nizozemac, m; Nizozemka, v"
     },
     {
       "foreign": "žena",
       "translation": "vrouw",
       "lesson": "1",
-      "id": 147
+      "id": 147,
+      "comments": "v"
     },
     {
       "foreign": "muž",
       "translation": "echtgenoot",
       "lesson": "1",
-      "id": 148
+      "id": 148,
+      "comments": "m"
     },
     {
       "foreign": "Hrvat",
       "translation": "Kroaat",
       "lesson": "1",
-      "id": 149
+      "id": 149,
+      "comments": "Hrvat, m; -ica, v"
     },
     {
       "foreign": "Hrvatica",
       "translation": "Kroatische",
       "lesson": "1",
-      "id": 150
+      "id": 150,
+      "comments": "Hrvat, m; -ica, v"
     },
     {
       "foreign": "zemlja",
       "translation": "land",
       "lesson": "1",
-      "id": 151
+      "id": 151,
+      "comments": "v"
     },
     {
       "foreign": "kako",
@@ -963,7 +970,8 @@
       "foreign": "vidimo se",
       "translation": "we zien elkaar",
       "lesson": "1",
-      "id": 161
+      "id": 161,
+      "comments": "werkwoord, vidjeti"
     },
     {
       "foreign": "dobro došli",

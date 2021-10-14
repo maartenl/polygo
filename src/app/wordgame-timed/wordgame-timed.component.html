@@ -23,6 +23,9 @@
     <ngb-alert type="danger" *ngIf="!success && result !== undefined">
       {{ result }}
     </ngb-alert>
+    <ngb-alert type="info" *ngIf="comments !== undefined">
+      <strong>Info: </strong>{{ comments }} 
+    </ngb-alert>
   </div>
   <p><ngb-progressbar [showValue]="true" type="success" [value]="correct"
   [max]="correct+wrong"></ngb-progressbar></p>

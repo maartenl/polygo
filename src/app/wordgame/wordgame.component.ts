@@ -20,6 +20,7 @@ export class WordgameComponent implements OnInit {
   success: boolean = true;
   
   result: string | undefined = undefined;
+  comments: string | undefined = undefined;
 
   correct = 0;
   wrong = 0;
@@ -103,6 +104,7 @@ export class WordgameComponent implements OnInit {
 
   onSubmit() {
     const formModel = this.gameForm.value;
+    this.comments = this.word?.comments;
     if (formModel.answer.trim().toLocaleLowerCase() === this.getTranslation().trim().toLocaleLowerCase()) {
       this.result = this.getTranslation() + ' is indeed the translation of ' + this.getWord() + '!';
       this.success = true;

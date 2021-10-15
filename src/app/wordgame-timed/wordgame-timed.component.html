@@ -27,13 +27,13 @@
   <ngb-alert type="primary" [dismissible]="false" (click)="clicked(4)">
     {{ getFourth() }}
   </ngb-alert>
-  <ngb-alert type="success" *ngIf="success && result !== undefined">
+  <ngb-alert type="success" [dismissible]="false" *ngIf="success && result !== undefined">
     {{ result }}
   </ngb-alert>
-  <ngb-alert type="danger" *ngIf="!success && result !== undefined">
+  <ngb-alert type="danger" [dismissible]="false" *ngIf="!success && result !== undefined">
     {{ result }}
   </ngb-alert>
-  <ngb-alert type="info" *ngIf="comments !== undefined">
+  <ngb-alert type="info" [dismissible]="false" *ngIf="comments !== undefined">
     <strong>Info: </strong>{{ comments }}
   </ngb-alert>
   <p>

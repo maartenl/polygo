@@ -1,21 +1,25 @@
-<div class="container-fluid">
+<div class="container">
   <label for="lesson"><strong>Lesson: </strong></label>
-  <select class="form-control" id="lesson" [formControl]="lessonId" >
+  <select class="form-control" id="lesson" [formControl]="lessonId">
     <option value="0" selected="selected">All</option>
     <option *ngFor="let lesson of lessons" [value]="lesson.id">{{lesson.lesson}}</option>
   </select>
-  <table>
-    <tr>
-      <th>Id</th>
-      <th>Foreign</th>
-      <th>Translation</th>
-      <th>Lesson</th>
-    </tr>
+  <table class="table table-sm table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Foreign</th>
+        <th scope="col">Translation</th>
+        <th scope="col">Lesson</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let word of getWords()">
+        <th scope="row">{{ word.id }}</th>
+        <td>{{ word.foreign }}</td>
+        <td>{{ word.translation }}</td>
+        <td>{{ word.lesson }}</td>
+      </tr>
+    </tbody>
   </table>
-  <tr *ngFor="let word of getWords()">
-    <td >{{ word.id }}</td>
-    <td>{{ word.foreign }}</td>
-    <td>{{ word.translation }}</td>
-    <td>{{ word.lesson }}</td>
-  </tr>
 </div>

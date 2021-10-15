@@ -1,9 +1,16 @@
-<div class="container-fluid">
-  <table>
-    <tr><th>Id</th><th>Lesson</th></tr>
+<div class="container">
+  <table class="table table-sm table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Lesson</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let lesson of lessons">
+        <th scope="row">{{ lesson.id }}</th>
+        <td>{{ lesson.lesson }}</td>
+      </tr>
+    </tbody>
   </table>
-  <tr *ngFor="let lesson of lessons">
-    <td>{{ lesson.id }}</td>
-    <td>{{ lesson.lesson }}</td>
-  </tr>
 </div>

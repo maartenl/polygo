@@ -12,6 +12,7 @@ import { WordgameTimedComponent } from './wordgame-timed/wordgame-timed.componen
 import { WordsComponent } from './words/words.component';
 import { LessonsComponent } from './lessons/lessons.component';
 import { ErrorsComponent } from './errors/errors.component';
+import { WordswitchComponent } from './wordswitch/wordswitch.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ErrorsComponent } from './errors/errors.component';
     WordgameTimedComponent,
     WordsComponent,
     LessonsComponent,
-    ErrorsComponent
+    ErrorsComponent,
+    WordswitchComponent
   ],
   imports: [
     BrowserModule,

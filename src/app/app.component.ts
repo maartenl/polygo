@@ -11,6 +11,7 @@ export class AppComponent {
   links = [
   { title: 'Wordgame', fragment: '/wordgame' },
   { title: 'Wordgame (MC)', fragment: '/wordgame-timed' },
+  { title: 'Wordswitch', fragment: '/wordswitch' },
   { title: 'Lessons', fragment: '/lessons' },
   { title: 'Words', fragment: '/words' },
   ];

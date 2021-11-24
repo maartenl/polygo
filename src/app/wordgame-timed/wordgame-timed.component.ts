@@ -20,10 +20,10 @@ export class WordgameTimedComponent implements OnInit {
 
   word: Word | undefined = undefined;
 
-  firstWord: Word = new Word(0, new Date(), new Date(), "", "", 0, "");
-  secondWord: Word = new Word(0, new Date(), new Date(), "", "", 0, "");
-  thirdWord: Word = new Word(0, new Date(), new Date(), "", "", 0, "");
-  fourthWord: Word = new Word(0, new Date(), new Date(), "", "", 0, "");
+  firstWord: Word = new Word({"id":0, "creation":new Date(), "modification":new Date(), "translation":"", "foreign":"", "lesson":0, "comments":""});
+  secondWord: Word = new Word({"id":0, "creation":new Date(), "modification":new Date(), "translation":"", "foreign":"", "lesson":0, "comments":""});
+  thirdWord: Word = new Word({"id":0, "creation":new Date(), "modification":new Date(), "translation":"", "foreign":"", "lesson":0, "comments":""});
+  fourthWord: Word = new Word({"id":0, "creation":new Date(), "modification":new Date(), "translation":"", "foreign":"", "lesson":0, "comments":""});
 
   success: boolean = true;
 

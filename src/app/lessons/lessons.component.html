@@ -7,10 +7,15 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let lesson of lessons">
-        <th scope="row">{{ lesson.id }}</th>
-        <td>{{ lesson.lesson }}</td>
-      </tr>
+      <ng-container *ngFor="let lesson of lessons">
+        <tr>
+          <th scope="row">{{ lesson.id }}</th>
+          <td>{{ lesson.lesson }}</td>
+        </tr>
+        <tr *ngIf="lesson.comments !== undefined">
+          <td colspan="2">{{ lesson.comments }}</td>
+        </tr>
+      </ng-container>
     </tbody>
   </table>
 </div>

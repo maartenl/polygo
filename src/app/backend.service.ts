@@ -25,67 +25,79 @@ export class BackendService {
 
   public getWords(): Observable<any> {
     return this.http.get<Word[]>(this.wordsUrl)
-    .pipe(
-      catchError(err => {
-        this.handleError(err);
-        return [];
-      })
-    );
+      .pipe(
+        //   map(item => new Word(item)),
+        map(items => {
+          const newItems = new Array<Word>();
+          items.forEach(item => newItems.push(new Word(item)));
+          return newItems;
+        }),
+        catchError(err => {
+          this.handleError(err);
+          return [];
+        })
+      );
   }
 
   public getLessons(): Observable<any> {
     return this.http.get<Lesson[]>(this.lessonsUrl)
-    .pipe(
-      catchError(err => {
-        this.handleError(err);
-        return [];
-      })
-    );
+      .pipe(
+        map(items => {
+          const newItems = new Array<Lesson>();
+          items.forEach(item => newItems.push(new Lesson(item)));
+          return newItems;
+        }),
+        //  map(item => new Lesson(item)),
+        catchError(err => {
+          this.handleError(err);
+          return [];
+        })
+      );
   }
 
   public updateWord(word: Word): any {
     if (word.id !== undefined) {
       // update
       return this.http.put<Word[]>(this.wordsUrl + '/' + word.id, word)
+        .pipe(
+          catchError(err => {
+            this.handleError(err);
+            return [];
+          })
+        );
+    }
+    // new
+    word.foreign = word.foreign.toLocaleLowerCase();
+    word.translation = word.translation.toLocaleLowerCase();
+    return this.http.post(this.wordsUrl, word)
       .pipe(
         catchError(err => {
           this.handleError(err);
           return [];
         })
       );
-    }
-    // new
-    word.foreign = word.foreign.toLocaleLowerCase();
-    word.translation = word.translation.toLocaleLowerCase();
-    return this.http.post(this.wordsUrl, word)
-    .pipe(
-      catchError(err => {
-        this.handleError(err);
-        return [];
-      })
-    );
   }
 
   public updateLesson(lesson: Lesson): any {
     if (lesson.id !== undefined) {
       // update
       return this.http.put<Lesson[]>(this.lessonsUrl + '/' + lesson.id, lesson)
+        .pipe(
+          catchError(err => {
+            this.handleError(err);
+            return [];
+          })
+        );
+    }
+    lesson.lesson = lesson.lesson.toLocaleLowerCase();
+    // new
+    return this.http.post(this.lessonsUrl, lesson)
       .pipe(
         catchError(err => {
           this.handleError(err);
           return [];
         })
       );
-    }
-    lesson.lesson = lesson.lesson.toLocaleLowerCase();
-    // new
-    return this.http.post(this.lessonsUrl, lesson)
-    .pipe(
-      catchError(err => {
-        this.handleError(err);
-        return [];
-      })
-    );
   }
 
   private handleError(error: HttpErrorResponse) {
@@ -94,7 +106,7 @@ export class BackendService {
       console.error('An error occurred:', error.error.message);
       const errormessage = new ErrorMessage(error.error.message, "Network Error");
       this.errorsService.addError(errormessage);
-  } else {
+    } else {
       // The backend returned an unsuccessful response code.
       // The response body may contain clues as to what went wrong,
       const errormessage = new ErrorMessage(error.error.errormessage ?? error.statusText, error.status.toString());

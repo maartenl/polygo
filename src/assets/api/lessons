@@ -1,7 +1,8 @@
  [
     {
       "lesson": "les 1",
-      "id": 1
+      "id": 1,
+      "comments": "de eerste les, werkwoord zijn"
     },
     {
       "lesson": "les 2",

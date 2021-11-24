@@ -5040,5 +5040,69 @@
       "translation": "verblijven",
       "lesson": "22",
       "id": 839
+    },
+    {
+      "foreign": "ja sam",
+      "translation": "ik ben",
+      "lesson": "1",
+      "id": 840
+    },
+    {
+      "foreign": "ti si",
+      "translation": "jij bent",
+      "lesson": "1",
+      "id": 841
+    },
+    {
+      "foreign": "on je",
+      "translation": "hij is",
+      "lesson": "1",
+      "id": 842
+    },
+    {
+      "foreign": "ona je",
+      "translation": "zij is",
+      "lesson": "1",
+      "id": 843
+    },
+    {
+      "foreign": "ono je",
+      "translation": "het is",
+      "lesson": "1",
+      "id": 844
+    },
+    {
+      "foreign": "mi smo",
+      "translation": "wij zijn",
+      "lesson": "1",
+      "id": 845
+    },
+    {
+      "foreign": "vi ste",
+      "translation": "jullie zijn|u bent",
+      "lesson": "1",
+      "id": 846,
+      "comments": "vi kan zowel jullie als u betekenen. U is de beleefdheidsvorm en wordt vaker gebruikt dan in Nederland."
+    },
+    {
+      "foreign": "oni su",
+      "translation": "zij zijn",
+      "lesson": "1",
+      "id": 847,
+      "comments": "mannelijk"
+    },
+    {
+      "foreign": "one su",
+      "translation": "zij zijn",
+      "lesson": "1",
+      "id": 848,
+      "comments": "vrouwelijk"
+    },
+    {
+      "foreign": "ona su",
+      "translation": "zij zijn",
+      "lesson": "1",
+      "id": 849,
+      "comments": "onzijdig"
     }
   ]

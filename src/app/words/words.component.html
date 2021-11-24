@@ -14,12 +14,17 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let word of getWords()">
+      <ng-container *ngFor="let word of getWords()">
+        <tr>
         <th scope="row">{{ word.id }}</th>
         <td>{{ word.foreign }}</td>
         <td>{{ word.translation }}</td>
         <td>{{ word.lesson }}</td>
       </tr>
-    </tbody>
+      <tr *ngIf="word.comments !== undefined">
+        <td colspan="4">{{ word.comments }}</td>
+      </tr>
+    </ng-container>
+  </tbody>
   </table>
 </div>

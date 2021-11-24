@@ -14,6 +14,9 @@
         <span *ngIf="!needTranslation">Word</span>
       </strong>: {{ getWord() }}
     </p>
+    <ngb-alert type="info" *ngIf="comments !== undefined">
+      <strong>Info on {{ wordForComments }}: </strong>{{ comments }}
+    </ngb-alert>
     <form [formGroup]="gameForm" autocomplete="off" (ngSubmit)="onSubmit()">
       <label for="answer"><strong>
           <span *ngIf="needTranslation">Word</span>
@@ -31,9 +34,6 @@
     </ngb-alert>
     <ngb-alert type="danger" *ngIf="!success && result !== undefined">
       {{ result }}
-    </ngb-alert>
-    <ngb-alert type="info" *ngIf="comments !== undefined">
-      <strong>Info: </strong>{{ comments }}
     </ngb-alert>
   </div>
   <p><ngb-progressbar [showValue]="true" type="success" [value]="correct"

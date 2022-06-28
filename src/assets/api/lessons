@@ -33,7 +33,7 @@
       "id": 8
     },
     {
-      "lesson": "vragen",
+      "lesson": "les 9",
       "id": 9
     },
     {
@@ -111,5 +111,9 @@
     {
       "lesson": "mode",
       "id": 28
+    },
+    {
+      "lesson": "vragen",
+      "id": 29
     }
   ]

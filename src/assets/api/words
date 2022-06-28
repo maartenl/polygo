@@ -650,37 +650,37 @@
     {
       "foreign": "ja pitam",
       "translation": "ik vraag",
-      "lesson": "9",
+      "lesson": "29",
       "id": 109
     },
     {
       "foreign": "ti pitaš",
       "translation": "jij vraagt",
-      "lesson": "9",
+      "lesson": "29",
       "id": 110
     },
     {
       "foreign": "on pita",
       "translation": "hij vraagt",
-      "lesson": "9",
+      "lesson": "29",
       "id": 111
     },
     {
       "foreign": "ona pita",
       "translation": "Zij vraagt",
-      "lesson": "9",
+      "lesson": "29",
       "id": 112
     },
     {
       "foreign": "mi pitamo",
       "translation": "wij vragen",
-      "lesson": "9",
+      "lesson": "29",
       "id": 113
     },
     {
       "foreign": "oni pitaju",
       "translation": "zij vragen",
-      "lesson": "9",
+      "lesson": "29",
       "id": 114
     },
     {
@@ -1204,61 +1204,61 @@
     {
       "foreign": "tko",
       "translation": "wie",
-      "lesson": "9",
+      "lesson": "29",
       "id": 200
     },
     {
       "foreign": "kako",
       "translation": "hoe",
-      "lesson": "9",
+      "lesson": "29",
       "id": 201
     },
     {
       "foreign": "odakle",
       "translation": "waarvandaan",
-      "lesson": "9",
+      "lesson": "29",
       "id": 202
     },
     {
       "foreign": "gdje",
       "translation": "waar",
-      "lesson": "9",
+      "lesson": "29",
       "id": 203
     },
     {
       "foreign": "kada",
       "translation": "wanneer",
-      "lesson": "9",
+      "lesson": "29",
       "id": 204
     },
     {
       "foreign": "zašto",
       "translation": "waarom",
-      "lesson": "9",
+      "lesson": "29",
       "id": 205
     },
     {
       "foreign": "zar ne?",
       "translation": "niet waar?",
-      "lesson": "9",
+      "lesson": "29",
       "id": 206
     },
     {
       "foreign": "zato",
       "translation": "daarom",
-      "lesson": "9",
+      "lesson": "29",
       "id": 207
     },
     {
       "foreign": "što",
       "translation": "what",
-      "lesson": "9",
+      "lesson": "29",
       "id": 208
     },
     {
       "foreign": "koliko",
       "translation": "hoeveel",
-      "lesson": "9",
+      "lesson": "29",
       "id": 209
     },
     {
@@ -2836,7 +2836,7 @@
     {
       "foreign": "često",
       "translation": "vaak",
-      "lesson": "9",
+      "lesson": "29",
       "id": 472
     },
     {
@@ -2938,19 +2938,19 @@
     {
       "foreign": "kakav",
       "translation": "wat voor soort",
-      "lesson": "9",
+      "lesson": "29",
       "id": 489
     },
     {
       "foreign": "neko",
       "translation": "sommige",
-      "lesson": "9",
+      "lesson": "29",
       "id": 490
     },
     {
       "foreign": "nešto",
       "translation": "iets",
-      "lesson": "9",
+      "lesson": "29",
       "id": 491
     },
     {
@@ -2962,7 +2962,7 @@
     {
       "foreign": "kamo",
       "translation": "waarnaartoe",
-      "lesson": "9",
+      "lesson": "29",
       "id": 493
     },
     {
@@ -5104,5 +5104,285 @@
       "lesson": "1",
       "id": 849,
       "comments": "onzijdig"
+    },
+    {
+      "foreign": "etiketa",
+      "translation": "label",
+      "lesson": "9",
+      "id": 850,
+      "comments": "v"
+    },
+    {
+      "foreign": "specijalan",
+      "translation": "speciaal",
+      "lesson": "9",
+      "id": 851,
+      "comments": ""
+    },
+    {
+      "foreign": "kraj",
+      "translation": "einde",
+      "lesson": "9",
+      "id": 852,
+      "comments": "mv +evi"
+    },
+    {
+      "foreign": "supermarket",
+      "translation": "supermarkt",
+      "lesson": "9",
+      "id": 853,
+      "comments": "m"
+    },
+    {
+      "foreign": "crkva",
+      "translation": "kerk",
+      "lesson": "9",
+      "id": 854,
+      "comments": "v"
+    },
+    {
+      "foreign": "sir",
+      "translation": "kaas",
+      "lesson": "9",
+      "id": 855,
+      "comments": "v"
+    },
+    {
+      "foreign": "ju??er",
+      "translation": "gisteren",
+      "lesson": "9",
+      "id": 856,
+      "comments": ""
+    },
+    {
+      "foreign": "ogroman",
+      "translation": "reusachtig",
+      "lesson": "9",
+      "id": 857,
+      "comments": ""
+    },
+    {
+      "foreign": "osim",
+      "translation": "behalve",
+      "lesson": "9",
+      "id": 858,
+      "comments": "+gen"
+    },
+    {
+      "foreign": "proizvod",
+      "translation": "product",
+      "lesson": "9",
+      "id": 859,
+      "comments": "m"
+    },
+    {
+      "foreign": "prehrana",
+      "translation": "voeding",
+      "lesson": "9",
+      "id": 860,
+      "comments": "v"
+    },
+    {
+      "foreign": "odjeca",
+      "translation": "kleding",
+      "lesson": "9",
+      "id": 861,
+      "comments": "v"
+    },
+    {
+      "foreign": "igracka",
+      "translation": "speelgoed",
+      "lesson": "9",
+      "id": 862,
+      "comments": "v"
+    },
+    {
+      "foreign": "stolica",
+      "translation": "stoel",
+      "lesson": "9",
+      "id": 863,
+      "comments": "v"
+    },
+    {
+      "foreign": "stol",
+      "translation": "tafel",
+      "lesson": "9",
+      "id": 864,
+      "comments": "m, mv +ovi"
+    },
+    {
+      "foreign": "vrt",
+      "translation": "tuin",
+      "lesson": "9",
+      "id": 864,
+      "comments": "m, mv +ovi"
+    },
+    {
+      "foreign": "s posla",
+      "translation": "van het werk",
+      "lesson": "9",
+      "id": 865,
+      "comments": ""
+    },
+    {
+      "foreign": "muz",
+      "translation": "man, echtgenoot",
+      "lesson": "9",
+      "id": 866,
+      "comments": "m, mv +evi"
+    },
+    {
+      "foreign": "mozda",
+      "translation": "misschien",
+      "lesson": "9",
+      "id": 867,
+      "comments": ""
+    },
+    {
+      "foreign": "neki drugi",
+      "translation": "een andere",
+      "lesson": "9",
+      "id": 868,
+      "comments": ""
+    },
+    {
+      "foreign": "slican",
+      "translation": "soortgelijk",
+      "lesson": "9",
+      "id": 869,
+      "comments": ""
+    },
+    {
+      "foreign": "uzeti",
+      "translation": "nemen",
+      "lesson": "9",
+      "id": 870,
+      "comments": ""
+    },
+    {
+      "foreign": "kruh",
+      "translation": "brood",
+      "lesson": "9",
+      "id": 871,
+      "comments": "m"
+    },
+    {
+      "foreign": "kriseli krastavac",
+      "translation": "augurkjes",
+      "lesson": "9",
+      "id": 872,
+      "comments": "m"
+    },
+    {
+      "foreign": "paprika",
+      "translation": "paprika",
+      "lesson": "9",
+      "id": 873,
+      "comments": "v"
+    },
+    {
+      "foreign": "maslina",
+      "translation": "olijf",
+      "lesson": "9",
+      "id": 874,
+      "comments": "v"
+    },
+    {
+      "foreign": "pureci",
+      "translation": "kalkoen",
+      "lesson": "9",
+      "id": 875,
+      "comments": ""
+    },
+    {
+      "foreign": "salama",
+      "translation": "broodvlees",
+      "lesson": "9",
+      "id": 876,
+      "comments": "v"
+    },
+    {
+      "foreign": "ostali",
+      "translation": "overig, de rest",
+      "lesson": "9",
+      "id": 877,
+      "comments": ""
+    },
+    {
+      "foreign": "zoon",
+      "translation": "sin",
+      "lesson": "9",
+      "id": 878,
+      "comments": "m, mv +ovi"
+    },
+    {
+      "foreign": "crven",
+      "translation": "rood",
+      "lesson": "9",
+      "id": 879,
+      "comments": ""
+    },
+    {
+      "foreign": "salata",
+      "translation": "salade",
+      "lesson": "9",
+      "id": 880,
+      "comments": "v"
+    },
+    {
+      "foreign": "jaje",
+      "translation": "ei",
+      "lesson": "9",
+      "id": 881,
+      "comments": "o"
+    },
+    {
+      "foreign": "pecnica",
+      "translation": "oven",
+      "lesson": "9",
+      "id": 882,
+      "comments": "v"
+    },
+    {
+      "foreign": "gotov",
+      "translation": "klaar",
+      "lesson": "9",
+      "id": 883,
+      "comments": ""
+    },
+    {
+      "foreign": "blaganja",
+      "translation": "kassa",
+      "lesson": "9",
+      "id": 884,
+      "comments": "v"
+    },
+    {
+      "foreign": "sretno",
+      "translation": "succes",
+      "lesson": "9",
+      "id": 885,
+      "comments": ""
+    },
+    {
+      "foreign": "veceras",
+      "translation": "vanavond",
+      "lesson": "9",
+      "id": 886,
+      "comments": ""
+    },
+    {
+      "foreign": "kuhanje",
+      "translation": "het koken",
+      "lesson": "9",
+      "id": 887,
+      "comments": "o"
+    },
+    {
+      "foreign": "cujemo se",
+      "translation": "tot horens",
+      "lesson": "9",
+      "id": 888,
+      "comments": ""
     }
   ]

@@ -37,7 +37,7 @@
       "id": 9
     },
     {
-      "lesson": "lichaam",
+      "lesson": "les 10",
       "id": 10
     },
     {
@@ -115,5 +115,9 @@
     {
       "lesson": "vragen",
       "id": 29
+    },
+    {
+      "lesson": "lichaam",
+      "id": 100
     }
   ]

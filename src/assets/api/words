@@ -5148,7 +5148,7 @@
       "comments": "v"
     },
     {
-      "foreign": "ju??er",
+      "foreign": "jučer",
       "translation": "gisteren",
       "lesson": "9",
       "id": 856,
@@ -5183,14 +5183,14 @@
       "comments": "v"
     },
     {
-      "foreign": "odjeca",
+      "foreign": "odjeća",
       "translation": "kleding",
       "lesson": "9",
       "id": 861,
       "comments": "v"
     },
     {
-      "foreign": "igracka",
+      "foreign": "igračka",
       "translation": "speelgoed",
       "lesson": "9",
       "id": 862,
@@ -5225,14 +5225,14 @@
       "comments": ""
     },
     {
-      "foreign": "muz",
+      "foreign": "muž",
       "translation": "man, echtgenoot",
       "lesson": "9",
       "id": 866,
       "comments": "m, mv +evi"
     },
     {
-      "foreign": "mozda",
+      "foreign": "možda",
       "translation": "misschien",
       "lesson": "9",
       "id": 867,
@@ -5246,11 +5246,11 @@
       "comments": ""
     },
     {
-      "foreign": "slican",
+      "foreign": "sličan",
       "translation": "soortgelijk",
       "lesson": "9",
       "id": 869,
-      "comments": ""
+      "comments": "+na, +no"
     },
     {
       "foreign": "uzeti",
@@ -5288,7 +5288,7 @@
       "comments": "v"
     },
     {
-      "foreign": "pureci",
+      "foreign": "pureći",
       "translation": "kalkoen",
       "lesson": "9",
       "id": 875,
@@ -5337,7 +5337,7 @@
       "comments": "o"
     },
     {
-      "foreign": "pecnica",
+      "foreign": "pećnica",
       "translation": "oven",
       "lesson": "9",
       "id": 882,
@@ -5365,7 +5365,7 @@
       "comments": ""
     },
     {
-      "foreign": "veceras",
+      "foreign": "večeras",
       "translation": "vanavond",
       "lesson": "9",
       "id": 886,
@@ -5379,7 +5379,7 @@
       "comments": "o"
     },
     {
-      "foreign": "cujemo se",
+      "foreign": "čujemo se",
       "translation": "tot horens",
       "lesson": "9",
       "id": 888,

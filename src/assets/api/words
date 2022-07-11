@@ -5384,5 +5384,271 @@
       "lesson": "9",
       "id": 888,
       "comments": ""
+    },
+    {
+      "foreign": "izlazak",
+      "translation": "uitgaan",
+      "lesson": "10",
+      "id": 889,
+      "comments": ""
+    },
+    {
+      "foreign": "počtak",
+      "translation": "begin",
+      "lesson": "10",
+      "id": 890,
+      "comments": "m"
+    },
+    {
+      "foreign": "tramvaj",
+      "translation": "tram",
+      "lesson": "10",
+      "id": 891,
+      "comments": "m"
+    },
+    {
+      "foreign": "igrati",
+      "translation": "spelen",
+      "lesson": "10",
+      "id": 892,
+      "comments": ""
+    },
+    {
+      "foreign": "radije",
+      "translation": "liever",
+      "lesson": "10",
+      "id": 893,
+      "comments": ""
+    },
+    {
+      "foreign": "svejedno",
+      "translation": "het maakt niet uit",
+      "lesson": "10",
+      "id": 894,
+      "comments": ""
+    },
+    {
+      "foreign": "zdrav",
+      "translation": "gezond",
+      "lesson": "10",
+      "id": 895,
+      "comments": "o"
+    },
+    {
+      "foreign": "hrana",
+      "translation": "voedsel",
+      "lesson": "10",
+      "id": 896,
+      "comments": "v"
+    },
+    {
+      "foreign": "biološki",
+      "translation": "biologisch",
+      "lesson": "10",
+      "id": 897,
+      "comments": "-a -o"
+    },
+    {
+      "foreign": "meso",
+      "translation": "vlees",
+      "lesson": "10",
+      "id": 898,
+      "comments": "o"
+    },
+    {
+      "foreign": "kolodvor",
+      "translation": "treinstation",
+      "lesson": "10",
+      "id": 899,
+      "comments": "m"
+    },
+    {
+      "foreign": "možda",
+      "translation": "misschien",
+      "lesson": "10",
+      "id": 900,
+      "comments": ""
+    },
+    {
+      "foreign": "fin",
+      "translation": "lekker",
+      "lesson": "10",
+      "id": 901,
+      "comments": "-a -o"
+    },
+    {
+      "foreign": "bolji",
+      "translation": "beter",
+      "lesson": "10",
+      "id": 902,
+      "comments": "-a -e"
+    },
+    {
+      "foreign": "jeftiniji",
+      "translation": "goedkoper",
+      "lesson": "10",
+      "id": 903,
+      "comments": "-a -e"
+    },
+    {
+      "foreign": "novac",
+      "translation": "geld",
+      "lesson": "10",
+      "id": 904,
+      "comments": "m"
+    },
+    {
+      "foreign": "odličan",
+      "translation": "uitstekend",
+      "lesson": "10",
+      "id": 905,
+      "comments": "+na +no"
+    },
+    {
+      "foreign": "prošli",
+      "translation": "verleden",
+      "lesson": "10",
+      "id": 906,
+      "comments": "-a -o"
+    },
+    {
+      "foreign": "mjesto",
+      "translation": "plek",
+      "lesson": "10",
+      "id": 907,
+      "comments": "o"
+    },
+    {
+      "foreign": "rezervirati",
+      "translation": "reserveren",
+      "lesson": "10",
+      "id": 908,
+      "comments": ""
+    },
+    {
+      "foreign": "ako",
+      "translation": "als",
+      "lesson": "10",
+      "id": 909,
+      "comments": ""
+    },
+    {
+      "foreign": "ran",
+      "translation": "vroeg",
+      "lesson": "10",
+      "id": 910,
+      "comments": "-a -o"
+    },
+    {
+      "foreign": "dogovoreno",
+      "translation": "afgesproken",
+      "lesson": "10",
+      "id": 911,
+      "comments": ""
+    },
+    {
+      "foreign": "pivnica",
+      "translation": "biergarten",
+      "lesson": "10",
+      "id": 912,
+      "comments": "v"
+    },
+    {
+      "foreign": "naručiti",
+      "translation": "bestellen",
+      "lesson": "10",
+      "id": 913,
+      "comments": ""
+    },
+    {
+      "foreign": "modem naručiti",
+      "translation": "mogen we bestellen",
+      "lesson": "10",
+      "id": 914,
+      "comments": ""
+    },
+    {
+      "foreign": "cevapčici",
+      "translation": "gegrilde gehaktworstjes uit de Balkan",
+      "lesson": "10",
+      "id": 915,
+      "comments": "m mw"
+    },
+    {
+      "foreign": "pljeskavica",
+      "translation": "hamburger",
+      "lesson": "10",
+      "id": 916,
+      "comments": "v"
+    },
+    {
+      "foreign": "ordezak na bečki",
+      "translation": "wienerschnitzel",
+      "lesson": "10",
+      "id": 917,
+      "comments": "m"
+    },
+    {
+      "foreign": "za mene",
+      "translation": "voor mij",
+      "lesson": "10",
+      "id": 918,
+      "comments": ""
+    },
+    {
+      "foreign": "jesti",
+      "translation": "eten",
+      "lesson": "10",
+      "id": 919,
+      "comments": ""
+    },
+    {
+      "foreign": "dijeta",
+      "translation": "dieet",
+      "lesson": "10",
+      "id": 920,
+      "comments": "v"
+    },
+    {
+      "foreign": "linija",
+      "translation": "lijn",
+      "lesson": "10",
+      "id": 921,
+      "comments": "v"
+    },
+    {
+      "foreign": "imati pravo",
+      "translation": "gelijk hebben",
+      "lesson": "10",
+      "id": 922,
+      "comments": ""
+    },
+    {
+      "foreign": "umjesto",
+      "translation": "in plaats van",
+      "lesson": "10",
+      "id": 923,
+      "comments": ""
+    },
+    {
+      "foreign": "sorta",
+      "translation": "taart",
+      "lesson": "10",
+      "id": 924,
+      "comments": "v"
+    },
+    {
+      "foreign": "čokolada",
+      "translation": "chocolade",
+      "lesson": "10",
+      "id": 925,
+      "comments": "v"
+    },
+    {
+      "foreign": "desert",
+      "translation": "toetje",
+      "lesson": "10",
+      "id": 926,
+      "comments": "m"
     }
   ]

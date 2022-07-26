@@ -41,7 +41,7 @@
       "id": 10
     },
     {
-      "lesson": "Uitgaan",
+      "lesson": "les 11",
       "id": 11
     },
     {
@@ -119,5 +119,9 @@
     {
       "lesson": "lichaam",
       "id": 100
-    }
-  ]
+    },
+    {
+      "lesson": "Uitgaan",
+      "id": 101
+    },
+]

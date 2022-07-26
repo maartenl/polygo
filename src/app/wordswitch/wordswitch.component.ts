@@ -4,6 +4,7 @@ import { FormGroup, FormBuilder, FormControl } from '@angular/forms';
 import { Word } from '../model/word';
 import { BackendService } from '../backend.service';
 import { Lesson } from '../model/lesson';
+import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 
 @Component({
   selector: 'app-wordswitch',
@@ -16,6 +17,7 @@ export class WordswitchComponent implements OnInit {
   words: Word[] = [];
   questions: Word[] = [];
   answers: string[] = [];
+  useranswers: string[] = [];
 
   results: string[] | undefined = undefined;
 
@@ -86,26 +88,12 @@ export class WordswitchComponent implements OnInit {
     this.answers = [];
     this.needTranslation = Math.floor(Math.random() * 2) === 1;
 
-    let position: number = Math.floor(Math.random() * filteredWords.length);
-    this.questions.push(filteredWords[position])
-    this.answers.push(this.getTranslation(filteredWords[position]))
-    filteredWords.splice(position, 1)
-    position = Math.floor(Math.random() * filteredWords.length);
-    this.questions.push(filteredWords[position])
-    this.answers.push(this.getTranslation(filteredWords[position]))
-    filteredWords.splice(position, 1)
-    position = Math.floor(Math.random() * filteredWords.length);
-    this.questions.push(filteredWords[position])
-    this.answers.push(this.getTranslation(filteredWords[position]))
-    filteredWords.splice(position, 1)
-    position = Math.floor(Math.random() * filteredWords.length);
-    this.questions.push(filteredWords[position])
-    this.answers.push(this.getTranslation(filteredWords[position]))
-    filteredWords.splice(position, 1)
-    position = Math.floor(Math.random() * filteredWords.length);
-    this.questions.push(filteredWords[position])
-    this.answers.push(this.getTranslation(filteredWords[position]))
-    filteredWords.splice(position, 1)
+    for (let count = 0; count < 8; count++) {
+      let position: number = Math.floor(Math.random() * filteredWords.length);
+      this.questions.push(filteredWords[position])
+      this.answers.push(this.getTranslation(filteredWords[position]))
+      filteredWords.splice(position, 1)  
+    }
 
     // randomize the answers
     for (let count = 0; count < 90; count++) {
@@ -133,17 +121,14 @@ export class WordswitchComponent implements OnInit {
     let cache = this.answers[buttonId]
     this.answers[buttonId] = this.answers[buttonId+1]
     this.answers[buttonId+1] = cache;
-
-
-
   }
 
   public submit() {
     this.results = [];
     for (let i in this.questions)
     {
-      if (this.answers[i] !== this.getTranslation(this.questions[i])) {
-        this.results.push(this.answers[i] + ' was wrong! Translation of ' + this.getWord(this.questions[i]) + ' is ' + this.getTranslation(this.questions[i]) + '.');
+      if (this.useranswers[i] !== this.getTranslation(this.questions[i])) {
+        this.results.push(this.useranswers[i] + ' was wrong! Translation of ' + this.getWord(this.questions[i]) + ' is ' + this.getTranslation(this.questions[i]) + '.');
       }
     }
     if (this.results.length === 0) {
@@ -155,6 +140,22 @@ export class WordswitchComponent implements OnInit {
       this.wrong++;
     }
     this.pickRandomWord();
+    this.clear();
+  }
+
+  public setAnswer(word: string) {
+    this.useranswers.push(word)
+  }
+
+  public getUseranswer(i: number) {
+    if (i < this.useranswers.length) {
+      return this.useranswers[i];
+    }
+    return '';
+  }
+
+  public clear() {
+    this.useranswers = [];
   }
 
 }

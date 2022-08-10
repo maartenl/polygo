@@ -28,6 +28,7 @@
     </p>
     <p>
         <button type="button" class="btn btn-primary btn-sm" (click)="clear()">Clear</button>
+        <button type="button" class="btn btn-primary btn-sm" (click)="clearAll()" style="margin-left: 10px;">Clear all</button>
         <button type="button" class="btn btn-primary btn-sm" (click)="submit()" style="margin-left: 10px;">Submit answer</button>
     </p>
     <ngb-alert type="success" [dismissible]="false" *ngIf="success && results !== undefined">

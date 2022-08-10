@@ -154,8 +154,12 @@ export class WordswitchComponent implements OnInit {
     return '';
   }
 
-  public clear() {
+  public clearAll() {
     this.useranswers = [];
+  }
+
+  public clear() {
+    this.useranswers.pop();
   }
 
 }

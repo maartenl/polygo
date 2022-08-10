@@ -12,15 +12,22 @@ import { Lesson } from '../model/lesson';
 export class WordsComponent implements OnInit {
   lessonId = new FormControl(0);
 
+  searchWord: string | undefined = undefined;
+
+  foundWords: Word[] = [];
+
   words: Word[] = [];
 
   lessons: Lesson[] = [];
 
-  constructor(private backendService: BackendService) { }
+  constructor(private formBuilder: FormBuilder,
+    private backendService: BackendService) {
+  }
 
   ngOnInit(): void {
     this.loadLessons();
     this.loadWords();
+
   }
 
   private loadWords() {
@@ -29,7 +36,7 @@ export class WordsComponent implements OnInit {
         this.words = result;
       }
     }, (err: any) => {
-       console.log('error', err);
+      console.log('error', err);
     }, () => {
     });
   }
@@ -40,7 +47,7 @@ export class WordsComponent implements OnInit {
         this.lessons = result;
       }
     }, (err: any) => {
-       console.log('error', err);
+      console.log('error', err);
     }, () => {
     });
   }
@@ -51,6 +58,26 @@ export class WordsComponent implements OnInit {
     }
     const result = this.words.filter(word => word.lesson === this.lessonId.value);
     return result;
+  }
+
+  onEvent() {
+    if (this.searchWord == undefined) {
+      return;
+    }
+    const searchWord: string = this.searchWord;
+    if (searchWord.length < 1) {
+      this.foundWords = [];
+      return;
+    }
+    if (searchWord.length == 1) {
+      this.foundWords = []
+      const foundWord: Word | undefined = this.words.find(word => word.foreign === searchWord || word.translation === searchWord)
+      if (foundWord !== undefined) { this.foundWords.push(); }
+      return;
+    }
+    const exactMatch = this.words.filter(word => word.foreign === searchWord || word.translation === searchWord);
+    const partialMatch = this.words.filter(word => (word.foreign.includes(searchWord) || word.translation.includes(searchWord)) && word.foreign !== searchWord && word.translation !== searchWord);
+    this.foundWords = exactMatch.concat(partialMatch);
   }
 
 }

@@ -1,5 +1,14 @@
 <div class="container">
-  <label for="lesson"><strong>Lesson: </strong></label>
+  <form autocomplete="off">
+    <label for="searchWord"><strong>
+        Search
+      </strong></label>
+    <input type="text" id="searchWord" autocapitalization="none" autocomplete="off" name="searchWord" [(ngModel)]="searchWord" (ngModelChange)="onEvent()"/>
+    <ngb-alert type="success" *ngFor="let word of foundWords">
+            From lesson {{ word.lesson }}: {{ word.foreign }} translates to {{ word.translation }}. ({{ word.comments }}) 
+    </ngb-alert>
+  </form>
+  <hr/>
   <select class="form-control" id="lesson" [formControl]="lessonId">
     <option value="0" selected="selected">All</option>
     <option *ngFor="let lesson of lessons" [value]="lesson.id">{{lesson.lesson}}</option>

@@ -140,7 +140,7 @@ export class WordswitchComponent implements OnInit {
       this.wrong++;
     }
     this.pickRandomWord();
-    this.clear();
+    this.clearAll();
   }
 
   public setAnswer(word: string) {

@@ -64,19 +64,19 @@ export class WordsComponent implements OnInit {
     if (this.searchWord == undefined) {
       return;
     }
-    const searchWord: string = this.searchWord;
+    const searchWord: string = this.searchWord.toLocaleLowerCase();
     if (searchWord.length < 1) {
       this.foundWords = [];
       return;
     }
     if (searchWord.length == 1) {
       this.foundWords = []
-      const foundWord: Word | undefined = this.words.find(word => word.foreign === searchWord || word.translation === searchWord)
+      const foundWord: Word | undefined = this.words.find(word => word.foreign.toLocaleLowerCase() === searchWord || word.translation.toLocaleLowerCase() === searchWord)
       if (foundWord !== undefined) { this.foundWords.push(); }
       return;
     }
-    const exactMatch = this.words.filter(word => word.foreign === searchWord || word.translation === searchWord);
-    const partialMatch = this.words.filter(word => (word.foreign.includes(searchWord) || word.translation.includes(searchWord)) && word.foreign !== searchWord && word.translation !== searchWord);
+    const exactMatch = this.words.filter(word => word.foreign.toLocaleLowerCase() === searchWord || word.translation.toLocaleLowerCase() === searchWord);
+    const partialMatch = this.words.filter(word => (word.foreign.toLocaleLowerCase().includes(searchWord) || word.translation.toLocaleLowerCase().includes(searchWord)) && word.foreign.toLocaleLowerCase() !== searchWord && word.translation.toLocaleLowerCase() !== searchWord);
     this.foundWords = exactMatch.concat(partialMatch);
   }
 

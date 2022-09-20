@@ -3,846 +3,846 @@
       "id": 1,
       "foreign": "dan",
       "translation": "dag",
-      "lesson": "14"
+      "lesson": "114"
     },
     {
       "id": 2,
       "foreign": "tjedan",
       "translation": "week",
-      "lesson": "14"
+      "lesson": "114"
     },
     {
       "id": 3,
       "foreign": "kazalište",
       "translation": "theater",
-      "lesson": "101"
+      "lesson": "1101"
     },
     {
       "id": 4,
       "foreign": "šah",
       "translation": "schaken",
-      "lesson": "101"
+      "lesson": "1101"
     },
     {
       "id": 5,
       "foreign": "koncert",
       "translation": "concert",
-      "lesson": "101"
+      "lesson": "1101"
     },
     {
       "id": 6,
       "foreign": "opera",
       "translation": "opera",
-      "lesson": "101"
+      "lesson": "1101"
     },
     {
       "id": 7,
       "foreign": "pantomima",
       "translation": "pantomim",
-      "lesson": "101"
+      "lesson": "1101"
     },
     {
       "id": 8,
       "foreign": "kino",
       "translation": "bioscoop",
-      "lesson": "101"
+      "lesson": "1101"
     },
     {
       "id": 9,
       "foreign": "orkestar",
       "translation": "orkest",
-      "lesson": "101"
+      "lesson": "1101"
     },
     {
       "id": 10,
       "foreign": "pantomima",
       "translation": "pantomim",
-      "lesson": "101"
+      "lesson": "1101"
     },
     {
       "id": 11,
       "foreign": "cijan",
       "translation": "cyaan",
-      "lesson": "12"
+      "lesson": "112"
     },
     {
       "id": 12,
       "foreign": "želimo",
       "translation": "wij willen gaan",
-      "lesson": "101"
+      "lesson": "1101"
     },
     {
       "id": 13,
       "foreign": "u",
       "translation": "naar",
-      "lesson": "101"
+      "lesson": "1101"
     },
     {
       "foreign": "plava",
       "translation": "blauw",
       "id": 14,
-      "lesson": "12"
+      "lesson": "112"
     },
     {
       "foreign": "crna",
       "translation": "zwart",
       "id": 15,
-      "lesson": "12"
+      "lesson": "112"
     },
     {
       "foreign": "siva",
       "translation": "grijs",
       "id": 16,
-      "lesson": "12"
+      "lesson": "112"
     },
     {
       "foreign": "narančasta",
       "translation": "oranje",
       "id": 17,
-      "lesson": "12"
+      "lesson": "112"
     },
     {
       "foreign": "roza",
       "translation": "roze",
       "id": 18,
-      "lesson": "12"
+      "lesson": "112"
     },
     {
       "foreign": "crvena",
       "translation": "rood",
       "id": 19,
-      "lesson": "12"
+      "lesson": "112"
     },
     {
       "foreign": "zelena",
       "translation": "groen",
       "id": 20,
-      "lesson": "12"
+      "lesson": "112"
     },
     {
       "foreign": "bijela",
       "translation": "wit",
       "id": 21,
-      "lesson": "12"
+      "lesson": "112"
     },
     {
       "foreign": "žuta",
       "translation": "geel",
       "id": 22,
-      "lesson": "12"
+      "lesson": "112"
     },
     {
       "foreign": "ljubičasta",
       "translation": "violet",
       "id": 23,
-      "lesson": "12"
+      "lesson": "112"
     },
     {
       "foreign": "smeđa",
       "translation": "bruin",
       "id": 24,
-      "lesson": "12"
+      "lesson": "112"
     },
     {
       "foreign": "vilin konjic",
       "translation": "libelle",
-      "lesson": "19",
+      "lesson": "119",
       "id": 25
     },
     {
       "foreign": "pčela",
       "translation": "bij",
-      "lesson": "19",
+      "lesson": "119",
       "id": 26
     },
     {
       "foreign": "muha",
       "translation": "vlieg",
-      "lesson": "19",
+      "lesson": "119",
       "id": 27
     },
     {
       "foreign": "komarac",
       "translation": "mug",
-      "lesson": "19",
+      "lesson": "119",
       "id": 28
     },
     {
       "foreign": "pauk",
       "translation": "spin",
-      "lesson": "19",
+      "lesson": "119",
       "id": 29
     },
     {
       "foreign": "leptir",
       "translation": "vlinder",
-      "lesson": "19",
+      "lesson": "119",
       "id": 30
     },
     {
       "foreign": "ružan",
       "translation": "lelijk",
-      "lesson": "19",
+      "lesson": "119",
       "id": 31
     },
     {
       "foreign": "ljepa",
       "translation": "mooi",
-      "lesson": "19",
+      "lesson": "119",
       "id": 32
     },
     {
       "foreign": "hodati",
       "translation": "lopen",
-      "lesson": "20",
+      "lesson": "120",
       "id": 33
     },
     {
       "foreign": "ja hodam",
       "translation": "ik loop",
-      "lesson": "20",
+      "lesson": "120",
       "id": 34
     },
     {
       "foreign": "ti hodaš",
       "translation": "jij loopt",
-      "lesson": "20",
+      "lesson": "120",
       "id": 35
     },
     {
       "foreign": "on hoda",
       "translation": "hij loopt",
-      "lesson": "20",
+      "lesson": "120",
       "id": 36
     },
     {
       "foreign": "ona hoda",
       "translation": "zij loopt",
-      "lesson": "20",
+      "lesson": "120",
       "id": 37
     },
     {
       "foreign": "mi hodamo",
       "translation": "wij lopen",
-      "lesson": "20",
+      "lesson": "120",
       "id": 38
     },
     {
       "foreign": "oni hodaju",
       "translation": "zij lopen",
-      "lesson": "20",
+      "lesson": "120",
       "id": 39
     },
     {
       "foreign": "park",
       "translation": "park",
-      "lesson": "20",
+      "lesson": "120",
       "id": 40
     },
     {
       "foreign": "nikada ne",
       "translation": "nooit",
-      "lesson": "20",
+      "lesson": "120",
       "id": 41
     },
     {
       "foreign": "led",
       "translation": "ijs",
-      "lesson": "21",
+      "lesson": "121",
       "id": 42
     },
     {
       "foreign": "buka",
       "translation": "lawaai",
-      "lesson": "21",
+      "lesson": "121",
       "id": 43
     },
     {
       "foreign": "tama",
       "translation": "duisternis",
-      "lesson": "21",
+      "lesson": "121",
       "id": 44
     },
     {
       "foreign": "zrak",
       "translation": "lucht",
-      "lesson": "21",
+      "lesson": "121",
       "id": 45
     },
     {
       "foreign": "svjetlo",
       "translation": "licht",
-      "lesson": "21",
+      "lesson": "121",
       "id": 46
     },
     {
       "foreign": "gravitacija",
       "translation": "zwaartekracht",
-      "lesson": "21",
+      "lesson": "121",
       "id": 47
     },
     {
       "foreign": "kiša",
       "translation": "regen",
-      "lesson": "21",
+      "lesson": "121",
       "id": 48
     },
     {
       "foreign": "munja",
       "translation": "bliksem",
-      "lesson": "21",
+      "lesson": "121",
       "id": 49
     },
     {
       "foreign": "snijeg",
       "translation": "sneeuw",
-      "lesson": "21",
+      "lesson": "121",
       "id": 50
     },
     {
       "foreign": "grom",
       "translation": "donder",
-      "lesson": "21",
+      "lesson": "121",
       "id": 51
     },
     {
       "foreign": "vjetar",
       "translation": "wind",
-      "lesson": "21",
+      "lesson": "121",
       "id": 52
     },
     {
       "foreign": "prtljaga",
       "translation": "bagage",
-      "lesson": "26",
+      "lesson": "126",
       "id": 53
     },
     {
       "foreign": "odjeća",
       "translation": "kleren",
-      "lesson": "26",
+      "lesson": "126",
       "id": 54
     },
     {
       "foreign": "novac",
       "translation": "geld",
-      "lesson": "26",
+      "lesson": "126",
       "id": 55
     },
     {
       "foreign": "putovnica",
       "translation": "het paspoort",
-      "lesson": "26",
+      "lesson": "126",
       "id": 56
     },
     {
       "foreign": "kamera",
       "translation": "camera",
-      "lesson": "26",
+      "lesson": "126",
       "id": 57
     },
     {
       "foreign": "kišobran",
       "translation": "paraplu",
-      "lesson": "26",
+      "lesson": "126",
       "id": 58
     },
     {
       "foreign": "opasnost",
       "translation": "gevaar",
-      "lesson": "26",
+      "lesson": "126",
       "id": 59
     },
     {
       "foreign": "piće",
       "translation": "drank",
-      "lesson": "17",
+      "lesson": "117",
       "id": 60
     },
     {
       "foreign": "kutija",
       "translation": "doos",
-      "lesson": "22",
+      "lesson": "122",
       "id": 61
     },
     {
       "foreign": "riba",
       "translation": "vis",
-      "lesson": "22",
+      "lesson": "122",
       "id": 62
     },
     {
       "foreign": "priroda",
       "translation": "natuur",
-      "lesson": "22",
+      "lesson": "122",
       "id": 63
     },
     {
       "foreign": "luka",
       "translation": "haven",
-      "lesson": "22",
+      "lesson": "122",
       "id": 64
     },
     {
       "foreign": "haljina",
       "translation": "jurk",
-      "lesson": "22",
+      "lesson": "122",
       "id": 65
     },
     {
       "foreign": "jednostavan",
       "translation": "simpel",
-      "lesson": "22",
+      "lesson": "122",
       "id": 66
     },
     {
       "foreign": "spavanje",
       "translation": "slaap",
-      "lesson": "22",
+      "lesson": "122",
       "id": 67
     },
     {
       "foreign": "roditelj",
       "translation": "ouder",
-      "lesson": "22",
+      "lesson": "122",
       "id": 68
     },
     {
       "foreign": "rječnik",
       "translation": "woordenboek",
-      "lesson": "27",
+      "lesson": "127",
       "id": 69
     },
     {
       "foreign": "tečaj",
       "translation": "cursus",
-      "lesson": "27",
+      "lesson": "127",
       "id": 70
     },
     {
       "foreign": "poučavati",
       "translation": "onderwijzen",
-      "lesson": "27",
+      "lesson": "127",
       "id": 71
     },
     {
       "foreign": "učinjeno",
       "translation": "klaar",
-      "lesson": "27",
+      "lesson": "127",
       "id": 72
     },
     {
       "foreign": "činjenica",
       "translation": "feit",
-      "lesson": "27",
+      "lesson": "127",
       "id": 73
     },
     {
       "foreign": "rečenica",
       "translation": "zin",
-      "lesson": "27",
+      "lesson": "127",
       "id": 74
     },
     {
       "foreign": "pročitati",
       "translation": "voorlezen",
-      "lesson": "27",
+      "lesson": "127",
       "id": 75
     },
     {
       "foreign": "jezik",
       "translation": "taal",
-      "lesson": "27",
+      "lesson": "127",
       "id": 76
     },
     {
       "foreign": "samoglasnik",
       "translation": "medeklinker",
-      "lesson": "27",
+      "lesson": "127",
       "id": 77
     },
     {
       "foreign": "putovati",
       "translation": "reizen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 78
     },
     {
       "foreign": "ja putujem",
       "translation": "ik reis",
-      "lesson": "26",
+      "lesson": "126",
       "id": 79
     },
     {
       "foreign": "ti putuješ",
       "translation": "jij reist",
-      "lesson": "26",
+      "lesson": "126",
       "id": 80
     },
     {
       "foreign": "on putuje",
       "translation": "hij reist",
-      "lesson": "26",
+      "lesson": "126",
       "id": 81
     },
     {
       "foreign": "ona putuje",
       "translation": "zij reist",
-      "lesson": "26",
+      "lesson": "126",
       "id": 82
     },
     {
       "foreign": "mi putujemo",
       "translation": "wij reizen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 83
     },
     {
       "foreign": "oni putuju",
       "translation": "zij reizen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 84
     },
     {
       "foreign": "cipela",
       "translation": "schoen",
-      "lesson": "22",
+      "lesson": "122",
       "id": 85
     },
     {
       "foreign": "sjever",
       "translation": "noord",
-      "lesson": "26",
+      "lesson": "126",
       "id": 86
     },
     {
       "foreign": "jug",
       "translation": "zuid",
-      "lesson": "26",
+      "lesson": "126",
       "id": 87
     },
     {
       "foreign": "zapad",
       "translation": "west",
-      "lesson": "26",
+      "lesson": "126",
       "id": 88
     },
     {
       "foreign": "proljeće",
       "translation": "lente",
-      "lesson": "21",
+      "lesson": "121",
       "id": 89
     },
     {
       "foreign": "zima",
       "translation": "winter",
-      "lesson": "21",
+      "lesson": "121",
       "id": 90
     },
     {
       "foreign": "ljeto",
       "translation": "zomer",
-      "lesson": "21",
+      "lesson": "121",
       "id": 91
     },
     {
       "foreign": "jesen",
       "translation": "herfst",
-      "lesson": "21",
+      "lesson": "121",
       "id": 92
     },
     {
       "foreign": "igrati",
       "translation": "spelen",
-      "lesson": "22",
+      "lesson": "122",
       "id": 93
     },
     {
       "foreign": "nebo",
       "translation": "hemel",
-      "lesson": "21",
+      "lesson": "121",
       "id": 94
     },
     {
       "foreign": "napraviti",
       "translation": "maken",
-      "lesson": "22",
+      "lesson": "122",
       "id": 95
     },
     {
       "foreign": "bolje",
       "translation": "beter",
-      "lesson": "22",
+      "lesson": "122",
       "id": 96
     },
     {
       "foreign": "učiti",
       "translation": "leren",
-      "lesson": "22",
+      "lesson": "122",
       "id": 97
     },
     {
       "foreign": "učiti",
       "translation": "leren",
-      "lesson": "27",
+      "lesson": "127",
       "id": 98
     },
     {
       "foreign": "letjeti",
       "translation": "vliegen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 99
     },
     {
       "foreign": "sunce",
       "translation": "zon",
-      "lesson": "21",
+      "lesson": "121",
       "id": 100
     },
     {
       "foreign": "grafiti",
       "translation": "bouwen",
-      "lesson": "22",
+      "lesson": "122",
       "id": 101
     },
     {
       "foreign": "karta",
       "translation": "kaart",
-      "lesson": "26",
+      "lesson": "126",
       "id": 102
     },
     {
       "foreign": "put",
       "translation": "reis",
-      "lesson": "26",
+      "lesson": "126",
       "id": 103
     },
     {
       "foreign": "svijet",
       "translation": "wereld",
-      "lesson": "26",
+      "lesson": "126",
       "id": 104
     },
     {
       "foreign": "grad",
       "translation": "stad",
-      "lesson": "26",
+      "lesson": "126",
       "id": 105
     },
     {
       "foreign": "prijatelji",
       "translation": "vriend",
-      "lesson": "26",
+      "lesson": "126",
       "id": 106
     },
     {
       "foreign": "zrakoplov",
       "translation": "vliegtuig",
-      "lesson": "26",
+      "lesson": "126",
       "id": 107
     },
     {
       "foreign": "trebam",
       "translation": "ik heb nodig",
-      "lesson": "26",
+      "lesson": "126",
       "id": 108
     },
     {
       "foreign": "ja pitam",
       "translation": "ik vraag",
-      "lesson": "29",
+      "lesson": "129",
       "id": 109
     },
     {
       "foreign": "ti pitaš",
       "translation": "jij vraagt",
-      "lesson": "29",
+      "lesson": "129",
       "id": 110
     },
     {
       "foreign": "on pita",
       "translation": "hij vraagt",
-      "lesson": "29",
+      "lesson": "129",
       "id": 111
     },
     {
       "foreign": "ona pita",
       "translation": "Zij vraagt",
-      "lesson": "29",
+      "lesson": "129",
       "id": 112
     },
     {
       "foreign": "mi pitamo",
       "translation": "wij vragen",
-      "lesson": "29",
+      "lesson": "129",
       "id": 113
     },
     {
       "foreign": "oni pitaju",
       "translation": "zij vragen",
-      "lesson": "29",
+      "lesson": "129",
       "id": 114
     },
     {
       "foreign": "smjernice",
       "translation": "richting",
-      "lesson": "26",
+      "lesson": "126",
       "id": 115
     },
     {
       "foreign": "istok",
       "translation": "oost",
-      "lesson": "26",
+      "lesson": "126",
       "id": 116
     },
     {
       "foreign": "unutra",
       "translation": "binnen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 117
     },
     {
       "foreign": "gore",
       "translation": "omhoog",
-      "lesson": "26",
+      "lesson": "126",
       "id": 118
     },
     {
       "foreign": "desno",
       "translation": "rechts",
-      "lesson": "26",
+      "lesson": "126",
       "id": 119
     },
     {
       "foreign": "između",
       "translation": "tussen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 120
     },
     {
       "foreign": "lijevo",
       "translation": "links",
-      "lesson": "26",
+      "lesson": "126",
       "id": 121
     },
     {
       "foreign": "okolo",
       "translation": "rondom",
-      "lesson": "26",
+      "lesson": "126",
       "id": 122
     },
     {
       "foreign": "ovdje",
       "translation": "hier",
-      "lesson": "26",
+      "lesson": "126",
       "id": 123
     },
     {
       "foreign": "ravno",
       "translation": "recht",
-      "lesson": "26",
+      "lesson": "126",
       "id": 124
     },
     {
       "foreign": "turist",
       "translation": "tourist",
-      "lesson": "26",
+      "lesson": "126",
       "id": 125
     },
     {
       "foreign": "suvenir",
       "translation": "souvenir",
-      "lesson": "26",
+      "lesson": "126",
       "id": 126
     },
     {
       "foreign": "muzej",
       "translation": "museum",
-      "lesson": "26",
+      "lesson": "126",
       "id": 127
     },
     {
       "foreign": "posjetiti",
       "translation": "bezoeken",
-      "lesson": "26",
+      "lesson": "126",
       "id": 128
     },
     {
       "foreign": "spomenik",
       "translation": "monument",
-      "lesson": "26",
+      "lesson": "126",
       "id": 129
     },
     {
       "foreign": "trbuh",
       "translation": "maag",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 130
     },
     {
       "foreign": "ruka",
       "translation": "arm",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 131
     },
     {
       "foreign": "srce",
       "translation": "hart",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 132
     },
     {
       "foreign": "tijelo",
       "translation": "lichaam",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 133
     },
     {
       "foreign": "noga",
       "translation": "been",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 134
     },
     {
       "foreign": "prst",
       "translation": "vinger",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 135
     },
     {
       "foreign": "kuk",
       "translation": "heup",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 136
     },
     {
       "foreign": "glava",
       "translation": "hoofd",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 137
     },
     {
       "foreign": "gdje",
       "translation": "waar",
-      "lesson": "26",
+      "lesson": "126",
       "id": 138
     },
     {
       "foreign": "mjesto",
       "translation": "plek",
-      "lesson": "26",
+      "lesson": "126",
       "id": 139
     },
     {
       "foreign": "stopalo",
       "translation": "voet",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 140
     },
     {
       "foreign": "važna",
       "translation": "belangrijk",
-      "lesson": "22",
+      "lesson": "122",
       "id": 141
     },
     {
@@ -1006,829 +1006,829 @@
     {
       "foreign": "dirati",
       "translation": "aanraken",
-      "lesson": "13",
+      "lesson": "113",
       "id": 167
     },
     {
       "foreign": "ja diram",
       "translation": "ik raak",
-      "lesson": "13",
+      "lesson": "113",
       "id": 168
     },
     {
       "foreign": "ti diraš",
       "translation": "jij raakt",
-      "lesson": "13",
+      "lesson": "113",
       "id": 169
     },
     {
       "foreign": "on dira",
       "translation": "hij raakt",
-      "lesson": "13",
+      "lesson": "113",
       "id": 170
     },
     {
       "foreign": "ona dira",
       "translation": "zij raakt",
-      "lesson": "13",
+      "lesson": "113",
       "id": 171
     },
     {
       "foreign": "mi diramo",
       "translation": "wij raken",
-      "lesson": "13",
+      "lesson": "113",
       "id": 172
     },
     {
       "foreign": "oni diraju",
       "translation": "zij raken",
-      "lesson": "13",
+      "lesson": "113",
       "id": 173
     },
     {
       "foreign": "svila",
       "translation": "zijde",
-      "lesson": "13",
+      "lesson": "113",
       "id": 174
     },
     {
       "foreign": "siječanj",
       "translation": "januari",
-      "lesson": "14",
+      "lesson": "114",
       "id": 175
     },
     {
       "foreign": "veljača",
       "translation": "februari",
-      "lesson": "14",
+      "lesson": "114",
       "id": 176
     },
     {
       "foreign": "ožujak",
       "translation": "maart",
-      "lesson": "14",
+      "lesson": "114",
       "id": 177
     },
     {
       "foreign": "travanj",
       "translation": "april",
-      "lesson": "14",
+      "lesson": "114",
       "id": 178
     },
     {
       "foreign": "svibanj",
       "translation": "mei",
-      "lesson": "14",
+      "lesson": "114",
       "id": 179
     },
     {
       "foreign": "lipanj",
       "translation": "juni",
-      "lesson": "14",
+      "lesson": "114",
       "id": 180
     },
     {
       "foreign": "srpanj",
       "translation": "juli",
-      "lesson": "14",
+      "lesson": "114",
       "id": 181
     },
     {
       "foreign": "kolovoz",
       "translation": "augustus",
-      "lesson": "14",
+      "lesson": "114",
       "id": 182
     },
     {
       "foreign": "rujan",
       "translation": "september",
-      "lesson": "14",
+      "lesson": "114",
       "id": 183
     },
     {
       "foreign": "listopad",
       "translation": "oktober",
-      "lesson": "14",
+      "lesson": "114",
       "id": 184
     },
     {
       "foreign": "studeni",
       "translation": "november",
-      "lesson": "14",
+      "lesson": "114",
       "id": 185
     },
     {
       "foreign": "prosinac",
       "translation": "december",
-      "lesson": "14",
+      "lesson": "114",
       "id": 186
     },
     {
       "foreign": "uho",
       "translation": "oor",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 187
     },
     {
       "foreign": "oko",
       "translation": "oog",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 188
     },
     {
       "foreign": "nos",
       "translation": "neus",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 189
     },
     {
       "foreign": "lice",
       "translation": "gezicht",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 190
     },
     {
       "foreign": "usta",
       "translation": "mond",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 191
     },
     {
       "foreign": "kosa",
       "translation": "haar",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 192
     },
     {
       "foreign": "čuti",
       "translation": "horen",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 193
     },
     {
       "foreign": "ja čujem",
       "translation": "ik hoor",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 194
     },
     {
       "foreign": "ti čuješ",
       "translation": "jij hoort",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 195
     },
     {
       "foreign": "on čuje",
       "translation": "hij hoort",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 196
     },
     {
       "foreign": "ona čuje",
       "translation": "zij hoort",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 197
     },
     {
       "foreign": "mi čujemo",
       "translation": "wij horen",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 198
     },
     {
       "foreign": "oni čuju",
       "translation": "zij horen",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 199
     },
     {
       "foreign": "tko",
       "translation": "wie",
-      "lesson": "29",
+      "lesson": "129",
       "id": 200
     },
     {
       "foreign": "kako",
       "translation": "hoe",
-      "lesson": "29",
+      "lesson": "129",
       "id": 201
     },
     {
       "foreign": "odakle",
       "translation": "waarvandaan",
-      "lesson": "29",
+      "lesson": "129",
       "id": 202
     },
     {
       "foreign": "gdje",
       "translation": "waar",
-      "lesson": "29",
+      "lesson": "129",
       "id": 203
     },
     {
       "foreign": "kada",
       "translation": "wanneer",
-      "lesson": "29",
+      "lesson": "129",
       "id": 204
     },
     {
       "foreign": "zašto",
       "translation": "waarom",
-      "lesson": "29",
+      "lesson": "129",
       "id": 205
     },
     {
       "foreign": "zar ne?",
       "translation": "niet waar?",
-      "lesson": "29",
+      "lesson": "129",
       "id": 206
     },
     {
       "foreign": "zato",
       "translation": "daarom",
-      "lesson": "29",
+      "lesson": "129",
       "id": 207
     },
     {
       "foreign": "što",
       "translation": "what",
-      "lesson": "29",
+      "lesson": "129",
       "id": 208
     },
     {
       "foreign": "koliko",
       "translation": "hoeveel",
-      "lesson": "29",
+      "lesson": "129",
       "id": 209
     },
     {
       "foreign": "ljubav",
       "translation": "liefde",
-      "lesson": "15",
+      "lesson": "115",
       "id": 210
     },
     {
       "foreign": "strah",
       "translation": "angst",
-      "lesson": "15",
+      "lesson": "115",
       "id": 211
     },
     {
       "foreign": "sreća",
       "translation": "geluk",
-      "lesson": "15",
+      "lesson": "115",
       "id": 212
     },
     {
       "foreign": "dosada",
       "translation": "verveling",
-      "lesson": "15",
+      "lesson": "115",
       "id": 213
     },
     {
       "foreign": "tuga",
       "translation": "verdriet",
-      "lesson": "15",
+      "lesson": "115",
       "id": 214
     },
     {
       "foreign": "ljutnja",
       "translation": "boosheid",
-      "lesson": "15",
+      "lesson": "115",
       "id": 215
     },
     {
       "foreign": "tjedan",
       "translation": "week",
-      "lesson": "14",
+      "lesson": "114",
       "id": 216
     },
     {
       "foreign": "koliko je sati",
       "translation": "hoe laat is het",
-      "lesson": "14",
+      "lesson": "114",
       "id": 217
     },
     {
       "foreign": "dobar dan",
       "translation": "goeiedag",
-      "lesson": "14",
+      "lesson": "114",
       "id": 218
     },
     {
       "foreign": "dobro jutro",
       "translation": "goede morgen",
-      "lesson": "14",
+      "lesson": "114",
       "id": 219
     },
     {
       "foreign": "dobra večer",
       "translation": "goede avond",
-      "lesson": "14",
+      "lesson": "114",
       "id": 220
     },
     {
       "foreign": "laku noć",
       "translation": "welterusten",
-      "lesson": "14",
+      "lesson": "114",
       "id": 221
     },
     {
       "foreign": "radni dani",
       "translation": "werkdagen",
-      "lesson": "14",
+      "lesson": "114",
       "id": 222
     },
     {
       "foreign": "ponedjeljak",
       "translation": "maandag",
-      "lesson": "14",
+      "lesson": "114",
       "id": 223
     },
     {
       "foreign": "utorak",
       "translation": "dinsdag",
-      "lesson": "14",
+      "lesson": "114",
       "id": 224
     },
     {
       "foreign": "srijeda",
       "translation": "woensdag",
-      "lesson": "14",
+      "lesson": "114",
       "id": 225
     },
     {
       "foreign": "četvrtak",
       "translation": "donderdag",
-      "lesson": "14",
+      "lesson": "114",
       "id": 226
     },
     {
       "foreign": "petak",
       "translation": "vrijdag",
-      "lesson": "14",
+      "lesson": "114",
       "id": 227
     },
     {
       "foreign": "slobodni dani",
       "translation": "vrije dagen",
-      "lesson": "14",
+      "lesson": "114",
       "id": 228
     },
     {
       "foreign": "subota",
       "translation": "zaterdag",
-      "lesson": "14",
+      "lesson": "114",
       "id": 229
     },
     {
       "foreign": "nedjelja",
       "translation": "zondag",
-      "lesson": "14",
+      "lesson": "114",
       "id": 230
     },
     {
       "foreign": "dobar",
       "translation": "goed",
-      "lesson": "15",
+      "lesson": "115",
       "id": 231
     },
     {
       "foreign": "loš",
       "translation": "slecht",
-      "lesson": "15",
+      "lesson": "115",
       "id": 232
     },
     {
       "foreign": "vikend",
       "translation": "weekend",
-      "lesson": "14",
+      "lesson": "114",
       "id": 233
     },
     {
       "foreign": "vikendom",
       "translation": "in het weekend",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 234
     },
     {
       "foreign": "časopis",
       "translation": "tijdschrift",
-      "lesson": "27",
+      "lesson": "127",
       "id": 235
     },
     {
       "foreign": "novine",
       "translation": "krant",
-      "lesson": "27",
+      "lesson": "127",
       "id": 236
     },
     {
       "foreign": "knjiga",
       "translation": "boek",
-      "lesson": "27",
+      "lesson": "127",
       "id": 237
     },
     {
       "foreign": "pisati",
       "translation": "schrijven",
-      "lesson": "27",
+      "lesson": "127",
       "id": 238
     },
     {
       "foreign": "pismo",
       "translation": "brief",
-      "lesson": "27",
+      "lesson": "127",
       "id": 239
     },
     {
       "foreign": "danas",
       "translation": "vandaag",
-      "lesson": "14",
+      "lesson": "114",
       "id": 240
     },
     {
       "foreign": "planina",
       "translation": "berg",
-      "lesson": "26",
+      "lesson": "126",
       "id": 241
     },
     {
       "foreign": "magazin",
       "translation": "magazine",
-      "lesson": "27",
+      "lesson": "127",
       "id": 242
     },
     {
       "foreign": "kiosk",
       "translation": "kiosk",
-      "lesson": "27",
+      "lesson": "127",
       "id": 243
     },
     {
       "foreign": "priča",
       "translation": "verhaal",
-      "lesson": "27",
+      "lesson": "127",
       "id": 244
     },
     {
       "foreign": "ja volim",
       "translation": "ik houd van",
-      "lesson": "15",
+      "lesson": "115",
       "id": 245
     },
     {
       "foreign": "ti voliš",
       "translation": "jij houdt van",
-      "lesson": "15",
+      "lesson": "115",
       "id": 246
     },
     {
       "foreign": "on voli",
       "translation": "hij houdt van",
-      "lesson": "15",
+      "lesson": "115",
       "id": 247
     },
     {
       "foreign": "ona voli",
       "translation": "zij houdt van",
-      "lesson": "15",
+      "lesson": "115",
       "id": 248
     },
     {
       "foreign": "mi volimo",
       "translation": "wij houden van",
-      "lesson": "15",
+      "lesson": "115",
       "id": 249
     },
     {
       "foreign": "oni vole",
       "translation": "zij houden van",
-      "lesson": "15",
+      "lesson": "115",
       "id": 250
     },
     {
       "foreign": "sanjati",
       "translation": "dromen",
-      "lesson": "22",
+      "lesson": "122",
       "id": 251
     },
     {
       "foreign": "mašta",
       "translation": "verbeelding",
-      "lesson": "22",
+      "lesson": "122",
       "id": 252
     },
     {
       "foreign": "misliti",
       "translation": "denken",
-      "lesson": "22",
+      "lesson": "122",
       "id": 253
     },
     {
       "foreign": "ideja",
       "translation": "idee",
-      "lesson": "22",
+      "lesson": "122",
       "id": 254
     },
     {
       "foreign": "inteligencija",
       "translation": "intelligentie",
-      "lesson": "27",
+      "lesson": "127",
       "id": 255
     },
     {
       "foreign": "naučiti",
       "translation": "leren",
-      "lesson": "27",
+      "lesson": "127",
       "id": 256
     },
     {
       "foreign": "hladan",
       "translation": "koud",
-      "lesson": "21",
+      "lesson": "121",
       "id": 257
     },
     {
       "foreign": "čitati",
       "translation": "lezen",
-      "lesson": "27",
+      "lesson": "127",
       "id": 258
     },
     {
       "foreign": "slušati",
       "translation": "luisteren",
-      "lesson": "27",
+      "lesson": "127",
       "id": 259
     },
     {
       "foreign": "crtež",
       "translation": "tekening",
-      "lesson": "12",
+      "lesson": "112",
       "id": 260
     },
     {
       "foreign": "zvijezda",
       "translation": "ster",
-      "lesson": "21",
+      "lesson": "121",
       "id": 261
     },
     {
       "foreign": "topao",
       "translation": "warm",
-      "lesson": "21",
+      "lesson": "121",
       "id": 262
     },
     {
       "foreign": "pozvati",
       "translation": "uitnodigen",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 263
     },
     {
       "foreign": "ja pozivam",
       "translation": "ik nodig uit",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 264
     },
     {
       "foreign": "ti pozivaš",
       "translation": "jij nodigt uit",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 265
     },
     {
       "foreign": "on poziva",
       "translation": "hij nodigt uit",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 266
     },
     {
       "foreign": "ona poziva",
       "translation": "zij nodigt uit",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 267
     },
     {
       "foreign": "mi pozivamo",
       "translation": "wij nodigen uit",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 268
     },
     {
       "foreign": "oni pozivaju",
       "translation": "zij nodigen uit",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 269
     },
     {
       "foreign": "tenis",
       "translation": "tennis",
-      "lesson": "16",
+      "lesson": "116",
       "id": 270
     },
     {
       "foreign": "vrtlarstvo",
       "translation": "tuinieren",
-      "lesson": "16",
+      "lesson": "116",
       "id": 271
     },
     {
       "foreign": "ljuljačka",
       "translation": "schommel",
-      "lesson": "16",
+      "lesson": "116",
       "id": 272
     },
     {
       "foreign": "odbojka",
       "translation": "volleybal",
-      "lesson": "16",
+      "lesson": "116",
       "id": 273
     },
     {
       "foreign": "pecanje",
       "translation": "vissen",
-      "lesson": "16",
+      "lesson": "116",
       "id": 274
     },
     {
       "foreign": "trčanje",
       "translation": "rennen",
-      "lesson": "16",
+      "lesson": "116",
       "id": 275
     },
     {
       "foreign": "kruh",
       "translation": "brood",
-      "lesson": "17",
+      "lesson": "117",
       "id": 276
     },
     {
       "foreign": "med",
       "translation": "honing",
-      "lesson": "17",
+      "lesson": "117",
       "id": 277
     },
     {
       "foreign": "mlijeko",
       "translation": "melk",
-      "lesson": "17",
+      "lesson": "117",
       "id": 278
     },
     {
       "foreign": "žitarice",
       "translation": "granen",
-      "lesson": "24",
+      "lesson": "124",
       "id": 279
     },
     {
       "foreign": "keks",
       "translation": "koekje",
-      "lesson": "17",
+      "lesson": "117",
       "id": 280
     },
     {
       "foreign": "hrana",
       "translation": "voedsel",
-      "lesson": "17",
+      "lesson": "117",
       "id": 281
     },
     {
       "foreign": "jogurt",
       "translation": "yoghurt",
-      "lesson": "17",
+      "lesson": "117",
       "id": 282
     },
     {
       "foreign": "jesti",
       "translation": "eten",
-      "lesson": "17",
+      "lesson": "117",
       "id": 283
     },
     {
       "foreign": "ja jedem",
       "translation": "ik eet",
-      "lesson": "17",
+      "lesson": "117",
       "id": 284
     },
     {
       "foreign": "ti jedeš",
       "translation": "jij eet",
-      "lesson": "17",
+      "lesson": "117",
       "id": 285
     },
     {
       "foreign": "on jede",
       "translation": "hij eet",
-      "lesson": "17",
+      "lesson": "117",
       "id": 286
     },
     {
       "foreign": "ona jede",
       "translation": "zij eet",
-      "lesson": "17",
+      "lesson": "117",
       "id": 287
     },
     {
       "foreign": "mi jedemo",
       "translation": "wij eten",
-      "lesson": "17",
+      "lesson": "117",
       "id": 288
     },
     {
       "foreign": "oni jedu",
       "translation": "zij eten",
-      "lesson": "17",
+      "lesson": "117",
       "id": 289
     },
     {
       "foreign": "grickalice",
       "translation": "hapjes",
-      "lesson": "17",
+      "lesson": "117",
       "id": 290
     },
     {
       "foreign": "desert",
       "translation": "nagerecht",
-      "lesson": "17",
+      "lesson": "117",
       "id": 291
     },
     {
       "foreign": "nekoliko",
       "translation": "verscheidene",
-      "lesson": "22",
+      "lesson": "122",
       "id": 292
     },
     {
       "foreign": " večera",
       "translation": "avondeten",
-      "lesson": "17",
+      "lesson": "117",
       "id": 293
     },
     {
       "foreign": "krumpir",
       "translation": "aardappel",
-      "lesson": "24",
+      "lesson": "124",
       "id": 294
     },
     {
       "foreign": "meso",
       "translation": "vlees",
-      "lesson": "24",
+      "lesson": "124",
       "id": 295
     },
     {
       "foreign": "salata",
       "translation": "salade",
-      "lesson": "17",
+      "lesson": "117",
       "id": 296
     },
     {
       "foreign": "riba",
       "translation": "vis",
-      "lesson": "24",
+      "lesson": "124",
       "id": 297
     },
     {
       "foreign": "pita",
       "translation": "pastei",
-      "lesson": "24",
+      "lesson": "124",
       "id": 298
     },
     {
       "foreign": "banana",
       "translation": "banaan",
-      "lesson": "17",
+      "lesson": "117",
       "id": 299
     },
     {
       "foreign": "grozđe",
       "translation": "druiven",
-      "lesson": "17",
+      "lesson": "117",
       "id": 300
     },
     {
       "foreign": "limun",
       "translation": "citroen",
-      "lesson": "17",
+      "lesson": "117",
       "id": 301
     },
     {
       "foreign": "naranča",
       "translation": "sinaasappel",
-      "lesson": "17",
+      "lesson": "117",
       "id": 302
     },
     {
       "foreign": "dinja",
       "translation": "meloen",
-      "lesson": "24",
+      "lesson": "124",
       "id": 303
     },
     {
       "foreign": "orasi",
       "translation": "noten",
-      "lesson": "24",
+      "lesson": "124",
       "id": 304
     },
     {
@@ -1930,139 +1930,139 @@
     {
       "foreign": "iz",
       "translation": "uit",
-      "lesson": "18",
+      "lesson": "118",
       "id": 321
     },
     {
       "foreign": "od",
       "translation": "van",
-      "lesson": "18",
+      "lesson": "118",
       "id": 322
     },
     {
       "foreign": "do",
       "translation": "tot",
-      "lesson": "18",
+      "lesson": "118",
       "id": 323
     },
     {
       "foreign": "kod",
       "translation": "bij",
-      "lesson": "18",
+      "lesson": "118",
       "id": 324
     },
     {
       "foreign": "ispred",
       "translation": "voor",
-      "lesson": "18",
+      "lesson": "118",
       "id": 325
     },
     {
       "foreign": "iznad",
       "translation": "boven",
-      "lesson": "18",
+      "lesson": "118",
       "id": 326
     },
     {
       "foreign": "ispod",
       "translation": "onder",
-      "lesson": "18",
+      "lesson": "118",
       "id": 327
     },
     {
       "foreign": "iza",
       "translation": "achter",
-      "lesson": "18",
+      "lesson": "118",
       "id": 328
     },
     {
       "foreign": "oko",
       "translation": "rond",
-      "lesson": "18",
+      "lesson": "118",
       "id": 329
     },
     {
       "foreign": "pokraj",
       "translation": "naast",
-      "lesson": "18",
+      "lesson": "118",
       "id": 330
     },
     {
       "foreign": "blizu",
       "translation": "dichtbij",
-      "lesson": "18",
+      "lesson": "118",
       "id": 331
     },
     {
       "foreign": "između",
       "translation": "tussen",
-      "lesson": "18",
+      "lesson": "118",
       "id": 332
     },
     {
       "foreign": "češnjak",
       "translation": "knoflook",
-      "lesson": "24",
+      "lesson": "124",
       "id": 333
     },
     {
       "foreign": "rajčica",
       "translation": "tomaat",
-      "lesson": "24",
+      "lesson": "124",
       "id": 334
     },
     {
       "foreign": "gljiva",
       "translation": "paddestoel",
-      "lesson": "24",
+      "lesson": "124",
       "id": 335
     },
     {
       "foreign": "grah",
       "translation": "boon",
-      "lesson": "24",
+      "lesson": "124",
       "id": 336
     },
     {
       "foreign": "luk",
       "translation": "ui",
-      "lesson": "24",
+      "lesson": "124",
       "id": 337
     },
     {
       "foreign": "kukuruz",
       "translation": "maïs",
-      "lesson": "17",
+      "lesson": "117",
       "id": 338
     },
     {
       "foreign": "šećer",
       "translation": "suiker",
-      "lesson": "17",
+      "lesson": "117",
       "id": 339
     },
     {
       "foreign": "rado",
       "translation": "graag",
-      "lesson": "17",
+      "lesson": "117",
       "id": 340
     },
     {
       "foreign": "komad",
       "translation": "stuk",
-      "lesson": "17",
+      "lesson": "117",
       "id": 341
     },
     {
       "foreign": "sir",
       "translation": "kaas",
-      "lesson": "17",
+      "lesson": "117",
       "id": 342
     },
     {
       "foreign": "šunka",
       "translation": "ham",
-      "lesson": "17",
+      "lesson": "117",
       "id": 343
     },
     {
@@ -2230,289 +2230,289 @@
     {
       "foreign": "pivo",
       "translation": "bier",
-      "lesson": "17",
+      "lesson": "117",
       "id": 371
     },
     {
       "foreign": "točeno pivo",
       "translation": "tap bier",
-      "lesson": "17",
+      "lesson": "117",
       "id": 372
     },
     {
       "foreign": "litra",
       "translation": "liter",
-      "lesson": "17",
+      "lesson": "117",
       "id": 373
     },
     {
       "foreign": "crno vino",
       "translation": "rode wijn",
-      "lesson": "17",
+      "lesson": "117",
       "id": 374
     },
     {
       "foreign": "za stolom",
       "translation": "aan tafel",
-      "lesson": "17",
+      "lesson": "117",
       "id": 375
     },
     {
       "foreign": "kava",
       "translation": "koffie",
-      "lesson": "17",
+      "lesson": "117",
       "id": 376
     },
     {
       "foreign": "voda",
       "translation": "water",
-      "lesson": "17",
+      "lesson": "117",
       "id": 377
     },
     {
       "foreign": "čaj",
       "translation": "thee",
-      "lesson": "17",
+      "lesson": "117",
       "id": 378
     },
     {
       "foreign": "sok",
       "translation": "sap",
-      "lesson": "17",
+      "lesson": "117",
       "id": 379
     },
     {
       "foreign": "koktel",
       "translation": "cocktail",
-      "lesson": "17",
+      "lesson": "117",
       "id": 380
     },
     {
       "foreign": "ti praviš",
       "translation": "jij maakt",
-      "lesson": "17",
+      "lesson": "117",
       "id": 381
     },
     {
       "foreign": "auto",
       "translation": "auto",
-      "lesson": "26",
+      "lesson": "126",
       "id": 382
     },
     {
       "foreign": "helikopter",
       "translation": "helikopter",
-      "lesson": "26",
+      "lesson": "126",
       "id": 383
     },
     {
       "foreign": "čamac",
       "translation": "boot",
-      "lesson": "26",
+      "lesson": "126",
       "id": 384
     },
     {
       "foreign": "kamion",
       "translation": "vrachtwagen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 385
     },
     {
       "foreign": "motocikl",
       "translation": "motor",
-      "lesson": "26",
+      "lesson": "126",
       "id": 386
     },
     {
       "foreign": "kombi",
       "translation": "busje",
-      "lesson": "26",
+      "lesson": "126",
       "id": 387
     },
     {
       "foreign": "voziti",
       "translation": "rijden",
-      "lesson": "26",
+      "lesson": "126",
       "id": 388
     },
     {
       "foreign": "ja vozim",
       "translation": "ik rijd",
-      "lesson": "26",
+      "lesson": "126",
       "id": 389
     },
     {
       "foreign": "ti voziš",
       "translation": "jij rijdt",
-      "lesson": "26",
+      "lesson": "126",
       "id": 390
     },
     {
       "foreign": "on vozi",
       "translation": "hij rijdt",
-      "lesson": "26",
+      "lesson": "126",
       "id": 391
     },
     {
       "foreign": "ona vozi",
       "translation": "zij rijdt",
-      "lesson": "26",
+      "lesson": "126",
       "id": 392
     },
     {
       "foreign": "mi vozimo",
       "translation": "wij rijden",
-      "lesson": "26",
+      "lesson": "126",
       "id": 393
     },
     {
       "foreign": "oni voze",
       "translation": "zij rijden",
-      "lesson": "26",
+      "lesson": "126",
       "id": 394
     },
     {
       "foreign": "autobus",
       "translation": "bus",
-      "lesson": "26",
+      "lesson": "126",
       "id": 395
     },
     {
       "foreign": "taksi",
       "translation": "taxi",
-      "lesson": "26",
+      "lesson": "126",
       "id": 396
     },
     {
       "foreign": "brod",
       "translation": "schip",
-      "lesson": "26",
+      "lesson": "126",
       "id": 397
     },
     {
       "foreign": "vlak",
       "translation": "trein",
-      "lesson": "26",
+      "lesson": "126",
       "id": 398
     },
     {
       "foreign": "stiči",
       "translation": "arriveren",
-      "lesson": "26",
+      "lesson": "126",
       "id": 399
     },
     {
       "foreign": "ja stižem",
       "translation": "ik arriveer",
-      "lesson": "26",
+      "lesson": "126",
       "id": 400
     },
     {
       "foreign": "ja stižem",
       "translation": "ik arriveer",
-      "lesson": "26",
+      "lesson": "126",
       "id": 401
     },
     {
       "foreign": "ti stižeš",
       "translation": "jij arriveert",
-      "lesson": "26",
+      "lesson": "126",
       "id": 402
     },
     {
       "foreign": "on stiže",
       "translation": "hij arriveert",
-      "lesson": "26",
+      "lesson": "126",
       "id": 403
     },
     {
       "foreign": "ona stiže",
       "translation": "zij arriveert",
-      "lesson": "26",
+      "lesson": "126",
       "id": 404
     },
     {
       "foreign": "mi stižemo",
       "translation": "wij arriveren",
-      "lesson": "26",
+      "lesson": "126",
       "id": 405
     },
     {
       "foreign": "oni stižu",
       "translation": "zij arriveren",
-      "lesson": "26",
+      "lesson": "126",
       "id": 406
     },
     {
       "foreign": "mjesec",
       "translation": "maan",
-      "lesson": "21",
+      "lesson": "121",
       "id": 407
     },
     {
       "foreign": "mars",
       "translation": "mars",
-      "lesson": "21",
+      "lesson": "121",
       "id": 408
     },
     {
       "foreign": "svemirski brod",
       "translation": "ruimteschip",
-      "lesson": "21",
+      "lesson": "121",
       "id": 409
     },
     {
       "foreign": "astronaut",
       "translation": "astronaut",
-      "lesson": "21",
+      "lesson": "121",
       "id": 410
     },
     {
       "foreign": "svemir",
       "translation": "ruimte",
-      "lesson": "21",
+      "lesson": "121",
       "id": 411
     },
     {
       "foreign": "zemlja",
       "translation": "aarde",
-      "lesson": "21",
+      "lesson": "121",
       "id": 412
     },
     {
       "foreign": "student",
       "translation": "student",
-      "lesson": "22",
+      "lesson": "122",
       "id": 413
     },
     {
       "foreign": "učiteljica",
       "translation": "lerares",
-      "lesson": "22",
+      "lesson": "122",
       "id": 414
     },
     {
       "foreign": "ispit",
       "translation": "toets",
-      "lesson": "22",
+      "lesson": "122",
       "id": 415
     },
     {
       "foreign": "školski kolega",
       "translation": "klasgenoot",
-      "lesson": "22",
+      "lesson": "122",
       "id": 416
     },
     {
       "foreign": "informacija",
       "translation": "informatie",
-      "lesson": "22",
+      "lesson": "122",
       "id": 417
     },
     {
       "foreign": "učionica",
       "translation": "klaslokaal",
-      "lesson": "22",
+      "lesson": "122",
       "id": 418
     },
     {
@@ -2554,7 +2554,7 @@
     {
       "foreign": "podne",
       "translation": "middag",
-      "lesson": "14",
+      "lesson": "114",
       "id": 425
     },
     {
@@ -2770,37 +2770,37 @@
     {
       "foreign": "na odmoru",
       "translation": "op vakantie",
-      "lesson": "26",
+      "lesson": "126",
       "id": 461
     },
     {
       "foreign": "prošli",
       "translation": "vorig",
-      "lesson": "14",
+      "lesson": "114",
       "id": 462
     },
     {
       "foreign": "godina",
       "translation": "jaar",
-      "lesson": "14",
+      "lesson": "114",
       "id": 463
     },
     {
       "foreign": "sada",
       "translation": "nu",
-      "lesson": "14",
+      "lesson": "114",
       "id": 464
     },
     {
       "foreign": "sada",
       "translation": "nu",
-      "lesson": "14",
+      "lesson": "114",
       "id": 465
     },
     {
       "foreign": "sada",
       "translation": "nu",
-      "lesson": "14",
+      "lesson": "114",
       "id": 466
     },
     {
@@ -2818,7 +2818,7 @@
     {
       "foreign": "vrijeme",
       "translation": "weer",
-      "lesson": "21",
+      "lesson": "121",
       "id": 469
     },
     {
@@ -2830,31 +2830,31 @@
     {
       "foreign": "oblačan",
       "translation": "bewolkt",
-      "lesson": "21",
+      "lesson": "121",
       "id": 471
     },
     {
       "foreign": "često",
       "translation": "vaak",
-      "lesson": "29",
+      "lesson": "129",
       "id": 472
     },
     {
       "foreign": "padati",
       "translation": "vallen",
-      "lesson": "21",
+      "lesson": "121",
       "id": 473
     },
     {
       "foreign": "sijati",
       "translation": "schijnen",
-      "lesson": "21",
+      "lesson": "121",
       "id": 474
     },
     {
       "foreign": "večeras",
       "translation": "vanavond",
-      "lesson": "14",
+      "lesson": "114",
       "id": 475
     },
     {
@@ -2872,13 +2872,13 @@
     {
       "foreign": "trg",
       "translation": "plein",
-      "lesson": "26",
+      "lesson": "126",
       "id": 478
     },
     {
       "foreign": "centar",
       "translation": "centrum",
-      "lesson": "26",
+      "lesson": "126",
       "id": 479
     },
     {
@@ -2908,7 +2908,7 @@
     {
       "foreign": "kip",
       "translation": "standbeeld",
-      "lesson": "26",
+      "lesson": "126",
       "id": 484
     },
     {
@@ -2926,43 +2926,43 @@
     {
       "foreign": "prošlosti",
       "translation": "verleden",
-      "lesson": "14",
+      "lesson": "114",
       "id": 487
     },
     {
       "foreign": "toalet",
       "translation": "toilet",
-      "lesson": "26",
+      "lesson": "126",
       "id": 488
     },
     {
       "foreign": "kakav",
       "translation": "wat voor soort",
-      "lesson": "29",
+      "lesson": "129",
       "id": 489
     },
     {
       "foreign": "neko",
       "translation": "sommige",
-      "lesson": "29",
+      "lesson": "129",
       "id": 490
     },
     {
       "foreign": "nešto",
       "translation": "iets",
-      "lesson": "29",
+      "lesson": "129",
       "id": 491
     },
     {
       "foreign": "stoljeće",
       "translation": "eeuw",
-      "lesson": "14",
+      "lesson": "114",
       "id": 492
     },
     {
       "foreign": "kamo",
       "translation": "waarnaartoe",
-      "lesson": "29",
+      "lesson": "129",
       "id": 493
     },
     {
@@ -3052,763 +3052,763 @@
     {
       "foreign": "bolnica",
       "translation": "ziekenhuis",
-      "lesson": "100",
+      "lesson": "1100",
       "id": 508
     },
     {
       "foreign": "knjižara",
       "translation": "boekenwinkel",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 509
     },
     {
       "foreign": "policijska postaja",
       "translation": "politiebureau",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 510
     },
     {
       "foreign": "palača",
       "translation": "paleis",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 511
     },
     {
       "foreign": "ambasada",
       "translation": "ambassade",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 512
     },
     {
       "foreign": "sigurno",
       "translation": "veilig",
-      "lesson": "26",
+      "lesson": "126",
       "id": 513
     },
     {
       "foreign": "sigurnosni",
       "translation": "veiligheid",
-      "lesson": "26",
+      "lesson": "126",
       "id": 514
     },
     {
       "foreign": "sigurnosni",
       "translation": "veiligheid",
-      "lesson": "26",
+      "lesson": "126",
       "id": 515
     },
     {
       "foreign": "banka",
       "translation": "bank",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 516
     },
     {
       "foreign": "restoran",
       "translation": "restaurant",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 517
     },
     {
       "foreign": "knjižniča",
       "translation": "bibliotheek",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 518
     },
     {
       "foreign": "poštanski ured",
       "translation": "postkantoor",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 519
     },
     {
       "foreign": "garaža",
       "translation": "garage",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 520
     },
     {
       "foreign": "kuhinja",
       "translation": "keuken",
-      "lesson": "17",
+      "lesson": "117",
       "id": 521
     },
     {
       "foreign": "tavan",
       "translation": "zolder",
-      "lesson": "22",
+      "lesson": "122",
       "id": 522
     },
     {
       "foreign": "stepenice",
       "translation": "trappen",
-      "lesson": "22",
+      "lesson": "122",
       "id": 523
     },
     {
       "foreign": "krov",
       "translation": "dak",
-      "lesson": "22",
+      "lesson": "122",
       "id": 524
     },
     {
       "foreign": "spavaća soba",
       "translation": "slaapkamer",
-      "lesson": "22",
+      "lesson": "122",
       "id": 525
     },
     {
       "foreign": "posjetiti",
       "translation": "bezoeken",
-      "lesson": "26",
+      "lesson": "126",
       "id": 526
     },
     {
       "foreign": "ja posjećujem",
       "translation": "ik bezoek",
-      "lesson": "26",
+      "lesson": "126",
       "id": 527
     },
     {
       "foreign": "ti posjećuješ",
       "translation": "jij bezoekt",
-      "lesson": "26",
+      "lesson": "126",
       "id": 528
     },
     {
       "foreign": "krastavac",
       "translation": "komkommer",
-      "lesson": "24",
+      "lesson": "124",
       "id": 529
     },
     {
       "foreign": "brašno",
       "translation": "meel",
-      "lesson": "24",
+      "lesson": "124",
       "id": 530
     },
     {
       "foreign": "jaje",
       "translation": "ei",
-      "lesson": "24",
+      "lesson": "124",
       "id": 531
     },
     {
       "foreign": "sin",
       "translation": "zoon",
-      "lesson": "25",
+      "lesson": "125",
       "id": 532
     },
     {
       "foreign": "otac",
       "translation": "vader",
-      "lesson": "25",
+      "lesson": "125",
       "id": 533
     },
     {
       "foreign": "majka",
       "translation": "moeder",
-      "lesson": "25",
+      "lesson": "125",
       "id": 534
     },
     {
       "foreign": "kći",
       "translation": "dochter",
-      "lesson": "25",
+      "lesson": "125",
       "id": 535
     },
     {
       "foreign": "jabuka",
       "translation": "appel",
-      "lesson": "24",
+      "lesson": "124",
       "id": 536
     },
     {
       "foreign": "jagoda",
       "translation": "aardbei",
-      "lesson": "24",
+      "lesson": "124",
       "id": 537
     },
     {
       "foreign": "slamom",
       "translation": "rietje",
-      "lesson": "24",
+      "lesson": "124",
       "id": 538
     },
     {
       "foreign": "slatka",
       "translation": "lief",
-      "lesson": "25",
+      "lesson": "125",
       "id": 539
     },
     {
       "foreign": "brat",
       "translation": "broer",
-      "lesson": "25",
+      "lesson": "125",
       "id": 540
     },
     {
       "foreign": "sestra",
       "translation": "zus",
-      "lesson": "25",
+      "lesson": "125",
       "id": 541
     },
     {
       "foreign": "stara",
       "translation": "oud",
-      "lesson": "25",
+      "lesson": "125",
       "id": 542
     },
     {
       "foreign": "mlada",
       "translation": "jong",
-      "lesson": "25",
+      "lesson": "125",
       "id": 543
     },
     {
       "foreign": "iscrpljena",
       "translation": "versleten",
-      "lesson": "25",
+      "lesson": "125",
       "id": 544
     },
     {
       "foreign": "juha",
       "translation": "soep",
-      "lesson": "17",
+      "lesson": "117",
       "id": 545
     },
     {
       "foreign": "toplo",
       "translation": "warm",
-      "lesson": "17",
+      "lesson": "117",
       "id": 546
     },
     {
       "foreign": "hladna",
       "translation": "koud",
-      "lesson": "17",
+      "lesson": "117",
       "id": 547
     },
     {
       "foreign": "predjela",
       "translation": "hapjes",
-      "lesson": "17",
+      "lesson": "117",
       "id": 548
     },
     {
       "foreign": "jela",
       "translation": "gerecht",
-      "lesson": "17",
+      "lesson": "117",
       "id": 549
     },
     {
       "foreign": "baka",
       "translation": "oma",
-      "lesson": "25",
+      "lesson": "125",
       "id": 550
     },
     {
       "foreign": "deda",
       "translation": "opa",
-      "lesson": "25",
+      "lesson": "125",
       "id": 551
     },
     {
       "foreign": "svekrva",
       "translation": "schoonmoeder",
-      "lesson": "25",
+      "lesson": "125",
       "id": 552
     },
     {
       "foreign": "svekar",
       "translation": "schoonvader",
-      "lesson": "25",
+      "lesson": "125",
       "id": 553
     },
     {
       "foreign": "muž",
       "translation": "echtgenoot",
-      "lesson": "25",
+      "lesson": "125",
       "id": 554
     },
     {
       "foreign": "žena",
       "translation": "echtgenote",
-      "lesson": "25",
+      "lesson": "125",
       "id": 555
     },
     {
       "foreign": "moj",
       "translation": "mijn",
-      "lesson": "18",
+      "lesson": "118",
       "id": 556
     },
     {
       "foreign": "naš",
       "translation": "onze",
-      "lesson": "18",
+      "lesson": "118",
       "id": 557
     },
     {
       "foreign": "tvoj",
       "translation": "jouw",
-      "lesson": "18",
+      "lesson": "118",
       "id": 558
     },
     {
       "foreign": "vaš",
       "translation": "jullie",
-      "lesson": "18",
+      "lesson": "118",
       "id": 559
     },
     {
       "foreign": "njegov",
       "translation": "zijn",
-      "lesson": "18",
+      "lesson": "118",
       "id": 560
     },
     {
       "foreign": "njihov",
       "translation": "hun",
-      "lesson": "18",
+      "lesson": "118",
       "id": 561
     },
     {
       "foreign": "njezin",
       "translation": "haar",
-      "lesson": "18",
+      "lesson": "118",
       "id": 562
     },
     {
       "foreign": "ostalo",
       "translation": "overig",
-      "lesson": "26",
+      "lesson": "126",
       "id": 563
     },
     {
       "foreign": "bezalkoholna",
       "translation": "alcoholvrij",
-      "lesson": "17",
+      "lesson": "117",
       "id": 564
     },
     {
       "foreign": "kutija",
       "translation": "doos",
-      "lesson": "26",
+      "lesson": "126",
       "id": 565
     },
     {
       "foreign": "savršeno",
       "translation": "perfect",
-      "lesson": "26",
+      "lesson": "126",
       "id": 566
     },
     {
       "foreign": "dolje",
       "translation": "omlaag",
-      "lesson": "26",
+      "lesson": "126",
       "id": 567
     },
     {
       "foreign": "oprostite",
       "translation": "sorry",
-      "lesson": "26",
+      "lesson": "126",
       "id": 568
     },
     {
       "foreign": "đumbir",
       "translation": "gember",
-      "lesson": "24",
+      "lesson": "124",
       "id": 569
     },
     {
       "foreign": "mrkva",
       "translation": "wortel",
-      "lesson": "24",
+      "lesson": "124",
       "id": 570
     },
     {
       "foreign": "cikla",
       "translation": "rode biet",
-      "lesson": "24",
+      "lesson": "124",
       "id": 571
     },
     {
       "foreign": "najdraža",
       "translation": "favoriet",
-      "lesson": "15",
+      "lesson": "115",
       "id": 572
     },
     {
       "foreign": "mama",
       "translation": "mama",
-      "lesson": "25",
+      "lesson": "125",
       "id": 573
     },
     {
       "foreign": "tata",
       "translation": "papa",
-      "lesson": "25",
+      "lesson": "125",
       "id": 574
     },
     {
       "foreign": "osoba",
       "translation": "persoon",
-      "lesson": "25",
+      "lesson": "125",
       "id": 575
     },
     {
       "foreign": "ulaz",
       "translation": "ingang",
-      "lesson": "26",
+      "lesson": "126",
       "id": 576
     },
     {
       "foreign": "izlaz",
       "translation": "uitgang",
-      "lesson": "26",
+      "lesson": "126",
       "id": 577
     },
     {
       "foreign": "besplatan",
       "translation": "gratis",
-      "lesson": "26",
+      "lesson": "126",
       "id": 578
     },
     {
       "foreign": "ime",
       "translation": "naam",
-      "lesson": "25",
+      "lesson": "125",
       "id": 579
     },
     {
       "foreign": "prezime",
       "translation": "achternaam",
-      "lesson": "25",
+      "lesson": "125",
       "id": 580
     },
     {
       "foreign": "potpis",
       "translation": "handtekening",
-      "lesson": "26",
+      "lesson": "126",
       "id": 581
     },
     {
       "foreign": "krušne mrvice",
       "translation": "paneermeel",
-      "lesson": "24",
+      "lesson": "124",
       "id": 582
     },
     {
       "foreign": "boja",
       "translation": "kleur",
-      "lesson": "12",
+      "lesson": "112",
       "id": 583
     },
     {
       "foreign": "čevapi",
       "translation": "minced meat steak balkan",
-      "lesson": "24",
+      "lesson": "124",
       "id": 584
     },
     {
       "foreign": "bažga",
       "translation": "vlier",
-      "lesson": "24",
+      "lesson": "124",
       "id": 585
     },
     {
       "foreign": "stvarno",
       "translation": "werkelijk",
-      "lesson": "18",
+      "lesson": "118",
       "id": 586
     },
     {
       "foreign": "nikad",
       "translation": "nooit",
-      "lesson": "18",
+      "lesson": "118",
       "id": 587
     },
     {
       "foreign": "negazirana",
       "translation": "zonder koolzuur",
-      "lesson": "24",
+      "lesson": "124",
       "id": 588
     },
     {
       "foreign": "gazirana",
       "translation": "met koolzuur",
-      "lesson": "24",
+      "lesson": "124",
       "id": 589
     },
     {
       "foreign": "mineralna voda",
       "translation": "mineraalwater",
-      "lesson": "24",
+      "lesson": "124",
       "id": 590
     },
     {
       "foreign": "prirodna",
       "translation": "natuurlijk",
-      "lesson": "24",
+      "lesson": "124",
       "id": 591
     },
     {
       "foreign": "bosiljak",
       "translation": "basilicum",
-      "lesson": "24",
+      "lesson": "124",
       "id": 592
     },
     {
       "foreign": "papar",
       "translation": "peper",
-      "lesson": "24",
+      "lesson": "124",
       "id": 593
     },
     {
       "foreign": "osušeni",
       "translation": "gedroogd",
-      "lesson": "24",
+      "lesson": "124",
       "id": 594
     },
     {
       "foreign": "radno vrijeme",
       "translation": "werktijd",
-      "lesson": "26",
+      "lesson": "126",
       "id": 595
     },
     {
       "foreign": "vrata",
       "translation": "deur",
-      "lesson": "26",
+      "lesson": "126",
       "id": 596
     },
     {
       "foreign": "prozor",
       "translation": "venster",
-      "lesson": "26",
+      "lesson": "126",
       "id": 597
     },
     {
       "foreign": "ja čitam",
       "translation": "ik lees",
-      "lesson": "27",
+      "lesson": "127",
       "id": 598
     },
     {
       "foreign": "ti čitaš",
       "translation": "jij leest",
-      "lesson": "27",
+      "lesson": "127",
       "id": 599
     },
     {
       "foreign": "on čita",
       "translation": "hij leest",
-      "lesson": "27",
+      "lesson": "127",
       "id": 600
     },
     {
       "foreign": "ona čita",
       "translation": "zij leest",
-      "lesson": "27",
+      "lesson": "127",
       "id": 601
     },
     {
       "foreign": "mi čitamo",
       "translation": "wij lezen",
-      "lesson": "27",
+      "lesson": "127",
       "id": 602
     },
     {
       "foreign": "oni čitaju",
       "translation": "zij lezen",
-      "lesson": "27",
+      "lesson": "127",
       "id": 603
     },
     {
       "foreign": "groblje",
       "translation": "begraafplaats",
-      "lesson": "22",
+      "lesson": "122",
       "id": 604
     },
     {
       "foreign": "mljevenog mesa",
       "translation": "gehakt",
-      "lesson": "24",
+      "lesson": "124",
       "id": 605
     },
     {
       "foreign": "udoban",
       "translation": "comfortabel",
-      "lesson": "15",
+      "lesson": "115",
       "id": 606
     },
     {
       "foreign": "zdrav",
       "translation": "gezond",
-      "lesson": "15",
+      "lesson": "115",
       "id": 607
     },
     {
       "foreign": "brz",
       "translation": "snel",
-      "lesson": "15",
+      "lesson": "115",
       "id": 608
     },
     {
       "foreign": "ćist",
       "translation": "schoon",
-      "lesson": "15",
+      "lesson": "115",
       "id": 609
     },
     {
       "foreign": "jak",
       "translation": "sterk",
-      "lesson": "15",
+      "lesson": "115",
       "id": 610
     },
     {
       "foreign": "nema na čemu",
       "translation": "geen dank",
-      "lesson": "26",
+      "lesson": "126",
       "id": 611
     },
     {
       "foreign": "gospodin",
       "translation": "meneer",
-      "lesson": "26",
+      "lesson": "126",
       "id": 612
     },
     {
       "foreign": "gospođa",
       "translation": "mevrouw",
-      "lesson": "26",
+      "lesson": "126",
       "id": 613
     },
     {
       "foreign": "pomoći",
       "translation": "help",
-      "lesson": "26",
+      "lesson": "126",
       "id": 614
     },
     {
       "foreign": "sunčane naočale",
       "translation": "zonnebril",
-      "lesson": "26",
+      "lesson": "126",
       "id": 615
     },
     {
       "foreign": "plaža",
       "translation": "strand",
-      "lesson": "26",
+      "lesson": "126",
       "id": 616
     },
     {
       "foreign": "ručnik",
       "translation": "handdoek",
-      "lesson": "26",
+      "lesson": "126",
       "id": 617
     },
     {
       "foreign": "čista",
       "translation": "schoon",
-      "lesson": "26",
+      "lesson": "126",
       "id": 618
     },
     {
       "foreign": "strast",
       "translation": "passie",
-      "lesson": "26",
+      "lesson": "126",
       "id": 619
     },
     {
       "foreign": "crtić",
       "translation": "cartoon",
-      "lesson": "12",
+      "lesson": "112",
       "id": 620
     },
     {
       "foreign": "komarac",
       "translation": "mug",
-      "lesson": "26",
+      "lesson": "126",
       "id": 621
     },
     {
       "foreign": "iznos",
       "translation": "bedrag",
-      "lesson": "26",
+      "lesson": "126",
       "id": 622
     },
     {
       "foreign": "ukupno",
       "translation": "totaal",
-      "lesson": "26",
+      "lesson": "126",
       "id": 623
     },
     {
       "foreign": "loviti",
       "translation": "achtervolgen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 624
     },
     {
       "foreign": "penjati",
       "translation": "klimmen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 625
     },
     {
       "foreign": "trčati",
       "translation": "rennen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 626
     },
     {
       "foreign": "poslati",
       "translation": "sturen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 627
     },
     {
       "foreign": "zamotati",
       "translation": "inpakken",
-      "lesson": "26",
+      "lesson": "126",
       "id": 628
     },
     {
       "foreign": "opustiti",
       "translation": "ontspannen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 629
     },
     {
       "foreign": "raditi",
       "translation": "werken",
-      "lesson": "26",
+      "lesson": "126",
       "id": 630
     },
     {
       "foreign": "probuditi",
       "translation": "wakker worden",
-      "lesson": "26",
+      "lesson": "126",
       "id": 631
     },
     {
       "foreign": "piti",
       "translation": "drinken",
-      "lesson": "26",
+      "lesson": "126",
       "id": 632
     },
     {
       "foreign": "spavati",
       "translation": "slapen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 633
     },
     {
       "foreign": "jesti",
       "translation": "eten",
-      "lesson": "26",
+      "lesson": "126",
       "id": 634
     },
     {
@@ -4198,847 +4198,847 @@
     {
       "foreign": "torbica",
       "translation": "handtas",
-      "lesson": "28",
+      "lesson": "128",
       "id": 699
     },
     {
       "foreign": "novac",
       "translation": "geld",
-      "lesson": "28",
+      "lesson": "128",
       "id": 700
     },
     {
       "foreign": "naočale",
       "translation": "bril",
-      "lesson": "28",
+      "lesson": "128",
       "id": 701
     },
     {
       "foreign": "mobitel",
       "translation": "mobiel",
-      "lesson": "28",
+      "lesson": "128",
       "id": 702
     },
     {
       "foreign": "ključ",
       "translation": "sleutel",
-      "lesson": "28",
+      "lesson": "128",
       "id": 703
     },
     {
       "foreign": "kemijska olovka",
       "translation": "pen",
-      "lesson": "28",
+      "lesson": "128",
       "id": 704
     },
     {
       "foreign": "odjeća",
       "translation": "kleren",
-      "lesson": "28",
+      "lesson": "128",
       "id": 705
     },
     {
       "foreign": "zubna pasta",
       "translation": "tandpasta",
-      "lesson": "28",
+      "lesson": "128",
       "id": 706
     },
     {
       "foreign": "trava",
       "translation": "gras",
-      "lesson": "21",
+      "lesson": "121",
       "id": 707
     },
     {
       "foreign": "trešnja",
       "translation": "kers",
-      "lesson": "21",
+      "lesson": "121",
       "id": 708
     },
     {
       "foreign": "ujak",
       "translation": "oom",
-      "lesson": "25",
+      "lesson": "125",
       "id": 709
     },
     {
       "foreign": "tetka",
       "translation": "tante",
-      "lesson": "25",
+      "lesson": "125",
       "id": 710
     },
     {
       "foreign": "nećak",
       "translation": "neef",
-      "lesson": "25",
+      "lesson": "125",
       "id": 711
     },
     {
       "foreign": "nećakinja",
       "translation": "nicht",
-      "lesson": "25",
+      "lesson": "125",
       "id": 712
     },
     {
       "foreign": "haljina",
       "translation": "jurk",
-      "lesson": "28",
+      "lesson": "128",
       "id": 713
     },
     {
       "foreign": "cipela",
       "translation": "schoen",
-      "lesson": "28",
+      "lesson": "128",
       "id": 714
     },
     {
       "foreign": "majica s kratkim rukavima",
       "translation": "t-shirt",
-      "lesson": "28",
+      "lesson": "128",
       "id": 715
     },
     {
       "foreign": "rukavica",
       "translation": "handschoen",
-      "lesson": "28",
+      "lesson": "128",
       "id": 716
     },
     {
       "foreign": "odijelo",
       "translation": "pak",
-      "lesson": "28",
+      "lesson": "128",
       "id": 717
     },
     {
       "foreign": "košulja",
       "translation": "shirt",
-      "lesson": "28",
+      "lesson": "128",
       "id": 718
     },
     {
       "foreign": "suknja",
       "translation": "rok",
-      "lesson": "28",
+      "lesson": "128",
       "id": 719
     },
     {
       "foreign": "hlače",
       "translation": "broek",
-      "lesson": "28",
+      "lesson": "128",
       "id": 720
     },
     {
       "foreign": "moda",
       "translation": "mode",
-      "lesson": "28",
+      "lesson": "128",
       "id": 721
     },
     {
       "foreign": "vesta",
       "translation": "sweater",
-      "lesson": "28",
+      "lesson": "128",
       "id": 722
     },
     {
       "foreign": "jakna",
       "translation": "jas",
-      "lesson": "28",
+      "lesson": "128",
       "id": 723
     },
     {
       "foreign": "prsten",
       "translation": "ring",
-      "lesson": "28",
+      "lesson": "128",
       "id": 724
     },
     {
       "foreign": "remen",
       "translation": "riem",
-      "lesson": "28",
+      "lesson": "128",
       "id": 725
     },
     {
       "foreign": "šešir",
       "translation": "hoed",
-      "lesson": "28",
+      "lesson": "128",
       "id": 726
     },
     {
       "foreign": "torbica",
       "translation": "handtas",
-      "lesson": "28",
+      "lesson": "128",
       "id": 727
     },
     {
       "foreign": "kovčeg",
       "translation": "koffer",
-      "lesson": "28",
+      "lesson": "128",
       "id": 728
     },
     {
       "foreign": "gumb",
       "translation": "knoop",
-      "lesson": "28",
+      "lesson": "128",
       "id": 729
     },
     {
       "foreign": "skup",
       "translation": "duur",
-      "lesson": "28",
+      "lesson": "128",
       "id": 730
     },
     {
       "foreign": "kupiti",
       "translation": "kopen",
-      "lesson": "28",
+      "lesson": "128",
       "id": 731
     },
     {
       "foreign": "ja kupujem",
       "translation": "ik koop",
-      "lesson": "28",
+      "lesson": "128",
       "id": 732
     },
     {
       "foreign": "ti kupuješ",
       "translation": "jij koopt",
-      "lesson": "28",
+      "lesson": "128",
       "id": 733
     },
     {
       "foreign": "ona kupuje",
       "translation": "zij koopt",
-      "lesson": "28",
+      "lesson": "128",
       "id": 734
     },
     {
       "foreign": "on kupuje",
       "translation": "hij koopt",
-      "lesson": "28",
+      "lesson": "128",
       "id": 735
     },
     {
       "foreign": "mi kupujemo",
       "translation": "wij kopen",
-      "lesson": "28",
+      "lesson": "128",
       "id": 736
     },
     {
       "foreign": "oni kupuju",
       "translation": "zij kopen",
-      "lesson": "28",
+      "lesson": "128",
       "id": 737
     },
     {
       "foreign": "hotel",
       "translation": "hotel",
-      "lesson": "26",
+      "lesson": "126",
       "id": 738
     },
     {
       "foreign": "aerodrom",
       "translation": "vliegveld",
-      "lesson": "26",
+      "lesson": "126",
       "id": 739
     },
     {
       "foreign": "stanica za vlak",
       "translation": "treinstation",
-      "lesson": "26",
+      "lesson": "126",
       "id": 740
     },
     {
       "foreign": "sljedeći",
       "translation": "volgende",
-      "lesson": "26",
+      "lesson": "126",
       "id": 741
     },
     {
       "foreign": "bazen",
       "translation": "zwembad",
-      "lesson": "26",
+      "lesson": "126",
       "id": 742
     },
     {
       "foreign": "jednokrevetnu soba",
       "translation": "eenpersoonskamer",
-      "lesson": "26",
+      "lesson": "126",
       "id": 743
     },
     {
       "foreign": "dvokrevetnu soba",
       "translation": "tweepersoonskamer",
-      "lesson": "26",
+      "lesson": "126",
       "id": 744
     },
     {
       "foreign": "soba",
       "translation": "kamer",
-      "lesson": "26",
+      "lesson": "126",
       "id": 745
     },
     {
       "foreign": "plan grada",
       "translation": "stadskaart",
-      "lesson": "26",
+      "lesson": "126",
       "id": 746
     },
     {
       "foreign": "ja pomažem",
       "translation": "ik help",
-      "lesson": "26",
+      "lesson": "126",
       "id": 747
     },
     {
       "foreign": "ti pomažeš",
       "translation": "jij helpt",
-      "lesson": "26",
+      "lesson": "126",
       "id": 748
     },
     {
       "foreign": "on pomaže",
       "translation": "hij helpt",
-      "lesson": "26",
+      "lesson": "126",
       "id": 749
     },
     {
       "foreign": "ona pomaže",
       "translation": "zij helpt",
-      "lesson": "26",
+      "lesson": "126",
       "id": 750
     },
     {
       "foreign": "mi pomažemo",
       "translation": "wij helpen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 751
     },
     {
       "foreign": "oni pomažu",
       "translation": "zij helpen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 752
     },
     {
       "foreign": "ispričajte me",
       "translation": "excuseer mij",
-      "lesson": "26",
+      "lesson": "126",
       "id": 753
     },
     {
       "foreign": "doručak",
       "translation": "ontbijt",
-      "lesson": "17",
+      "lesson": "117",
       "id": 754
     },
     {
       "foreign": "ručak",
       "translation": "middageten",
-      "lesson": "17",
+      "lesson": "117",
       "id": 755
     },
     {
       "foreign": "torta",
       "translation": "taart",
-      "lesson": "17",
+      "lesson": "117",
       "id": 756
     },
     {
       "foreign": "pita",
       "translation": "pastei",
-      "lesson": "17",
+      "lesson": "117",
       "id": 757
     },
     {
       "foreign": "voće",
       "translation": "fruit",
-      "lesson": "17",
+      "lesson": "117",
       "id": 758
     },
     {
       "foreign": "poklon",
       "translation": "kado",
-      "lesson": "22",
+      "lesson": "122",
       "id": 759
     },
     {
       "foreign": "lutka",
       "translation": "pop",
-      "lesson": "22",
+      "lesson": "122",
       "id": 760
     },
     {
       "foreign": "lopta",
       "translation": "bal",
-      "lesson": "16",
+      "lesson": "116",
       "id": 761
     },
     {
       "foreign": "medvjedić",
       "translation": "beertje",
-      "lesson": "22",
+      "lesson": "122",
       "id": 762
     },
     {
       "foreign": "igračka",
       "translation": "speelgoed",
-      "lesson": "22",
+      "lesson": "122",
       "id": 763
     },
     {
       "foreign": "ne razumijem",
       "translation": "ik snap het niet",
-      "lesson": "27",
+      "lesson": "127",
       "id": 764
     },
     {
       "foreign": "molim te ponovi",
       "translation": "herhaal alstublieft",
-      "lesson": "27",
+      "lesson": "127",
       "id": 765
     },
     {
       "foreign": "pričaj sporo",
       "translation": "spreek langzaam",
-      "lesson": "27",
+      "lesson": "127",
       "id": 766
     },
     {
       "foreign": "vrata",
       "translation": "poort",
-      "lesson": "22",
+      "lesson": "122",
       "id": 767
     },
     {
       "foreign": "Strah od letenja",
       "translation": "vliegangst",
-      "lesson": "26",
+      "lesson": "126",
       "id": 768
     },
     {
       "foreign": "otići",
       "translation": "verlaten",
-      "lesson": "26",
+      "lesson": "126",
       "id": 769
     },
     {
       "foreign": "odlasci",
       "translation": "vertrek",
-      "lesson": "26",
+      "lesson": "126",
       "id": 770
     },
     {
       "foreign": "dolasci",
       "translation": "aankomst",
-      "lesson": "26",
+      "lesson": "126",
       "id": 771
     },
     {
       "foreign": "let",
       "translation": "vlucht",
-      "lesson": "26",
+      "lesson": "126",
       "id": 772
     },
     {
       "foreign": "benzinska crpka",
       "translation": "tankstation",
-      "lesson": "26",
+      "lesson": "126",
       "id": 773
     },
     {
       "foreign": "moramo se okrenuti",
       "translation": "we moeten omkeren",
-      "lesson": "26",
+      "lesson": "126",
       "id": 774
     },
     {
       "foreign": "goriva",
       "translation": "benzine",
-      "lesson": "26",
+      "lesson": "126",
       "id": 775
     },
     {
       "foreign": "nogomet",
       "translation": "voetbal",
-      "lesson": "16",
+      "lesson": "116",
       "id": 776
     },
     {
       "foreign": "plesati",
       "translation": "dansen",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 777
     },
     {
       "foreign": "noćni klub",
       "translation": "nachtclub",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 778
     },
     {
       "foreign": "plesanje",
       "translation": "het dansen",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 779
     },
     {
       "foreign": "zabaviti",
       "translation": "vermaken",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 780
     },
     {
       "foreign": "plahta",
       "translation": "laken",
-      "lesson": "26",
+      "lesson": "126",
       "id": 781
     },
     {
       "foreign": "čiste plahte",
       "translation": "schone lakens",
-      "lesson": "26",
+      "lesson": "126",
       "id": 782
     },
     {
       "foreign": "sapuna",
       "translation": "zeep",
-      "lesson": "26",
+      "lesson": "126",
       "id": 783
     },
     {
       "foreign": "toaletni papir",
       "translation": "toiletpapier",
-      "lesson": "26",
+      "lesson": "126",
       "id": 784
     },
     {
       "foreign": "krevet",
       "translation": "bed",
-      "lesson": "26",
+      "lesson": "126",
       "id": 785
     },
     {
       "foreign": "skup",
       "translation": "duur",
-      "lesson": "26",
+      "lesson": "126",
       "id": 786
     },
     {
       "foreign": "platiti",
       "translation": "betalen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 787
     },
     {
       "foreign": "jeftin",
       "translation": "goedkoop",
-      "lesson": "26",
+      "lesson": "126",
       "id": 788
     },
     {
       "foreign": "cijena",
       "translation": "prijs",
-      "lesson": "26",
+      "lesson": "126",
       "id": 789
     },
     {
       "foreign": "kovanica",
       "translation": "muntstuk",
-      "lesson": "26",
+      "lesson": "126",
       "id": 790
     },
     {
       "foreign": "bogat",
       "translation": "rijk",
-      "lesson": "26",
+      "lesson": "126",
       "id": 791
     },
     {
       "foreign": "prebaciti",
       "translation": "overschrijven",
-      "lesson": "26",
+      "lesson": "126",
       "id": 792
     },
     {
       "foreign": "unovčiti",
       "translation": "innen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 793
     },
     {
       "foreign": "parkirati",
       "translation": "parkeren",
-      "lesson": "26",
+      "lesson": "126",
       "id": 794
     },
     {
       "foreign": "tanjur",
       "translation": "bord",
-      "lesson": "17",
+      "lesson": "117",
       "id": 795
     },
     {
       "foreign": "šalica",
       "translation": "kop",
-      "lesson": "17",
+      "lesson": "117",
       "id": 796
     },
     {
       "foreign": "boca",
       "translation": "fles",
-      "lesson": "17",
+      "lesson": "117",
       "id": 797
     },
     {
       "foreign": "čaša",
       "translation": "glas",
-      "lesson": "17",
+      "lesson": "117",
       "id": 798
     },
     {
       "foreign": "nasmiješiti se",
       "translation": "glimlachen",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 799
     },
     {
       "foreign": "ukusno",
       "translation": "heerlijk",
-      "lesson": "17",
+      "lesson": "117",
       "id": 800
     },
     {
       "foreign": "pijetao",
       "translation": "haan",
-      "lesson": "19",
+      "lesson": "119",
       "id": 801
     },
     {
       "foreign": "mačka",
       "translation": "poes",
-      "lesson": "19",
+      "lesson": "119",
       "id": 802
     },
     {
       "foreign": "kokoš",
       "translation": "kip",
-      "lesson": "19",
+      "lesson": "119",
       "id": 803
     },
     {
       "foreign": "patka",
       "translation": "eend",
-      "lesson": "19",
+      "lesson": "119",
       "id": 804
     },
     {
       "foreign": "pas",
       "translation": "hond",
-      "lesson": "19",
+      "lesson": "119",
       "id": 805
     },
     {
       "foreign": "konj",
       "translation": "paard",
-      "lesson": "19",
+      "lesson": "119",
       "id": 806
     },
     {
       "foreign": "koza",
       "translation": "geit",
-      "lesson": "19",
+      "lesson": "119",
       "id": 807
     },
     {
       "foreign": "psić",
       "translation": "hondje",
-      "lesson": "19",
+      "lesson": "119",
       "id": 808
     },
     {
       "foreign": "lav",
       "translation": "leeuw",
-      "lesson": "19",
+      "lesson": "119",
       "id": 809
     },
     {
       "foreign": "miš",
       "translation": "muis",
-      "lesson": "19",
+      "lesson": "119",
       "id": 810
     },
     {
       "foreign": "slon",
       "translation": "olifant",
-      "lesson": "19",
+      "lesson": "119",
       "id": 811
     },
     {
       "foreign": "životinja",
       "translation": "dier",
-      "lesson": "19",
+      "lesson": "119",
       "id": 812
     },
     {
       "foreign": "majmun",
       "translation": "aap",
-      "lesson": "19",
+      "lesson": "119",
       "id": 813
     },
     {
       "foreign": "morski pas",
       "translation": "haai",
-      "lesson": "19",
+      "lesson": "119",
       "id": 814
     },
     {
       "foreign": "pečat",
       "translation": "zeehond",
-      "lesson": "19",
+      "lesson": "119",
       "id": 815
     },
     {
       "foreign": "delfin",
       "translation": "dolfijn",
-      "lesson": "19",
+      "lesson": "119",
       "id": 816
     },
     {
       "foreign": "kit",
       "translation": "walvis",
-      "lesson": "19",
+      "lesson": "119",
       "id": 817
     },
     {
       "foreign": "hobotnica",
       "translation": "octopus",
-      "lesson": "19",
+      "lesson": "119",
       "id": 818
     },
     {
       "foreign": "tuna",
       "translation": "tonijn",
-      "lesson": "19",
+      "lesson": "119",
       "id": 819
     },
     {
       "foreign": "gorila",
       "translation": "gorilla",
-      "lesson": "19",
+      "lesson": "119",
       "id": 820
     },
     {
       "foreign": "priroda",
       "translation": "natuur",
-      "lesson": "19",
+      "lesson": "119",
       "id": 821
     },
     {
       "foreign": "sova",
       "translation": "uil",
-      "lesson": "19",
+      "lesson": "119",
       "id": 822
     },
     {
       "foreign": "ptica",
       "translation": "vogel",
-      "lesson": "19",
+      "lesson": "119",
       "id": 823
     },
     {
       "foreign": "biljka",
       "translation": "plant",
-      "lesson": "19",
+      "lesson": "119",
       "id": 824
     },
     {
       "foreign": "otići",
       "translation": "weggaan",
-      "lesson": "26",
+      "lesson": "126",
       "id": 825
     },
     {
       "foreign": "stići",
       "translation": "aankomen",
-      "lesson": "26",
+      "lesson": "126",
       "id": 826
     },
     {
       "foreign": "autobusna stanica",
       "translation": "bushokje",
-      "lesson": "26",
+      "lesson": "126",
       "id": 827
     },
     {
       "foreign": "rođendan",
       "translation": "verjaardag",
-      "lesson": "25",
+      "lesson": "125",
       "id": 828
     },
     {
       "foreign": "svijeća",
       "translation": "kaars",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 829
     },
     {
       "foreign": "slaviti",
       "translation": "vieren",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 830
     },
     {
       "foreign": "sresti",
       "translation": "ontmoeten",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 831
     },
     {
       "foreign": "prijateljstvo",
       "translation": "vriendschap",
-      "lesson": "101",
+      "lesson": "1101",
       "id": 832
     },
     {
       "foreign": "probuditi",
       "translation": "wakker worden",
-      "lesson": "22",
+      "lesson": "122",
       "id": 833
     },
     {
       "foreign": "premalo",
       "translation": "te weinig",
-      "lesson": "22",
+      "lesson": "122",
       "id": 834
     },
     {
       "foreign": "uzeti",
       "translation": "nemen",
-      "lesson": "22",
+      "lesson": "122",
       "id": 835
     },
     {
       "foreign": "baciti",
       "translation": "gooien",
-      "lesson": "22",
+      "lesson": "122",
       "id": 836
     },
     {
       "foreign": "željeti",
       "translation": "willen",
-      "lesson": "22",
+      "lesson": "122",
       "id": 837
     },
     {
       "foreign": "praznik",
       "translation": "vakantie",
-      "lesson": "22",
+      "lesson": "122",
       "id": 838
     },
     {
       "foreign": "ostati",
       "translation": "verblijven",
-      "lesson": "22",
+      "lesson": "122",
       "id": 839
     },
     {

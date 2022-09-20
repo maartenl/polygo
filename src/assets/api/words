@@ -6091,6 +6091,391 @@
       "lesson": "11",
       "id": 989,
       "comments": ""
+    },
+    {
+      "foreign": "ozbiljan",
+      "translation": "serieus",
+      "lesson": "12",
+      "id": 990,
+      "comments": "+na +no"
+    },
+    {
+      "foreign": "živjeti",
+      "translation": "leven",
+      "lesson": "12",
+      "id": 991,
+      "comments": ""
+    },
+    {
+      "foreign": "živim",
+      "translation": "ik leef",
+      "lesson": "12",
+      "id": 992,
+      "comments": ""
+    },
+    {
+      "foreign": "posjetiti",
+      "translation": "bezoeken",
+      "lesson": "12",
+      "id": 993,
+      "comments": ""
+    },
+    {
+      "foreign": "posjetim",
+      "translation": "ik bezoek",
+      "lesson": "12",
+      "id": 994,
+      "comments": ""
+    },
+    {
+      "foreign": "vidjeti",
+      "translation": "zien",
+      "lesson": "12",
+      "id": 995,
+      "comments": ""
+    },
+    {
+      "foreign": "vidim",
+      "translation": "ik zie",
+      "lesson": "12",
+      "id": 996,
+      "comments": ""
+    },
+    {
+      "foreign": "izgledati",
+      "translation": "uitzien",
+      "lesson": "12",
+      "id": 997,
+      "comments": ""
+    },
+    {
+      "foreign": "izgledam",
+      "translation": "ik zie uit",
+      "lesson": "12",
+      "id": 998,
+      "comments": ""
+    },
+    {
+      "foreign": "bolji",
+      "translation": "beter",
+      "lesson": "12",
+      "id": 999,
+      "comments": ""
+    },
+    {
+      "foreign": "nego",
+      "translation": "dan",
+      "lesson": "12",
+      "id": 1000,
+      "comments": ""
+    },
+    {
+      "foreign": "ikad",
+      "translation": "ooit",
+      "lesson": "12",
+      "id": 1001,
+      "comments": ""
+    },
+    {
+      "foreign": "još uvijek",
+      "translation": "nog steeds",
+      "lesson": "12",
+      "id": 1002,
+      "comments": ""
+    },
+    {
+      "foreign": "šarmer",
+      "translation": "charmeur",
+      "lesson": "12",
+      "id": 1003,
+      "comments": "m"
+    },
+    {
+      "foreign": "staviti",
+      "translation": "zetten",
+      "lesson": "12",
+      "id": 1004,
+      "comments": ""
+    },
+    {
+      "foreign": "stavim",
+      "translation": "ik zet",
+      "lesson": "12",
+      "id": 1005,
+      "comments": ""
+    },
+    {
+      "foreign": "vaza",
+      "translation": "vaas",
+      "lesson": "12",
+      "id": 1006,
+      "comments": "v"
+    },
+    {
+      "foreign": "pokazati",
+      "translation": "laten zien",
+      "lesson": "12",
+      "id": 1007,
+      "comments": ""
+    },
+    {
+      "foreign": "pokažem",
+      "translation": "ik laat zien",
+      "lesson": "12",
+      "id": 1008,
+      "comments": ""
+    },
+    {
+      "foreign": "desno",
+      "translation": "rechts",
+      "lesson": "12",
+      "id": 1009,
+      "comments": ""
+    },
+    {
+      "foreign": "dnevna soba",
+      "translation": "woonkamer",
+      "lesson": "12",
+      "id": 1010,
+      "comments": "v"
+    },
+    {
+      "foreign": "zapravo",
+      "translation": "eigenlijk",
+      "lesson": "12",
+      "id": 1011,
+      "comments": ""
+    },
+    {
+      "foreign": "blagovaonica",
+      "translation": "eetkamer",
+      "lesson": "12",
+      "id": 1012,
+      "comments": "v"
+    },
+    {
+      "foreign": "prostorija",
+      "translation": "ruimte,kamer",
+      "lesson": "12",
+      "id": 1013,
+      "comments": "v"
+    },
+    {
+      "foreign": "na lijevo",
+      "translation": "naar links",
+      "lesson": "12",
+      "id": 1014,
+      "comments": ""
+    },
+    {
+      "foreign": "manji",
+      "translation": "kleiner",
+      "lesson": "12",
+      "id": 1015,
+      "comments": "-a -c"
+    },
+    {
+      "foreign": "veći",
+      "translation": "groter",
+      "lesson": "12",
+      "id": 1016,
+      "comments": "-a -e"
+    },
+    {
+      "foreign": "spavaća soba",
+      "translation": "slaapkamer",
+      "lesson": "12",
+      "id": 1017,
+      "comments": "v"
+    },
+    {
+      "foreign": "kupaona",
+      "translation": "badkamer",
+      "lesson": "12",
+      "id": 1018,
+      "comments": "v"
+    },
+    {
+      "foreign": "kada",
+      "translation": "bad",
+      "lesson": "12",
+      "id": 1019,
+      "comments": "v"
+    },
+    {
+      "foreign": "tuš",
+      "translation": "douche",
+      "lesson": "12",
+      "id": 1020,
+      "comments": "m"
+    },
+    {
+      "foreign": "važan",
+      "translation": "belangrijk",
+      "lesson": "12",
+      "id": 1021,
+      "comments": "+na +no"
+    },
+    {
+      "foreign": "voljeti",
+      "translation": "houden van",
+      "lesson": "12",
+      "id": 1022,
+      "comments": ""
+    },
+    {
+      "foreign": "brz",
+      "translation": "snel",
+      "lesson": "12",
+      "id": 1023,
+      "comments": "-a -o"
+    },
+    {
+      "foreign": "ležati",
+      "translation": "liggen",
+      "lesson": "12",
+      "id": 1024,
+      "comments": ""
+    },
+    {
+      "foreign": "ležim",
+      "translation": "ik lig",
+      "lesson": "12",
+      "id": 1025,
+      "comments": ""
+    },
+    {
+      "foreign": "balkon",
+      "translation": "balkon",
+      "lesson": "12",
+      "id": 1026,
+      "comments": "m"
+    },
+    {
+      "foreign": "parkiralište",
+      "translation": "parkeerplaats",
+      "lesson": "12",
+      "id": 1027,
+      "comments": "o"
+    },
+    {
+      "foreign": "igralište",
+      "translation": "speeltuin",
+      "lesson": "12",
+      "id": 1028,
+      "comments": "o"
+    },
+    {
+      "foreign": "ništa posebno",
+      "translation": "niets bijzonders",
+      "lesson": "12",
+      "id": 1029,
+      "comments": ""
+    },
+    {
+      "foreign": "namještaj",
+      "translation": "meubilair",
+      "lesson": "12",
+      "id": 1030,
+      "comments": "m"
+    },
+    {
+      "foreign": "sjediti",
+      "translation": "zitten",
+      "lesson": "12",
+      "id": 1031,
+      "comments": ""
+    },
+    {
+      "foreign": "sjedim",
+      "translation": "ik zit",
+      "lesson": "12",
+      "id": 1032,
+      "comments": ""
+    },
+    {
+      "foreign": "pod",
+      "translation": "vloer",
+      "lesson": "12",
+      "id": 1033,
+      "comments": "m"
+    },
+    {
+      "foreign": "nema veze",
+      "translation": "maakt niet uit",
+      "lesson": "12",
+      "id": 1034,
+      "comments": ""
+    },
+    {
+      "foreign": "minimalizam",
+      "translation": "minimalisme",
+      "lesson": "12",
+      "id": 1035,
+      "comments": "m"
+    },
+    {
+      "foreign": "udoban",
+      "translation": "comfortabel",
+      "lesson": "12",
+      "id": 1036,
+      "comments": "+na +no"
+    },
+    {
+      "foreign": "tepih",
+      "translation": "tapijt",
+      "lesson": "12",
+      "id": 1037,
+      "comments": "m"
+    },
+    {
+      "foreign": "par",
+      "translation": "paar",
+      "lesson": "12",
+      "id": 1038,
+      "comments": "m"
+    },
+    {
+      "foreign": "sandala",
+      "translation": "sandaal",
+      "lesson": "12",
+      "id": 1039,
+      "comments": "v"
+    },
+    {
+      "foreign": "značiti",
+      "translation": "betekenen",
+      "lesson": "12",
+      "id": 1040,
+      "comments": ""
+    },
+    {
+      "foreign": "značim",
+      "translation": "ik beteken",
+      "lesson": "12",
+      "id": 1041,
+      "comments": ""
+    },
+    {
+      "foreign": "šala",
+      "translation": "grap",
+      "lesson": "12",
+      "id": 1042,
+      "comments": "v"
+    },
+    {
+      "foreign": "sretan",
+      "translation": "gelukkig",
+      "lesson": "12",
+      "id": 1043,
+      "comments": "+na +no"
+    },
+    {
+      "foreign": "č ć ž  š đ ž",
+      "translation": "",
+      "lesson": "-1",
+      "id": 1043,
+      "comments": ""
     }
   
   ]

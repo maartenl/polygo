@@ -6471,11 +6471,241 @@
       "comments": "+na +no"
     },
     {
+      "foreign": "oprostiti",
+      "translation": "vergeven",
+      "lesson": "13",
+      "id": 1044,
+      "comments": ""
+    },
+    {
+      "foreign": "dođi dođite!",
+      "translation": "kom!",
+      "lesson": "13",
+      "id": 1045,
+      "comments": ""
+    },
+    {
+      "foreign": "dolje",
+      "translation": "beneden",
+      "lesson": "13",
+      "id": 1046,
+      "comments": ""
+    },
+    {
+      "foreign": "dućan",
+      "translation": "winkel",
+      "lesson": "13",
+      "id": 1047,
+      "comments": ""
+    },
+    {
+      "foreign": "tržnica",
+      "translation": "markt",
+      "lesson": "13",
+      "id": 1048,
+      "comments": "v"
+    },
+    {
+      "foreign": "voće",
+      "translation": "fruit",
+      "lesson": "13",
+      "id": 1049,
+      "comments": "o"
+    },
+    {
+      "foreign": "povrće",
+      "translation": "groente",
+      "lesson": "13",
+      "id": 1050,
+      "comments": "o"
+    },
+    {
+      "foreign": "pješice",
+      "translation": "te voet",
+      "lesson": "13",
+      "id": 1051,
+      "comments": ""
+    },
+    {
+      "foreign": "mlad",
+      "translation": "jong",
+      "lesson": "13",
+      "id": 1052,
+      "comments": "-a -o"
+    },
+    {
+      "foreign": "hodati",
+      "translation": "lopen",
+      "lesson": "13",
+      "id": 1053,
+      "comments": ""
+    },
+    {
+      "foreign": "pred",
+      "translation": "voor",
+      "lesson": "13",
+      "id": 1054,
+      "comments": ""
+    },
+    {
+      "foreign": "s kim",
+      "translation": "met wie",
+      "lesson": "13",
+      "id": 1055,
+      "comments": ""
+    },
+    {
+      "foreign": "sa mnom",
+      "translation": "met mij",
+      "lesson": "13",
+      "id": 1056,
+      "comments": ""
+    },
+    {
+      "foreign": "tražiti",
+      "translation": "zoeken",
+      "lesson": "13",
+      "id": 1057,
+      "comments": ""
+    },
+    {
+      "foreign": "limun",
+      "translation": "citroen",
+      "lesson": "13",
+      "id": 1058,
+      "comments": "m"
+    },
+    {
+      "foreign": "biltva",
+      "translation": "wilde spinazie",
+      "lesson": "13",
+      "id": 1059,
+      "comments": "v"
+    },
+    {
+      "foreign": "s čim",
+      "translation": "waarmee",
+      "lesson": "13",
+      "id": 1060,
+      "comments": "+e"
+    },
+    {
+      "foreign": "riba",
+      "translation": "vis",
+      "lesson": "13",
+      "id": 1061,
+      "comments": "v"
+    },
+    {
+      "foreign": "češnjak",
+      "translation": "knoflook",
+      "lesson": "13",
+      "id": 1062,
+      "comments": "m"
+    },
+    {
+      "foreign": "maslinovo ulje",
+      "translation": "olijfolie",
+      "lesson": "13",
+      "id": 1063,
+      "comments": "o"
+    },
+    {
+      "foreign": "kruh",
+      "translation": "brood",
+      "lesson": "13",
+      "id": 1064,
+      "comments": "m"
+    },
+    {
+      "foreign": "juha",
+      "translation": "soep",
+      "lesson": "13",
+      "id": 1065,
+      "comments": "v"
+    },
+    {
+      "foreign": "crni kruh",
+      "translation": "bruinbrood",
+      "lesson": "13",
+      "id": 1066,
+      "comments": "m"
+    },
+    {
+      "foreign": "bijeli kruh",
+      "translation": "witbrood",
+      "lesson": "13",
+      "id": 1067,
+      "comments": "m"
+    },
+    {
+      "foreign": "pecivo",
+      "translation": "broodje",
+      "lesson": "13",
+      "id": 1068,
+      "comments": "o"
+    },
+    {
+      "foreign": "čak",
+      "translation": "zelfs",
+      "lesson": "13",
+      "id": 1069,
+      "comments": ""
+    },
+    {
+      "foreign": "stvarno",
+      "translation": "werkelijk",
+      "lesson": "13",
+      "id": 1070,
+      "comments": ""
+    },
+    {
+      "foreign": "pošta",
+      "translation": "postkantoor",
+      "lesson": "13",
+      "id": 1071,
+      "comments": "v"
+    },
+    {
+      "foreign": "požuriti",
+      "translation": "zich haasten",
+      "lesson": "13",
+      "id": 1072,
+      "comments": ""
+    },
+    {
+      "foreign": "pozdraviti",
+      "translation": "begroeten",
+      "lesson": "13",
+      "id": 1073,
+      "comments": ""
+    },
+    {
+      "foreign": "možda",
+      "translation": "misschien",
+      "lesson": "13",
+      "id": 1074,
+      "comments": ""
+    },
+    {
+      "foreign": "trčati",
+      "translation": "rennen",
+      "lesson": "13",
+      "id": 1075,
+      "comments": ""
+    },
+    {
+      "foreign": "trčim",
+      "translation": "ik ren",
+      "lesson": "13",
+      "id": 1076,
+      "comments": ""
+    },
+   {
       "foreign": "č ć ž  š đ ž",
       "translation": "",
       "lesson": "-1",
       "id": 1043,
       "comments": ""
-    }
-  
+    }  
   ]

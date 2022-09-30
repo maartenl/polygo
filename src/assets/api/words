@@ -7248,10 +7248,283 @@
       "comments": ""
     },
     {
-      "foreign": "č ć ž  š đ ž",
-      "translation": "",
-      "lesson": "15",
-      "id": 11,
+      "foreign": "hvala Bogu",
+      "translation": "God zij dank",
+      "lesson": "16",
+      "id": 1155,
       "comments": ""
     },
+    {
+      "foreign": "jednom",
+      "translation": "eens, ooit",
+      "lesson": "16",
+      "id": 1156,
+      "comments": ""
+    },
+    {
+      "foreign": "dopustiti",
+      "translation": "laten",
+      "lesson": "16",
+      "id": 1157,
+      "comments": ""
+    },
+    {
+      "foreign": "upoznati",
+      "translation": "kennismaken",
+      "lesson": "16",
+      "id": 1158,
+      "comments": ""
+    },
+    {
+      "foreign": "vitak",
+      "translation": "slank",
+      "lesson": "16",
+      "id": 1159,
+      "comments": "+ka +ko"
+    },
+    {
+      "foreign": "kompliment",
+      "translation": "compliment",
+      "lesson": "16",
+      "id": 1160,
+      "comments": "m"
+    },
+    {
+      "foreign": "deblji",
+      "translation": "dikker",
+      "lesson": "16",
+      "id": 1161,
+      "comments": ""
+    },
+    {
+      "foreign": "ljetos",
+      "translation": "afgelopen zomer",
+      "lesson": "16",
+      "id": 1162,
+      "comments": ""
+    },
+    {
+      "foreign": "stajati",
+      "translation": "staan",
+      "lesson": "16",
+      "id": 1163,
+      "comments": ""
+    },
+    {
+      "foreign": "stojim",
+      "translation": "ik sta",
+      "lesson": "16",
+      "id": 1164,
+      "comments": ""
+    },
+    {
+      "foreign": "jadan",
+      "translation": "zielig",
+      "lesson": "16",
+      "id": 1165,
+      "comments": "+na +no"
+    },
+    {
+      "foreign": "prevesti",
+      "translation": "vertalen",
+      "lesson": "16",
+      "id": 1166,
+      "comments": ""
+    },
+    {
+      "foreign": "prevedem",
+      "translation": "ik vertaal",
+      "lesson": "16",
+      "id": 1167,
+      "comments": ""
+    },
+    {
+      "foreign": "pogotovo",
+      "translation": "met name",
+      "lesson": "16",
+      "id": 1168,
+      "comments": ""
+    },
+    {
+      "foreign": "ženski",
+      "translation": "vrouwen-, dames-",
+      "lesson": "16",
+      "id": 1169,
+      "comments": ""
+    },
+    {
+      "foreign": "priča",
+      "translation": "verhaal",
+      "lesson": "16",
+      "id": 1170,
+      "comments": "v"
+    },
+    {
+      "foreign": "pričica",
+      "translation": "verhaaltje",
+      "lesson": "16",
+      "id": 1171,
+      "comments": "v"
+    },
+    {
+      "foreign": "ionako",
+      "translation": "zowiezo",
+      "lesson": "16",
+      "id": 1172,
+      "comments": ""
+    },
+    {
+      "foreign": "drugačiji",
+      "translation": "anders",
+      "lesson": "16",
+      "id": 1173,
+      "comments": "-a -e"
+    },
+    {
+      "foreign": "razgovor",
+      "translation": "gesprek",
+      "lesson": "16",
+      "id": 1174,
+      "comments": "m"
+    },
+    {
+      "foreign": "kazati",
+      "translation": "zeggen",
+      "lesson": "16",
+      "id": 1175,
+      "comments": ""
+    },
+    {
+      "foreign": "kažem",
+      "translation": "ik zeg",
+      "lesson": "16",
+      "id": 1176,
+      "comments": ""
+    },
+    {
+      "foreign": "dodatni",
+      "translation": "aanvullend",
+      "lesson": "16",
+      "id": 1177,
+      "comments": "-a -o"
+    },
+    {
+      "foreign": "zgodan",
+      "translation": "leuk, knap",
+      "lesson": "16",
+      "id": 1178,
+      "comments": "+na +no"
+    },
+    {
+      "foreign": "puniji",
+      "translation": "voller",
+      "lesson": "16",
+      "id": 1179,
+      "comments": "-a -e"
+    },
+    {
+      "foreign": "cijeli",
+      "translation": "heel",
+      "lesson": "16",
+      "id": 1180,
+      "comments": "-a -o"
+    },
+    {
+      "foreign": "izgled",
+      "translation": "uiterlijk",
+      "lesson": "16",
+      "id": 1181,
+      "comments": "m"
+    },
+    {
+      "foreign": "stalo mi je",
+      "translation": "ik geef om",
+      "lesson": "16",
+      "id": 1182,
+      "comments": ""
+    },
+    {
+      "foreign": "svejedno",
+      "translation": "maakt niet uit",
+      "lesson": "16",
+      "id": 1183,
+      "comments": ""
+    },
+    {
+      "foreign": "zafrkavati",
+      "translation": "plagen",
+      "lesson": "16",
+      "id": 1184,
+      "comments": ""
+    },
+    {
+      "foreign": "ljepotan",
+      "translation": "mooie man",
+      "lesson": "16",
+      "id": 1185,
+      "comments": "m"
+    },
+    {
+      "foreign": "kako",
+      "translation": "hoe",
+      "lesson": "16",
+      "id": 1186,
+      "comments": ""
+    },
+    {
+      "foreign": "kakav",
+      "translation": "wat voor",
+      "lesson": "16",
+      "id": 1187,
+      "comments": "+va +vo"
+    },
+    {
+      "foreign": "stančić",
+      "translation": "appartementje",
+      "lesson": "16",
+      "id": 1188,
+      "comments": "m"
+    },
+    {
+      "foreign": "prilično",
+      "translation": "tamelijk, nogal",
+      "lesson": "16",
+      "id": 1189,
+      "comments": ""
+    },
+    {
+      "foreign": "uljudan",
+      "translation": "beleefd",
+      "lesson": "16",
+      "id": 1190,
+      "comments": ""
+    },
+    {
+      "foreign": "nedostajati",
+      "translation": "missen",
+      "lesson": "16",
+      "id": 1191,
+      "comments": ""
+    },
+    {
+      "foreign": "nedostajem",
+      "translation": "ik mis",
+      "lesson": "16",
+      "id": 1192,
+      "comments": ""
+    },
+    {
+      "foreign": "čujemo se",
+      "translation": "tot horens",
+      "lesson": "16",
+      "id": 1193,
+      "comments": ""
+    },
+    {
+      "foreign": "č ć ž  š đ ž",
+      "translation": "",
+      "lesson": "-1",
+      "id": -1,
+      "comments": ""
+    }
   ]

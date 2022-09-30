@@ -6701,11 +6701,277 @@
       "id": 1076,
       "comments": ""
     },
-   {
+    {
+      "foreign": "kupiti",
+      "translation": "kopen",
+      "lesson": "14",
+      "id": 1077,
+      "comments": ""
+    },
+    {
+      "foreign": "kupovina",
+      "translation": "aankoop, boodschappen, winkelen",
+      "lesson": "14",
+      "id": 1078,
+      "comments": ""
+    },
+    {
+      "foreign": "kazati",
+      "translation": "zeggen",
+      "lesson": "14",
+      "id": 1079,
+      "comments": ""
+    },
+    {
+      "foreign": "kažem",
+      "translation": "ik zeg",
+      "lesson": "14",
+      "id": 1080,
+      "comments": ""
+    },
+    {
+      "foreign": "ajmo",
+      "translation": "laten we",
+      "lesson": "14",
+      "id": 1081,
+      "comments": "spreektaal"
+    },
+    {
+      "foreign": "izlog",
+      "translation": "etalage",
+      "lesson": "14",
+      "id": 1082,
+      "comments": "m"
+    },
+    {
+      "foreign": "butik",
+      "translation": "boetiek",
+      "lesson": "14",
+      "id": 1083,
+      "comments": "m"
+    },
+    {
+      "foreign": "putovati",
+      "translation": "reizen",
+      "lesson": "14",
+      "id": 1084,
+      "comments": ""
+    },
+    {
+      "foreign": "putujem",
+      "translation": "ik reis",
+      "lesson": "14",
+      "id": 1085,
+      "comments": ""
+    },
+    {
+      "foreign": "par",
+      "translation": "een paar, enkele",
+      "lesson": "14",
+      "id": 1086,
+      "comments": ""
+    },
+    {
+      "foreign": "ostajati",
+      "translation": "blijven",
+      "lesson": "14",
+      "id": 1087,
+      "comments": ""
+    },
+    {
+      "foreign": "ostajem",
+      "translation": "ik blijf",
+      "lesson": "14",
+      "id": 1088,
+      "comments": ""
+    },
+    {
+      "foreign": "ljetovati",
+      "translation": "zomervakantie houden",
+      "lesson": "14",
+      "id": 1089,
+      "comments": ""
+    },
+    {
+      "foreign": "ljetujem",
+      "translation": "ik houd zomervakantie",
+      "lesson": "14",
+      "id": 1090,
+      "comments": ""
+    },
+    {
+      "foreign": "dug",
+      "translation": "lang",
+      "lesson": "14",
+      "id": 1091,
+      "comments": "-a -o"
+    },
+    {
+      "foreign": "kaput",
+      "translation": "jas",
+      "lesson": "14",
+      "id": 1092,
+      "comments": "m"
+    },
+    {
+      "foreign": "hladnije",
+      "translation": "kouder",
+      "lesson": "14",
+      "id": 1093,
+      "comments": ""
+    },
+    {
+      "foreign": "razumjeti",
+      "translation": "begrijpen",
+      "lesson": "14",
+      "id": 1094,
+      "comments": ""
+    },
+    {
+      "foreign": "razumijem",
+      "translation": "ik begrijp",
+      "lesson": "14",
+      "id": 1095,
+      "comments": ""
+    },
+    {
+      "foreign": "sjevernoeuropski",
+      "translation": "Noord-Europees",
+      "lesson": "14",
+      "id": 1096,
+      "comments": "-a -o"
+    },
+    {
+      "foreign": "stanovati",
+      "translation": "wonen",
+      "lesson": "14",
+      "id": 1097,
+      "comments": ""
+    },
+    {
+      "foreign": "stanujem",
+      "translation": "ik woon",
+      "lesson": "14",
+      "id": 1098,
+      "comments": ""
+    },
+    {
+      "foreign": "studentsko naselje",
+      "translation": "studentendorp",
+      "lesson": "14",
+      "id": 1099,
+      "comments": "o"
+    },
+    {
+      "foreign": "čizma",
+      "translation": "laars",
+      "lesson": "14",
+      "id": 1100,
+      "comments": "v"
+    },
+    {
+      "foreign": "hlače",
+      "translation": "broek",
+      "lesson": "14",
+      "id": 1101,
+      "comments": "v mv"
+    },
+    {
+      "foreign": "kapa",
+      "translation": "muts",
+      "lesson": "14",
+      "id": 1102,
+      "comments": "v"
+    },
+    {
+      "foreign": "rukavica",
+      "translation": "handschoen",
+      "lesson": "14",
+      "id": 1103,
+      "comments": "v"
+    },
+    {
+      "foreign": "suknja",
+      "translation": "rok",
+      "lesson": "14",
+      "id": 1104,
+      "comments": "v"
+    },
+    {
+      "foreign": "haljina",
+      "translation": "jurk",
+      "lesson": "14",
+      "id": 1105,
+      "comments": "v"
+    },
+    {
+      "foreign": "večernji",
+      "translation": "avond-",
+      "lesson": "14",
+      "id": 1106,
+      "comments": ""
+    },
+    {
+      "foreign": "koštati",
+      "translation": "kosten",
+      "lesson": "14",
+      "id": 1107,
+      "comments": ""
+    },
+    {
+      "foreign": "vjerovati",
+      "translation": "geloven",
+      "lesson": "14",
+      "id": 1108,
+      "comments": ""
+    },
+    {
+      "foreign": "vjerujem",
+      "translation": "ik geloof",
+      "lesson": "14",
+      "id": 1109,
+      "comments": ""
+    },
+    {
+      "foreign": "dugovati",
+      "translation": "schuldig zijn",
+      "lesson": "14",
+      "id": 1110,
+      "comments": ""
+    },
+    {
+      "foreign": "dugujem",
+      "translation": "ik ben schuldig",
+      "lesson": "14",
+      "id": 1111,
+      "comments": ""
+    },
+    {
+      "foreign": "dio",
+      "translation": "deel",
+      "lesson": "14",
+      "id": 1112,
+      "comments": "m"
+    },
+    {
+      "foreign": "posuditi",
+      "translation": "lenen",
+      "lesson": "14",
+      "id": 1113,
+      "comments": ""
+    },
+    {
+      "foreign": "šal",
+      "translation": "sjaal",
+      "lesson": "14",
+      "id": 1114,
+      "comments": ""
+    },
+    {
       "foreign": "č ć ž  š đ ž",
       "translation": "",
-      "lesson": "-1",
-      "id": 1043,
+      "lesson": "15",
+      "id": 11,
       "comments": ""
-    }  
+    },
   ]

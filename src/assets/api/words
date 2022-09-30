@@ -6968,6 +6968,286 @@
       "comments": ""
     },
     {
+      "foreign": "odlazak",
+      "translation": "vertrek",
+      "lesson": "15",
+      "id": 1115,
+      "comments": "m"
+    },
+    {
+      "foreign": "pakirati",
+      "translation": "inpakken",
+      "lesson": "15",
+      "id": 1116,
+      "comments": ""
+    },
+    {
+      "foreign": "doručkovati",
+      "translation": "ontbijten",
+      "lesson": "15",
+      "id": 1117,
+      "comments": ""
+    },
+    {
+      "foreign": "doručkujem",
+      "translation": "ik ontbijt",
+      "lesson": "15",
+      "id": 1118,
+      "comments": ""
+    },
+    {
+      "foreign": "spreman",
+      "translation": "gereed, klaar",
+      "lesson": "15",
+      "id": 1119,
+      "comments": "+na +no"
+    },
+    {
+      "foreign": "avionska karta",
+      "translation": "vliegticket",
+      "lesson": "15",
+      "id": 1120,
+      "comments": "v"
+    },
+    {
+      "foreign": "putovnica",
+      "translation": "paspoort",
+      "lesson": "15",
+      "id": 1121,
+      "comments": "v"
+    },
+    {
+      "foreign": "kreditna kartica",
+      "translation": "creditkaart",
+      "lesson": "15",
+      "id": 1122,
+      "comments": "v"
+    },
+    {
+      "foreign": "najvažniji",
+      "translation": "de/het belangrijkste",
+      "lesson": "15",
+      "id": 1123,
+      "comments": "-a -e"
+    },
+    {
+      "foreign": "stvar",
+      "translation": "ding",
+      "lesson": "15",
+      "id": 1124,
+      "comments": "v"
+    },
+    {
+      "foreign": "pomoći",
+      "translation": "helpen",
+      "lesson": "15",
+      "id": 1125,
+      "comments": ""
+    },
+    {
+      "foreign": "pomognem",
+      "translation": "ik help",
+      "lesson": "15",
+      "id": 1126,
+      "comments": ""
+    },
+    {
+      "foreign": "težak",
+      "translation": "zwaar",
+      "lesson": "15",
+      "id": 1127,
+      "comments": "teška -o"
+    },
+    {
+      "foreign": "stvarno",
+      "translation": "werkelijk",
+      "lesson": "15",
+      "id": 1128,
+      "comments": ""
+    },
+    {
+      "foreign": "smjeti",
+      "translation": "mogen",
+      "lesson": "15",
+      "id": 1129,
+      "comments": ""
+    },
+    {
+      "foreign": "smijem",
+      "translation": "ik mag",
+      "lesson": "15",
+      "id": 1130,
+      "comments": ""
+    },
+    {
+      "foreign": "zakasniti",
+      "translation": "te laat zijn",
+      "lesson": "15",
+      "id": 1131,
+      "comments": ""
+    },
+    {
+      "foreign": "polijetati",
+      "translation": "opstijgen",
+      "lesson": "15",
+      "id": 1132,
+      "comments": ""
+    },
+    {
+      "foreign": "polijećem",
+      "translation": "ik stijg op",
+      "lesson": "15",
+      "id": 1133,
+      "comments": ""
+    },
+    {
+      "foreign": "aerodrom",
+      "translation": "vliegveld",
+      "lesson": "15",
+      "id": 1134,
+      "comments": "m"
+    },
+    {
+      "foreign": "avion",
+      "translation": "vliegtuig",
+      "lesson": "15",
+      "id": 1135,
+      "comments": "m"
+    },
+    {
+      "foreign": "parkirati",
+      "translation": "parkeren",
+      "lesson": "15",
+      "id": 1136,
+      "comments": ""
+    },
+    {
+      "foreign": "raditi",
+      "translation": "doen",
+      "lesson": "15",
+      "id": 1137,
+      "comments": ""
+    },
+    {
+      "foreign": "dolaziti",
+      "translation": "komen",
+      "lesson": "15",
+      "id": 1138,
+      "comments": ""
+    },
+    {
+      "foreign": "nažalost",
+      "translation": "helaas",
+      "lesson": "15",
+      "id": 1139,
+      "comments": ""
+    },
+    {
+      "foreign": "glas",
+      "translation": "stem",
+      "lesson": "15",
+      "id": 1140,
+      "comments": "m"
+    },
+    {
+      "foreign": "zvučnik",
+      "translation": "luidspreker",
+      "lesson": "15",
+      "id": 1141,
+      "comments": "m"
+    },
+    {
+      "foreign": "putnik",
+      "translation": "reiziger",
+      "lesson": "15",
+      "id": 1142,
+      "comments": "m"
+    },
+    {
+      "foreign": "let",
+      "translation": "vlucht",
+      "lesson": "15",
+      "id": 1143,
+      "comments": "m"
+    },
+    {
+      "foreign": "upravo",
+      "translation": "zojuist",
+      "lesson": "15",
+      "id": 1144,
+      "comments": ""
+    },
+    {
+      "foreign": "ispraćati",
+      "translation": "uitgeleide doen",
+      "lesson": "15",
+      "id": 1145,
+      "comments": ""
+    },
+    {
+      "foreign": "slijetati",
+      "translation": "landen",
+      "lesson": "15",
+      "id": 1146,
+      "comments": ""
+    },
+    {
+      "foreign": "slijećem",
+      "translation": "ik land",
+      "lesson": "15",
+      "id": 1147,
+      "comments": ""
+    },
+    {
+      "foreign": "pusa",
+      "translation": "kusje",
+      "lesson": "15",
+      "id": 1148,
+      "comments": "v"
+    },
+    {
+      "foreign": "pun",
+      "translation": "vol",
+      "lesson": "15",
+      "id": 1149,
+      "comments": "+o +a"
+    },
+    {
+      "foreign": "suza",
+      "translation": "traan",
+      "lesson": "15",
+      "id": 1150,
+      "comments": "v"
+    },
+    {
+      "foreign": "dušica",
+      "translation": "schatje",
+      "lesson": "15",
+      "id": 1151,
+      "comments": "v"
+    },
+    {
+      "foreign": "plakati",
+      "translation": "huilen",
+      "lesson": "15",
+      "id": 1152,
+      "comments": ""
+    },
+    {
+      "foreign": "plačem",
+      "translation": "ik huil",
+      "lesson": "15",
+      "id": 1153,
+      "comments": ""
+    },
+    {
+      "foreign": "sretan put!",
+      "translation": "goede reis!",
+      "lesson": "15",
+      "id": 1154,
+      "comments": ""
+    },
+    {
       "foreign": "č ć ž  š đ ž",
       "translation": "",
       "lesson": "15",
